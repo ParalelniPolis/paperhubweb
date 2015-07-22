@@ -1,6 +1,5 @@
 # Dependencies
 markdown:         rdiscount
-highlighter:         true
 
 # Permalinks
 permalink:        pretty
