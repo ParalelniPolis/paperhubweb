@@ -1,0 +1,53 @@
+                        <h3 class="text-lowercase ct-fw-600">Napište nám.</h3>
+
+                        <p>Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis.</p>
+
+                        <div class="ct-contactForm" style="margin-top:50px">
+                            <div class="successMessage alert alert-success" style="display: none">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Děkujeme, Vaše zpráva byla přijata, budeme Vás obratem kontaktovat.
+                            </div>
+                            <div class="errorMessage alert alert-danger" style="display: none">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                Ups! An error occured. Please try again later.
+                            </div>
+
+                            <form role="form" action="/index.php#send_me_something" method="post" class="contactForm validateIt"
+                                  data-email-subject="Contact Form" data-show-errors="true">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="contact_name" placeholder="Name" required type="text" name="contact_name"
+                                                   class="form-control">
+                                            <label for="contact_name">Jméno</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="contact_email" placeholder="Email" required type="email" name="contact_email"
+                                                   class="form-control">
+                                            <label for="contact_email">Email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <textarea id="contact_message" placeholder="Message" class="form-control" rows="8" name="contact_message" required>
+        Ahoj,
+        rád bych se u vás stavil na jeden den na zkoušku.
+                                            </textarea>
+                                            <label for="contact_message">Zpráva</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <button type="submit"
+                                                class="btn ct-btn--perspective btn-primary btn-lg text-uppercase pull-right"><i
+                                                class="fa fa-paper-plane"></i> Odeslat
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>

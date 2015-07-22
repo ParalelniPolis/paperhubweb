@@ -214,117 +214,19 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                         ceník.
                     </h3>
 
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="update_btc_czk_price(300)">
-                                        5h / měsíc
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    Nejnižší členství v sobě zahrnuje 5 hodin měsíčně ve sdíleném pracovním prostoru. Tarif je ideální pro vyzkoušení, jak Vám takové pracovní prostředí vyhovuje nebo pro nárazové návštěvy.
-                                    <br style="color: #313842" />
-                                    <strong style="color: #313842">Cena : 300 kč / měsíc</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"  onclick="update_btc_czk_price(1500)">
-                                        25h / měsíc
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Základní členství využijete, jestliže chcete v Paper Hubu pracovat pravidelně, ale stačí Vám na to méně než jeden den v týdnu. Tento tarif se hodí např. pro práci na určitém projektu, kterému se chcete věnovat koncentrovaně po určitý čas v měsíci.
-                                    <br style="color: #313842" />
-                                    <strong style="color: #313842">Cena : 1500 kč / měsíc</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-                                       class="collapsed"  onclick="update_btc_czk_price(2000)">
-                                        50h / měsíc
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Rozšířené členství, které v tuto chvíli využívá nejvíce našich členů, v sobě zahrnuje kromě možnosti využívat sdílený prostor také zlevněný pronájem zasedacích místností.
-                                    <br style="color: #313842" />
-                                    <strong style="color: #313842">Cena : 2000 kč / měsíc</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-                                       class="collapsed" onclick="update_btc_czk_price(3000)">
-                                        neomezený přístup
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Toto členství Vám zajistí neomezený přístup do sdíleného pracovního prostoru v rámci našich otvíracích hodin od pondělí do pátku od 8:00 do 20:00. Součástí tohoto tarifu je zamykatelná skříňka.
-                                    <br style="color: #313842" />
-                                    <strong style="color: #313842">Cena : 3000 kč / měsíc</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
-                                       class="collapsed"  onclick="update_btc_czk_price(4500)">
-                                        pevný pracovní stůl
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Nabízíme také možnost pronajmout si svůj vlastní pracovní stůl. Toto řešení nejčastěji volí členové, kteří v Paper Hubu tráví velké množství času a při práci používají např. přídavné monitory, grafické tablety nebo jiná externí zařízení.
-                                    <br style="color: #313842" />
-                                    <strong style="color: #313842">Cena : 4500 kč / měsíc</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {% include pricelist.html %}
+
+
                 </div>
                 <div class="col-md-6">
-                    <h3 class="text-lowercase ct-fw-600">
-                        Začínáte s bitcoinem?
-                    </h3>
 
-                    <p>
-                        Pro běžné užívání Bitcoinu je důležité mít bitcoinovou peněženku. Tu si můžete buď stáhnout do svého chytrého telefonu, nebo si u
 
-                        nás vytisknout papírovou v případě, že nemáte podporovaný telefon nebo nejste na internetu. Nejjednodušší cestou jak Bitcoiny 
+                    {% include next_to_pricelist.html %}
 
-                        získat je bitcoinový bankomat v naší kavárně. V bankomatu naskenujete QR kód, jenž vygeneruje Vaše peněženka pro vyžádání 
-
-                        platby, a vložíte papírovou hotovost. Během pár sekund budete mít Bitcoiny ve své peněžence. A jak s nimi zaplatíte? Zkuste si to 
-
-                        nejdříve u nás v Bitcoin Coffee. Při placení Vám ukážeme QR kód. Otevřete svou peněženku a kód naskenujete. Autorizujete 
-
-                        zobrazenou částku a v tom okamžiku je účet vyrovnán. Placení členství v Paper Hub poté bude pro Vás hračka!
-                    </p>
-
-                    <!-- Kontakt -->
-                    <div class="ct-contactForm">
-
-                    </div>
 
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -347,80 +249,6 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
 
 </script>
 
-   <!--  <section class="ct-u-paddingBoth80"> -->
-<!--         <section class="ct-u-backgroundDarkGray ct-u-paddingBoth80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <header class="ct-pageSectionHeader">
-                        <h3 class="text-lowercase ct-fw-600">
-                            <span style="color:#909090;">Žijeme budoucností</span><br>používáme bitcoin
-                        </h3>
-                    </header>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Donec justo mauris, sagittis sed vulputate ut, commodo dapibus massa. Class aptent taciti
-                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut mi lacus. Morbi
-                        accumsan mauris ac posuere vehicula. Donec bibendum tellus rutrum turpis varius dictum. Maecenas
-                        tristique arcu sed rhoncus laoreet. Praesent eget fermentum nisi. Donec ac velit aliquet,
-                        bibendum sem in, convallis est. Phasellus sodales ultricies cursus. Vivamus leo nunc, pretium
-                        vitae dictum a, mollis ut sapien. Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec porttitor tristique sem, dictum vehicula nisi accumsan eget.
-                        Pellentesque habitant morbi tristique senectus et netus.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-<!-- 		<header class="ct-pageHeader ct-pageHeader--motive ct-pageHeader--hasDescription ct-u-paddingBoth10">
-		    <div class="container ct-u-triangleBottomLeft">
-		        <div class="row">
-		            <div class="col-md-8">
-		                <h1 class="text-lowercase ct-fw-600 ct-u-colorWhite">
-		                    Portfolio<sup><i class="fa fa-briefcase"></i></sup>
-		                </h1>
-		            </div>
-		            <div class="col-md-4">
-		                    <span class="ct-u-size20 ct-u-colorWhite">
-		                        Koho u nas najdete
-		                    </span>
-		            </div>
-		        </div>
-		    </div>
-		</header>
-
-		<section class="ct-u-paddingBoth100 ct-u-backgroundDarkGray ">
-		<div class="ct-galleryAjax">
-		    <div class="container">
-		        <div class="row">
-
-                    <?php print_person("ct-galleryAjax-Details1","portfolio-singleAjax1.html"); ?>
-                    <?php print_person("ct-galleryAjax-Details1","portfolio-singleAjax1.html"); ?>
-                    <?php print_person("ct-galleryAjax-Details1","portfolio-singleAjax1.html"); ?>
-
-		        </div>
-		    </div>
-
-		    
-		    <div id="ct-galleryAjax-Details1" class="ct-galleryAjax-Details" style="display:none;"></div>
-
-
-		    <div class="container">
-		        <div class="row">
-
-                    <?php print_person("ct-galleryAjax-Details2","portfolio-singleAjax1.html"); ?>
-                    <?php print_person("ct-galleryAjax-Details2","portfolio-singleAjax1.html"); ?>
-                    <?php print_person("ct-galleryAjax-Details2","portfolio-singleAjax1.html"); ?>
-
-		        </div>
-		    </div>
-		    
-		    <div id="ct-galleryAjax-Details2" class="ct-galleryAjax-Details" style="display:none;"></div>
-		</div>
-		</section> -->
 
 <header class="ct-pageHeader ct-pageHeader--motive ct-pageHeader--hasDescription ct-u-paddingBoth10">
     <div class="container ct-u-triangleBottomLeft">
@@ -443,127 +271,13 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
     <div class="container">
         <div class="row">
 
-    <div class="col-md-6 ct-u-paddingTop70">
-        <h3 class="ct-fw-600 text-lowercase">Mohlo by vás zajímat.</h3>
-
-        <div class="panel-group ct--lightMotive" id="accordion-general">
-                            <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse0" class="collapse">
-                                <span>Kdy mohu chodit pracovat do Paper Hubu ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse0"
-                         class="panel-collapse collapse  in">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Každý člen obdrží vlastní klíč a v prostoru Paper Hubu může pracovat všechny pracovní dny vždy od 8:00 ráno do 20:00 do večera. Přístup mimo otvírací dny je možné individuálně domluvit.
-
-                            </span>                        
-                        </div>
-                    </div>
-                </div>
-                                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse1" class="collapsed">
-                                <span>Mohu mít v Hubu vlastní monitor ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse1"
-                         class="panel-collapse collapse  ">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Chápeme, že někteří členové potřebují využívat vlastní hardware (monitory, tablety apod.) a nechtějí jej pokaždé odnášet s sebou. Pro tento případ nabízíme v Paper Hubu zamykatelné skříňky. Ty jsou standardně součástí tarifu “Neomezený přístup”, ale lze ji nabídnout i k ostatním tarifům.
-
-                            </span>                        
-                        </div>
-                    </div>
-                </div>
-                                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse2" class="collapsed">
-                                <span>Máte v Paper Hubu zasedací místnosti ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse2"
-                         class="panel-collapse collapse  ">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Ano, je možné si rezervovat různé zasedací nebo konferenční místnosti pro setkání 2 až 100 lidí (prostory jsou vybaveny prezentační technikou, flipcharty apod). Za pozornost stojí naše jedinečná terasa, která je rovněž součástí Paper Hubu.
-
-                            </span>                        
-                        </div>
-                    </div>
-                </div>
-                        </div>
-    </div>
+        {% include faq.html %}
     
-    <div class="col-md-6 ct-u-paddingTop70">
+            <div class="col-md-6 ct-u-paddingTop70">
 
-                <h3 class="text-lowercase ct-fw-600">Napište nám.</h3>
+                {% include contact_us.html %}
 
-                <p>Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis.</p>
-
-                <div class="ct-contactForm" style="margin-top:50px">
-                    <div class="successMessage alert alert-success" style="display: none">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        Děkujeme, Vaše zpráva byla přijata, budeme Vás obratem kontaktovat.
-                    </div>
-                    <div class="errorMessage alert alert-danger" style="display: none">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        Ups! An error occured. Please try again later.
-                    </div>
-
-                    <form role="form" action="/index.php#send_me_something" method="post" class="contactForm validateIt"
-                          data-email-subject="Contact Form" data-show-errors="true">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input id="contact_name" placeholder="Name" required type="text" name="contact_name"
-                                           class="form-control">
-                                    <label for="contact_name">Jméno</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input id="contact_email" placeholder="Email" required type="email" name="contact_email"
-                                           class="form-control">
-                                    <label for="contact_email">Email</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <textarea id="contact_message" placeholder="Message" class="form-control" rows="8" name="contact_message" required>
-Ahoj,
-rád bych se u vás stavil na jeden den na zkoušku.
-                                    </textarea>
-                                    <label for="contact_message">Zpráva</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <button type="submit"
-                                        class="btn ct-btn--perspective btn-primary btn-lg text-uppercase pull-right"><i
-                                        class="fa fa-paper-plane"></i> Odeslat
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-    </div>
+            </div>
     
        </div>
     </div>
@@ -573,20 +287,9 @@ rád bych se u vás stavil na jeden den na zkoušku.
     <section class="ct-u-paddingBoth80 ct-u-backgroundDarkGray"  data-bg-image="./assets/images/content/bigImage1.jpg">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <header class="ct-pageSectionHeader">
-                        <h3 class="text-upperrcase ct-fw-600">
-                            BITCOIN COFFEE
-                            <small class="ct-fw-700 text-uppercase">Místo pro otevřené setkávání a diskuzi
-                            </small>
-                        </h3>
-                    </header>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Tomu odpovídá celý interiér kavárny i design baru. Můžete se kolem něj volně pohybovat a přímo tak vidět celý proces přípravy kávy. Téměř laboratorními postupy se snažíme "hacknout" kávová zrna a dostat z nich tu nejlepší chuť a aroma. Aktuální nabídku najdete <a href="https://www.facebook.com/bitcoincoffeeprague">zde</a>.<br> Těšíme se na Vás v první bitcoinové kavárně na světě!
-                    </p>
-                </div>
+
+                {% include second_black_stripe.html %}
+
             </div>
         </div>
     </section>
@@ -594,9 +297,7 @@ rád bych se u vás stavil na jeden den na zkoušku.
 <section class="ct-mediaSection ct-u-paddingBoth70 ct-u-colorWhite" data-height="700" data-type="video"
          data-bg-image-mobile="./assets/images/content/bigImage3-mobile.jpg">
     <div class="ct-mediaSection-video embed-responsive embed-responsive-16by9">
-        <!-- in order for video to be muted you must add  &amp;api=1&amp;player_id=vimeoplayer1 to the end of the video src
-            If you have more than one video, make sure that player_id and id have dif names on each video
-    -->
+
         <video id="video1" muted loop autoplay="autoplay" preload="auto">
             <source src='./assets/3D_timelapse_web_2.mp4' type='video/mp4'/>
 
@@ -606,22 +307,9 @@ rád bych se u vás stavil na jeden den na zkoušku.
         <div class="ct-mediaSection-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <header class="ct-pageSectionHeader">
-                            <h3 class="text-uppercase ct-fw-600 ct-u-colorWhite">
-                                3D tisk
-                                <small class="ct-fw-700 text-uppercase ct-u-colorWhite">
-                                    NAUČÍME VÁS TISKNOUT SPRÁVNĚ
-                                </small>
-                            </h3>
-                        </header>
-                    </div>
-                    <div class="col-sm-8">
-                        <p>
-                            V Makers Lab pořádáme pravidelná setkání zaměřená na 3D tisk a vše s ním spojené. Dozvíte se zde, co je a jak funguje 3D tisk, jaký má v dnešní době potenciál a kam směřuje jeho vývoj. Můžete se také těšit na testování materiálu a tiskáren a především na přednášky zajímavých hostů. Program a bližší informace najdete <a href="http://makerslab.cz/">zde</a>.
-                        </p>
 
-                    </div>
+                    {% include text_over_video.html %}
+
                 </div>
             </div>
         </div>
@@ -647,155 +335,6 @@ rád bych se u vás stavil na jeden den na zkoušku.
 </header>
 
 <div class="ct-googleMap" data-location="Dělnická 886/41 Praha" data-zoom="15" data-height="500"></div>
-
-
-<!-- <section id="kontakt" class="ct-u-paddingTop70 ct-u-paddingBottom150">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <h3 class="text-lowercase ct-fw-600">co se jinam nevešlo.</h3>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum porttitor cursus.
-                    Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada
-                    fermentum bibendum.</p>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-map"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Headquarters
-                        </h4>
-
-                        <p class="text-uppercase ct-fw-600">
-                            Dělnická 43, Praha 7
-                        </p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-envelope"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Email Us
-                        </h4>
-
-                        <p class="text-uppercase ct-fw-600">
-                            <a href="mailto:info@paralelnipolis.cz" class="text-uppercase ct-u-underline ct-fw-600">info@paralelnipolis.cz</a>
-                        </p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-profile-male"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Social
-                        </h4>
-
-                        <div class="ct-socials">
-                            <ul>
-
-                                <li>
-                                    <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-sm-6">
-                <h3 class="text-lowercase ct-fw-600">Sídlí u nás.</h3>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum porttitor cursus.
-                    Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada
-                    fermentum bibendum.</p>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                       
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Bitcoin Meetup
-                        </h4>
-
-                        <div class="ct-socials">
-                            <ul>
-
-                                <li>
-                                    <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                       
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Makerslab
-                        </h4>
-
-                        <div class="ct-socials">
-                            <ul>
-
-                                <li>
-                                    <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                       
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            3D meetup
-                        </h4>
-
-                        <div class="ct-socials">
-                            <ul>
-
-                                <li>
-                                    <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section> -->
 
 
  
