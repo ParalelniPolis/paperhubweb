@@ -101,14 +101,7 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                             <div class="col-sm-6 col-md-5 ">
                                 
 
-                                <h3 class="ct-u-colorWhite ct-u-hrLeft animatedw add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite">ZAJÍMÁ VÁS PAPER HUB?</small>
-                                    <span class="ct-fw-300">Den zdarma na zkoušku</span>
-                                </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">V Paper Hubu máme vždy otevřené dveře. Můžete si s námi domluvit schůzku, anebo jen tak přijít a obhlédnout si prostředí. A když už budete u nás, můžete tu rovnou strávit celý den.</p>
-                                <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
-                                   data-fx="fadeInUp" data-time="800">Zkuste to</a>
-
+                                {% include header_slide_a.html %}
 
 
                             </div>
@@ -122,16 +115,7 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                         <div class="row">
                             <div class="col-sm-6 col-md-5">
                                
-
-                                <h3 class="ct-u-colorWhite ct-u-hrLeft animated add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite">HLEDÁTE NOVÉ ZÁŽITKY?</small>
-                                    <span class="ct-fw-300">Pořád se něco děje</span>
-                                </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">Paper Hub je součástí Paralelní Polis - místa, kde se pořád něco děje. Meetupy, přednášky, workshopy jdou za sebou jako na běžícím páse.</p>
-                                <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
-                                   data-fx="fadeInUp" data-time="800">Zkuste to</a>
-
-
+                               {% include header_slide_b.html %}
 
                             </div>
                         </div>
@@ -144,18 +128,10 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 col-md-5">
+
+                                {% include header_slide_c.html %}
                                
-
-                                <h3 class="ct-u-colorWhite ct-u-hrLeft animated add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite ">HLEDÁTE VÍC NEŽ COWORKING?</small>
-                                    <span class="ct-fw-300">Místo pro schůzky i nové nápady</span>
-                                </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">Sympatizujete s idejemi Paralelní Polis? Staňte se jeho stálým obyvatelem a získejte členstvím v Paper Hubu příjemné, kreativní a inovativní zázemí pro vaši práci. Nezapomeňte se posílit vynikající kávou v Bitcoin Coffee a rozšířit technické obzory ve 3D dílně MakersLab.</p>
-                                <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
-                                   data-fx="fadeInUp" data-time="800">Zkuste to</a>
-
-
-                                   
+    
                             </div>
                         </div>
                     </div>
@@ -183,15 +159,9 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                     <div class="ct-iconBox-icon ct-iconBox-icon--default">
                         <i class="icon-cloud"></i>
                     </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Technologie a bezpečný internet
-                        </h4>
 
-                        <p>
-                            V rámci Paper Hubu můžete využívat 40 Mbps spolehlivé připojení a rychlou multifunkční tiskárnu až formátu A3. K dispozici nabízíme také zařízení na sítotisk a 3D tiskárny. 
-                        </p>
-                    </div>
+                    {% include below_header_box_a.html %}
+
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
@@ -199,15 +169,9 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                     <div class="ct-iconBox-icon ct-iconBox-icon--default">
                         <i class="icon-clock"></i>
                     </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Přístup 7 dní v týdnu
-                        </h4>
 
-                        <p>
-                            Každý má trochu jiný pracovní režim. Proto nabízíme různé možnosti pronájmu, od pěti hodin měsíčně po neomezený přístup, případně pevný stůl. Pokud potřebujete uspořádat malý meeting pro 5 lidí, prezentaci pro 20 klientů anebo přednášku pro 100 návštěvníků, najdeme spolu správné místo.
-                        </p>
-                    </div>
+                    {% include below_header_box_b.html %}
+
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
@@ -215,15 +179,9 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                     <div class="ct-iconBox-icon ct-iconBox-icon--default">
                         <i class="icon-global"></i>
                     </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                           váš růst není jen o pracovním stole
-                        </h4>
 
-                        <p>
-                            Paper Hub je součástí <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036">Paralelní Polis</a>, jenž nabízí pravidelný program vzdělávacích a oddechových akcí, kulinářské zázemí zajištěné Bitcoin Coffee a technické podhoubí v podobě 3D dílny MakersLab.
-                        </p>
-                    </div>
+                    {% include below_header_box_c.html %}
+
                 </div>
             </div>
         </div>
@@ -234,27 +192,9 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
         <section class="ct-u-backgroundDarkGray ct-u-paddingBoth80">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <header class="ct-pageSectionHeader">
-                        <h3 class="text-uppercase ct-fw-600">
-                            ČLENSTVÍ V PAPER HUBU
-<!--                             <small class="ct-fw-700 text-uppercase">Design is not just what it looks like. Design is how
-                                it works.
-                            </small> -->
-                        </h3>
-                    </header>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Každý člen Paper Hubu má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném 
 
-                        prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací 
+                {% include black_stripe.html %}
 
-                        místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl. 
-
-                        Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit.
-                    </p>
-                </div>
             </div>
         </div>
     </section>
@@ -364,55 +304,21 @@ text-shadow: 8px 8px 17px rgba(0, 0, 0, 0.81);
                     <p>
                         Pro běžné užívání Bitcoinu je důležité mít bitcoinovou peněženku. Tu si můžete buď stáhnout do svého chytrého telefonu, nebo si u
 
-nás vytisknout papírovou v případě, že nemáte podporovaný telefon nebo nejste na internetu. Nejjednodušší cestou jak Bitcoiny 
+                        nás vytisknout papírovou v případě, že nemáte podporovaný telefon nebo nejste na internetu. Nejjednodušší cestou jak Bitcoiny 
 
-získat je bitcoinový bankomat v naší kavárně. V bankomatu naskenujete QR kód, jenž vygeneruje Vaše peněženka pro vyžádání 
+                        získat je bitcoinový bankomat v naší kavárně. V bankomatu naskenujete QR kód, jenž vygeneruje Vaše peněženka pro vyžádání 
 
-platby, a vložíte papírovou hotovost. Během pár sekund budete mít Bitcoiny ve své peněžence. A jak s nimi zaplatíte? Zkuste si to 
+                        platby, a vložíte papírovou hotovost. Během pár sekund budete mít Bitcoiny ve své peněžence. A jak s nimi zaplatíte? Zkuste si to 
 
-nejdříve u nás v Bitcoin Coffee. Při placení Vám ukážeme QR kód. Otevřete svou peněženku a kód naskenujete. Autorizujete 
+                        nejdříve u nás v Bitcoin Coffee. Při placení Vám ukážeme QR kód. Otevřete svou peněženku a kód naskenujete. Autorizujete 
 
-zobrazenou částku a v tom okamžiku je účet vyrovnán. Placení členství v Paper Hub poté bude pro Vás hračka!
+                        zobrazenou částku a v tom okamžiku je účet vyrovnán. Placení členství v Paper Hub poté bude pro Vás hračka!
                     </p>
 
                     <!-- Kontakt -->
-                <div class="ct-contactForm">
-<!--                     <div class="successMessage alert alert-success" style="display: none">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        Thank You!
+                    <div class="ct-contactForm">
+
                     </div>
-                    <div class="errorMessage alert alert-danger" style="display: none">
-                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                        Ups! An error occured. Please try again later.
-                    </div> -->
-
-<!--                     <form role="form" action="./assets/form/send.php" method="post" class="contactForm validateIt"
-                          data-email-subject="Contact Form" data-show-errors="true">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <div class="form-group">
-                                    <input id="czk_price" placeholder="Name" required type="text" name="field[]"
-                                           class="form-control">
-                                    <label for="contact_name">Kč</label>
-                                </div>
-                            </div>
-                            <div class="col-md-1">
-                                <div class="form-group" style="font-size:30px;">
-                                    =
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="form-group">
-                                    <input id="btc_price" placeholder="Email" required type="email" name="field[]"
-                                           class="form-control">
-                                    <label for="contact_email">mBTC</label>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </form> -->
-                </div>
 
                 </div>
             </div>
@@ -688,9 +594,8 @@ rád bych se u vás stavil na jeden den na zkoušku.
             If you have more than one video, make sure that player_id and id have dif names on each video
     -->
         <video id="video1" muted loop autoplay="autoplay" preload="auto">
-            <source src='./3D_timelapse_web_2.mp4' type='video/mp4'/>
-<!--             <source src='http://orlando.html.themeforest.createit.pl/light/assets/videos/loopbookeh.mp4' type='video/mp4'/>
-            <source src='http://orlando.html.themeforest.createit.pl/light/assets/videos/loopbookeh.webm' type='video/webm'/> -->
+            <source src='./assets/3D_timelapse_web_2.mp4' type='video/mp4'/>
+
         </video>
     </div>
     <div class="ct-u-displayTable">
