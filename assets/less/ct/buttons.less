@@ -1,0 +1,371 @@
+button, button:hover, button:focus, button:active{
+  outline: none !important;
+}
+
+.btn{
+  font-weight: bold;
+  padding: 0px 15px;
+  line-height: 36px;
+  border-width: 2px;
+  .ct-m-borderRadius(6px,6px,6px,6px);
+  text-transform: uppercase;
+  &:focus, &:active{
+    .ct-m-boxShadow(none);
+    outline: none;
+  }
+  + .btn{
+    margin-left: 10px;
+  }
+  i{
+    margin: 0 5px;
+  }
+}
+
+.btn-xs{
+  padding: 0px 10px;
+  line-height: 21px;
+}
+.btn-sm{
+  padding: 0px 15px;
+  line-height: 26px;
+}
+.btn-lg{
+  padding: 0px 15px;
+  line-height: 46px;
+  font-size: 14px;
+}
+.ct-btn--huge{
+  padding: 0 28px;
+  line-height: 65px;
+}
+
+// Default Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.btn-default, .btn-default:disabled{
+  background-color: #ffffff;
+  border-color: #ffffff;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+
+.btn-success{
+  border-color: @brand-success;
+  &:hover, &:active, &:focus{
+    background-color: darken(@brand-success, 10%);
+    border-color: darken(@brand-success, 10%);
+  }
+}
+.btn-danger{
+  border-color: @brand-danger;
+  &:hover, &:active, &:focus{
+    background-color: darken(@brand-danger, 10%);
+    border-color: darken(@brand-danger, 10%);
+  }
+}
+.btn-info{
+  border-color: @brand-info;
+  &:hover, &:active, &:focus{
+    background-color: darken(@brand-info, 10%);
+    border-color: darken(@brand-info, 10%);
+  }
+}
+.btn-warning{
+  border-color: @brand-warning;
+  &:hover, &:active, &:focus{
+    background-color: darken(@brand-warning, 10%);
+    border-color: darken(@brand-warning, 10%);
+  }
+}
+
+.ct-btn--black{
+  background-color: #222222;
+  border-color: #222222;
+  color: #ffffff;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+
+.ct-btn--gray{
+  background-color: #888888;
+  border-color: #888888;
+  color: #ffffff;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+
+// Rounded Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+.ct-btn--rounded{
+  border-width: 0;
+  padding: 2px 17px;
+  .ct-m-transition(all, 0s, ease);
+  .ct-m-borderRadius(20px, 20px, 20px, 20px);
+  &:hover{
+    padding: 0px 15px;
+    border-width: 2px;
+  }
+  &.btn-lg{
+    .ct-m-borderRadius(30px, 30px, 30px, 30px);
+  }
+
+  &.ct-btn--huge{
+    .ct-m-borderRadius(50px, 50px, 50px, 50px);
+  }
+
+  &.btn-default{
+    &:hover, &:active, &:focus{
+      border-color: #ffffff;
+    }
+  }
+
+  &.btn-success{
+    &:hover, &:active, &:focus{
+      border-color: @brand-success;
+      color: @brand-success;
+    }
+  }
+  &.btn-danger{
+    &:hover, &:active, &:focus{
+      border-color: @brand-danger;
+      color: @brand-danger;
+    }
+  }
+  &.btn-info{
+    &:hover, &:active, &:focus{
+      border-color: @brand-info;
+      color: @brand-info;
+    }
+  }
+  &.btn-warning{
+    &:hover, &:active, &:focus{
+      border-color: @brand-warning;
+      color: @brand-warning;
+    }
+  }
+
+  &.ct-btn--black{
+    &:hover, &:active, &:focus{
+      border-color: #222222;
+      color: #222222;
+    }
+  }
+
+  &.ct-btn--gray{
+    &:hover, &:active, &:focus{
+      border-color: #888888;
+      color: #888888;
+    }
+  }
+}
+
+.ct--darkMotive{
+  .ct-btn--rounded.ct-btn--black{
+    &:hover, &:active, &:focus{
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+  }
+}
+.ct-pricingBox{
+  .ct-btn--rounded.ct-btn--black{
+    &:hover, &:active, &:focus{
+      border-color: #222222;
+      color: #222222;
+    }
+  }
+}
+
+
+// Perspective Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-btn--perspective{
+  overflow: hidden;
+  border: none;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  i{
+    .ct-m-transition(all, 0.2s, ease);
+    margin-right: 10px;
+    height: 100%;
+    margin-left: -15px;
+    width: 30px;
+    line-height: 36px;
+  }
+
+  &.ct-btn--huge i{
+    width: 50px;
+    line-height: 66px;
+    margin-left: -28px;
+  }
+  &.btn-lg i{
+    width: 50px;
+    height: 100%;
+    line-height: 46px;
+  }
+
+  &.btn-sm i{
+    line-height: 26px;
+  }
+
+  &.btn-xs i{
+    margin-left: -10px;
+    line-height: 21px;
+  }
+
+  &:focus, &:active{
+    border-bottom-width: 0px;
+    margin-top: 3px;
+  }
+  &.btn-default{
+    border-bottom-color: darken(#ffffff, 15%);
+    i{
+      background-color: darken(#ffffff, 5%);
+    }
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      color: #ffffff;
+    }
+  }
+  &.btn-primary{
+    border-bottom-color: darken(@motive, 20%);
+    &:hover, &:active, &:focus{
+      background-color: lighten(@motive, 5%);
+      border-bottom-color: darken(@motive, 25%);
+      color: #ffffff;
+    }
+  }
+  &.btn-success{
+    border-bottom-color: darken(@brand-success, 15%);
+    i{
+      background-color: darken(@brand-success, 5%);
+    }
+    &:hover, &:active, &:focus{
+      border-bottom-color: darken(@brand-success, 20%);
+      i{
+        background-color: darken(@brand-success, 15%);
+      }
+    }
+  }
+  &.btn-info{
+    border-bottom-color: darken(@brand-info, 15%);
+    i{
+      background-color: darken(@brand-info, 5%);
+    }
+    &:hover, &:active, &:focus{
+      border-bottom-color: darken(@brand-info, 20%);
+      i{
+        background-color: darken(@brand-info, 15%);
+      }
+    }
+  }
+  &.btn-warning{
+    border-bottom-color: darken(@brand-warning, 15%);
+    i{
+      background-color: darken(@brand-warning, 5%);
+    }
+    &:hover, &:active, &:focus{
+      border-bottom-color: darken(@brand-warning, 20%);
+      i{
+        background-color: darken(@brand-warning, 15%);
+      }
+    }
+  }
+  &.btn-danger{
+    border-bottom-color: darken(@brand-danger, 15%);
+    i{
+      background-color: darken(@brand-danger, 5%);
+    }
+    &:hover, &:active, &:focus{
+      border-bottom-color: darken(@brand-danger, 20%);
+      i{
+        background-color: darken(@brand-danger, 15%);
+      }
+    }
+  }
+  &.ct-btn--black{
+    border-bottom-color: #444444;
+    i{
+      background-color: #333333;
+    }
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      color: #ffffff;
+    }
+  }
+  &.ct-btn--gray{
+    border-bottom-color: #666666;
+    i{
+      background-color: #777777;
+    }
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      color: #ffffff;
+    }
+  }
+}
+
+// Rounded Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-sectionButton{
+  left: 50%;
+  margin-left: -100px;
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+  .ct-sectionButton-circle{
+    border: 2px solid #ffffff;
+  }
+}
+
+.ct-scrollUpButton{
+  visibility: hidden;
+  .ct-m-opacity(0);
+  .ct-m-transition(1s, all, ease);
+  position: fixed;
+  right: 50px;
+  color: #ffffff;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+  .ct-sectionButton-circle{
+    background-color: #1d1d1d;
+    .ct-m-transition(0.2s, all, ease);
+  }
+  &.is-active{
+    .ct-m-opacity(1);
+    visibility: visible;
+  }
+}
+
+.ct-sectionButton, .ct-scrollUpButton{
+  text-align: center;
+  bottom: 47px;
+  text-transform: uppercase;
+  .ct-sectionButton-circle{
+    overflow: hidden;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 43px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    .ct-m-borderRadius(50%,50%,50%,50%);
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .ct-sectionButton, .ct-scrollUpButton{
+    display: none;
+  }
+}

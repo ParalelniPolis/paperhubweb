@@ -1,0 +1,661 @@
+@motive: #fc4349;
+
+a {
+  color: @motive;
+}
+
+.dropcap:first-child:first-letter{
+  color: @motive;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+  background-color: @motive;
+  border-color: @motive;
+}
+
+.ct-u-underline:hover{
+  color: @motive;
+  border-bottom: 4px solid @motive;
+}
+
+// Navbar Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-navbar--motive{
+  background-color: @motive;
+}
+
+.navbar-nav{
+  &.ct-navbarNav--defaultActive{
+    > li.active{
+      border-top: 7px solid @motive;
+      > a, > a:hover, >a:active, a:focus{
+        color: @motive;
+      }
+    }
+    > li{
+      &:hover > a, &:active > a, &:focus > a{
+        color: @motive;
+      }
+    }
+  }
+  &.ct-navbarNav--secundaryActive{
+    > li.active{
+      > a, > a:hover, >a:active, a:focus{
+        background-color: @motive;
+      }
+    }
+    > li{
+      > a:hover, > a:active, > a:focus{
+        color: @motive;
+      }
+    }
+  }
+  &.ct-navbarNav--thirdActive{
+    > li.active{
+      > a, > a:hover, >a:active, a:focus{
+        color: @motive;
+      }
+    }
+    > li{
+      > a:hover, > a:active, > a:focus{
+        color: @motive;
+      }
+    }
+  }
+}
+
+// Dropdowns Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.dropdown-menu {
+  background-color: @motive;
+}
+
+.ct-menuMobile {
+  .ct-menuMobile-navbar {
+    li {
+      &.active {
+        > a {
+          color: @motive;
+        }
+      }
+    }
+  }
+}
+.ct-sectionTitle-fixed{
+  background-color: @motive;
+}
+
+// Header Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-pageHeader{
+  &.ct-pageHeader--motive{
+    background-color: @motive;
+  }
+}
+
+// Page Header // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-pageHeader{
+  &.ct-pageHeader--motiveSub{
+    &.ct-pageHeader--hasDescription{
+      .row{
+        div[class^="col-"]:last-child{
+          > span{
+            color: @motive;
+            border-left: 1px solid @motive;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Page Section Header // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+.ct-pageSectionHeader{
+  &.ct-pageSectionHeader--boxedText{
+    h1, .h1, h2, .h2, h3, .h3,  h4, .h4, h5, .h5, h6, .h6{
+      small{
+        background-color: @motive;
+      }
+    }
+  }
+}
+
+// Section Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-section{
+  &.ct-section--motive{
+    background-color: @motive;
+  }
+}
+
+// Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-u-colorMotive{
+  color: @motive !important;
+}
+
+// Buttons Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+.btn-black{
+  &:hover{
+    background-color: @motive;
+    border-color: @motive;
+  }
+}
+
+// Flexslider Colors // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-flexslider-imageDescription{
+  .ct-flexslider-imageDescriptionCategory{
+    background-color: @motive;
+  }
+}
+
+
+.ct-flexslider--arrowType2{
+  .flex-direction-nav a, &:hover .flex-direction-nav a {
+    &:hover{
+      background-color: @motive;
+      background-color: @motive;
+    }
+  }
+}
+
+// Socials // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-socials{
+  ul{
+    li{
+      a{
+        &:hover, &:focus, &:active{
+          color: @motive;
+        }
+      }
+    }
+  }
+}
+
+// Person Boxes // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-personBox{
+  &.ct-personBox--secundary{
+    .ct-personBox-name{
+      .ct-personBox-nameInner{
+        background-color: @motive;
+      }
+    }
+  }
+  &.ct-personBox--default{
+    .ct-personBox-function{
+      background-color: @motive;
+    }
+  }
+}
+
+// Blog // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-articleBox{
+  .ct-articleBox-dateMonth{
+    background-color: @motive;
+  }
+  .ct-articleBox-titleBox{
+    a{
+      &:hover{
+        color: @motive;
+      }
+    }
+  }
+  &.ct-articleBox--secundary {
+    .ct-articleBox-titleBox {
+      h4 a {
+        &:hover {
+          color: @motive;
+        }
+      }
+    }
+    .ct-articleBox-icon {
+      background-color: @motive;
+    }
+  }
+}
+
+// Blog Comments // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-comments{
+  li{
+    > .media{
+      h5{
+        a{
+          &:hover, &:focus, &:active{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Pricing Boxes // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-pricingBox{
+  &.ct-pricingBox--motive{
+    .ct-pricingbox-title{
+      .ct-pricingbox-titleFirst{
+        color: @motive;
+      }
+    }
+    .ct-pricingBox-pricing{
+      color: @motive;
+    }
+    &.ct-pricingBox--triangleTopLeft:before{
+      border-color: @motive transparent transparent transparent;
+    }
+    &.ct-pricingBox--triangleTopRight:before{
+      border-color: transparent @motive transparent transparent;
+    }
+    &.ct-pricingBox--triangleBottomRight:before{
+      border-color: transparent transparent @motive transparent;
+    }
+    &.ct-pricingBox--triangleBottomLeft:before{
+      border-color: transparent transparent transparent @motive;
+    }
+  }
+}
+
+// Google Maps // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-googleMap--accordion{
+  .ct-googleMap-header{
+    &:hover{
+      background-color: @motive;
+    }
+  }
+}
+
+
+// Portfolio // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-gallery-item--masonry:hover{
+  .ct-gallery-itemDescription{
+    background-color: @motive;
+  }
+}
+
+.ct-gallery-item--secundary .ct-gallery-itemDescription-category, .ct-gallery-item--third .ct-gallery-itemDescription-category, #ct-ajaxContent .ct-gallery-itemDescription-category{
+  background-color: @motive;
+}
+
+// Countdown // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.counter-block{
+  .counter{
+    .number{
+      color: @motive;
+    }
+  }
+}
+
+// Accordion // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.panel-default{
+  .panel-title{
+    > a{
+      border-color: @motive;
+      background-color: @motive;
+    }
+  }
+}
+
+// Buttons Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.btn-primary, .btn-primary:disabled{
+  background-color: @motive;
+  border-color: @motive;
+  &:hover, &:active, &:focus{
+    background-color: darken(@motive, 10%);
+    border-color: darken(@motive, 10%);
+  }
+}
+
+.btn-default, .btn-default:disabled{
+  &:hover, &:active, &:focus{
+    background-color: @motive;
+    border-color: @motive;
+  }
+}
+
+.ct-btn--black{
+  &:hover, &:active, &:focus{
+    border-color: @motive;
+    background-color: @motive;
+  }
+}
+
+.ct-btn--gray{
+  &:hover, &:active, &:focus{
+    border-color: @motive;
+    background-color: @motive;
+  }
+}
+
+.ct-btn--rounded{
+  &:hover, &:active, &:focus{
+    background-color: transparent;
+  }
+  &.btn-primary{
+    &:hover, &:active, &:focus{
+      color: @motive;
+      border-color: @motive;
+    }
+  }
+}
+
+.ct-btn--perspective{
+  &.btn-default{
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      i{
+        background-color: #e23c42;
+      }
+    }
+  }
+  &.btn-primary{
+    border-bottom-color: darken(@motive, 20%);
+    i{
+      background-color: #e23c42;
+    }
+    &:hover, &:active, &:focus{
+      background-color: lighten(@motive, 5%);
+      border-bottom-color: darken(@motive, 25%);
+      i{
+        background-color: lighten(#e23c42, 5%);
+      }
+    }
+  }
+  &.ct-btn--black{
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      i{
+        background-color: #e23c42;
+      }
+    }
+  }
+  &.ct-btn--gray{
+    &:hover, &:active, &:focus{
+      background-color: @motive;
+      border-bottom-color: darken(@motive, 20%);
+      i{
+        background-color: #e23c42;
+      }
+    }
+  }
+}
+
+.ct-sectionButton{
+  &:hover, &:active, &:focus{
+    .ct-sectionButton-circle{
+      color: @motive;
+      border-color: @motive;
+    }
+  }
+}
+
+
+.ct-scrollUpButton{
+  &:hover, &:active, &:focus{
+    .ct-sectionButton-circle{
+      background-color: @motive;
+    }
+  }
+}
+// Forms Style // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.form-group{
+  label{
+    background-color: @motive;
+    &:before{
+      border-color: transparent darken(@motive, 20%) transparent transparent;
+    }
+  }
+}
+
+
+.form-search{
+  input{
+    &:focus, &:active, &:valid{
+      border-color: @motive;
+      & + .btn{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+  }
+}
+.ct-u-backgroundDarkGray, .ct-u-backgroundDarkGray2, .ct-u-backgroundDarkGray3{
+  .form-search{
+    input{
+      &:focus, &:active, &:valid{
+        border-color: @motive;
+      }
+    }
+  }
+}
+
+fieldset[disabled]{
+  .btn-primary{
+    background-color: @motive;
+    border-color: @motive;
+  }
+}
+
+// Pagination // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.pagination{
+  > li{
+    &:hover, &:focus, &:active{
+      > a, > span{
+        border-color: @motive;
+        color: @motive;
+      }
+    }
+    &.active{
+      > a, > span, > a:hover, > span:hover, > a:focus, > span:focus{
+        border-color: @motive;
+        color: @motive;
+      }
+    }
+  }
+}
+
+.ct-pagination{
+  a{
+    &:hover, &:focus, &:active{
+      color: @motive;
+    }
+  }
+  .ct-pagination-middle{
+    &:hover{
+      i{
+        background-color: @motive;
+      }
+    }
+  }
+}
+
+// Portfolio // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.ct-gallery-filters{
+  li{
+    > a{
+      &.active{
+        color: @motive;
+      }
+    }
+  }
+}
+
+// Progress Bars // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.progress{
+  .progress-bar{
+    background-color: @motive;
+    .ct-progressBar-tr{
+      background-color: darken(@motive, 5%);
+      &:before{
+        border-color: darken(@motive, 5%) transparent transparent transparent;
+      }
+      &:after{
+        border-color: transparent transparent darken(@motive, 25%) transparent;
+      }
+    }
+  }
+}
+
+// Tabs // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.nav-tabs{
+  &.nav-justified{
+    > li{
+      &.active{
+        > a:hover, > a:focus, > a:active{
+          border-color: @motive;
+        }
+      }
+    }
+  }
+  > li{
+
+    &.ct-navTabs--default{
+      &.active > a, > a:hover, > a:focus, > a:active{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+    &.ct-navTabs--success{
+      &.active > a, > a:hover, > a:focus, > a:active{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+    &.ct-navTabs--danger{
+      &.active > a, > a:hover, > a:focus, > a:active{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+    &.ct-navTabs--warning{
+      &.active > a, > a:hover, > a:focus, > a:active{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+    &.ct-navTabs--info{
+      &.active > a, > a:hover, > a:focus, > a:active{
+        background-color: @motive;
+        border-color: @motive;
+      }
+    }
+  }
+}
+
+.ct-tabs{
+  .ct-tabs-toggle{
+    &:hover, &.is-active{
+      color: @motive;
+      border-color: @motive;
+    }
+  }
+}
+
+
+// Magnific Popup // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.mfp-close, button.mfp-close, .mfp-close-btn-in .mfp-close{
+  background-color: @motive;
+}
+
+.ct-magnificPopup-bottomArrows{
+  .mfp-arrow{
+    &:hover, &:focus, &:active{
+      &:before{
+        color: @motive;
+      }
+    }
+  }
+}
+
+// Timeline // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+.nav-previous, .nav-next{
+  .icon{
+    border: 4px solid @motive;
+    color: @motive !important;
+  }
+}
+
+.vco-timeline .vco-navigation .timenav-background .timenav-line, .vco-timeline .vco-navigation .timenav .content .marker .line .event-line, .vco-timeline .vco-navigation .timenav .content .marker.active .line, .vco-timeline .vco-navigation .timenav .content .marker.active .dot{
+  background: @motive !important;
+}
+
+// WP // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.widget{
+  .widget-inner{
+    > ul{
+      li{
+        a{
+          &:hover, &:focus, &:active{
+            color: @motive;
+          }
+        }
+        &.current-cat{
+          a{
+            color: @motive;
+          }
+        }
+      }
+    }
+  }
+}
+
+.widget.ct-widget-recentPortfolio{
+  .widget-inner{
+    > ul{
+      li{
+        .ct-widget-recentPortfolio-titleContent{
+          background-color: @motive;
+          &:after{
+            border-color: transparent @motive transparent transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.widget.ct-widget-recentComments{
+  span{
+    color: @motive;
+  }
+}
+
+
+.tagcloud a , .ct-blog-tags a{
+  &:hover, &:focus, &:active{
+    background-color: @motive;
+  }
+}
+
+
+.ct-u-backgroundMotive{
+  .ct-callToActionBox{
+    &:before, &:after{
+      background-color: @motive;
+    }
+  }
+}

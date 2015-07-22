@@ -1,0 +1,159 @@
+.pagination{
+  float: left;
+  > li{
+    > a, > span{
+      font-weight: 600;
+      font-size: 14px;
+      border-color: #d3d3d3;
+      color: inherit;
+      margin-right: 5px;
+      background-color: transparent;
+    }
+    &:hover, &:focus, &:active{
+      > a, > span{
+        background-color: transparent;
+      }
+    }
+    &:first-child, &:last-child{
+      > a, > span{
+        .ct-m-borderRadius(0, 0, 0, 0);
+      }
+    }
+    &.active{
+      > a, > span, > a:hover, > span:hover, > a:focus, > span:focus{
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.pagination-lg{
+  > li{
+    > a, > span{
+      padding: 9px 15px;
+    }
+  }
+}
+
+.ct-pagination-notice{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px;
+  font-weight: 600;
+}
+
+.ct-pagination{
+  margin: 30px 0;
+  .ct-m-clearfix();
+  a{
+    color: inherit;
+  }
+  .ct-pagination-prev, .ct-pagination-next{
+    display: block;
+    width: 45%;
+    float: left;
+    font-weight: 600;
+    line-height: 50px;
+    i{
+      font-size: 30px;
+      line-height: 50px;
+    }
+    &:hover{
+      .ct-pagination-nextText, .ct-pagination-prevText{
+        span{
+          .ct-m-opacity(1);
+        }
+      }
+    }
+  }
+  .ct-pagination-next{
+    .ct-pagination-nextText{
+      text-align: right;
+    }
+  }
+  .ct-pagination-nextText, .ct-pagination-prevText{
+    .ct-m-clearfix();
+    span{
+      display: block;
+      font-weight: 400;
+      font-style: italic;
+      color: #bbbbbb;
+      text-transform: lowercase;
+      line-height: 0.2;
+      .ct-m-opacity(0);
+      .ct-m-transition(all, 0.4s, ease);
+    }
+  }
+  .ct-pagination-middle{
+    line-height: 1;
+    float: left;
+    display: block;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    i{
+      line-height: 50px;
+      width: 50px;
+      height: 50px;
+      border: 1px solid transparent;
+      .ct-m-borderRadius(50%,50%,50%,50%);
+      .ct-m-transition(all, 0.4s, ease);
+    }
+    .ct-pagination-middleTextHover{
+      text-transform: uppercase;
+      position: absolute;
+      bottom: -35px;
+      padding: 10px 0;
+      width: 200px;
+      left: 50%;
+      margin-left: -100px;
+      text-align: center;
+      font-weight: 600;
+      .ct-m-opacity(0);
+    }
+    &:hover{
+      i{
+        color: #ffffff;
+      }
+      .ct-pagination-middleTextHover{
+        .ct-m-opacity(1);
+        color: #222222;
+      }
+    }
+  }
+  &:hover{
+    .ct-pagination-middle i{
+      border-color: inherit;
+    }
+  }
+}
+
+@media(max-width: @screen-xs-max){
+  .ct-pagination .ct-pagination-prev, .ct-pagination .ct-pagination-next{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    float: none;
+    .pull-right, .pull-left{
+      float: none !important;
+    }
+  }
+  .ct-pagination .ct-pagination-middle{
+    float: none;
+    margin: auto;
+  }
+}
+
+.ct--darkMotive, .ct-u-backgroundDarkGray, .ct-u-backgroundDarkGray2, .ct-u-backgroundDarkGray3{
+  .pagination > li > a, .pagination > li > span{
+    border-color: #111111;
+    color: #ffffff;
+  }
+  .ct-pagination-notice{
+    color: #ffffff;
+  }
+  .ct-pagination .ct-pagination-middle:hover .ct-pagination-middleTextHover{
+    color: #ffffff;
+  }
+}

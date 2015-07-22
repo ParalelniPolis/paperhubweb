@@ -1,0 +1,68 @@
+{
+	"timeline": {
+		"headline": "About us",
+		"type": "default",
+		"text": "Nunc ac ultricies lorem, eu tristique nunc. Aliquam porttitor, lacus eget tristique vulputate, erat mi varius lectus, nec adipiscing mi ligula sit amet justo. Quisque bibendum id erat venenatis.",
+		"asset": {
+			"media": "assets/images/demo-content/timeline-about-us.jpg",
+			"credit": "",
+			"caption": ""
+		},
+		"startDate": "2013,2,26",
+		"date": [
+			{
+				"startDate": "2013,04,6",
+				"headline": "Vimeo Video",
+				"text": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+				"asset": {
+					"media": "http://vimeo.com/48717374",
+					"thumbnail": "assets/images/demo-content/timeline-thumbnail-1.jpg",
+					"credit": "",
+					"caption": ""
+				}
+			},
+			{
+				"startDate": "2013,05,12",
+				"headline": "Our second office",
+				"text": "Nunc ac ultricies lorem, eu tristique nunc. Aliquam porttitor, lacus eget tristique vulputate, erat mi varius lectus, nec adipiscing mi ligula sit amet justo. Quisque bibendum id erat venenatis.",
+				"asset": {
+					"media": "assets/images/demo-content/about-v2-timeline-8.jpg",
+					"thumbnail": "assets/images/demo-content/timeline-thumbnail-2.jpg",
+					"credit": "",
+					"caption": ""
+				}
+			},
+			{
+				"startDate": "2013,06,30",
+				"endDate": "2013,08,01",
+				"headline": "Wikipedia",
+				"text": "Some text description goes here",
+				"asset": {
+					"media": "http://en.wikipedia.org/wiki/Typography",
+					"thumbnail": "assets/images/demo-content/timeline-thumbnail-3.jpg"
+				}
+			},
+			{
+				"startDate": "2013,09,6",
+				"headline": "YouTube Video",
+				"text": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+				"asset": {
+					"media": "http://www.youtube.com/watch?v=HJ2F7eptn_A",
+					"thumbnail": "assets/images/demo-content/timeline-thumbnail-4.jpg",
+					"credit": "",
+					"caption": ""
+				}
+			},
+			{
+				"startDate": "2013,11,1",
+				"headline": "Google Map",
+				"text": "Excepteur sint occaecat cupidatat non proident sunt.",
+				"asset": {
+					"media": "https://maps.google.com/maps?hl=pl-PL&ll=40.716582,-73.885873&spn=0.004911,0.008256&t=k&gl=US&mapclient=apiv3&z=18",
+					"thumbnail": "assets/images/demo-content/timeline-thumbnail-5.jpg"
+				}
+			}
+		]
+	}
+}
+

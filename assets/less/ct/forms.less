@@ -1,0 +1,220 @@
+.ct-contactForm{
+  margin-top: 80px;
+}
+
+.form-control{
+  .ct-m-borderRadius(0,0,0,0);
+  .ct-m-boxShadow(none);
+  .ct-m-transition(all, 0.2s, ease);
+  font-size: 15px;
+  height: 40px;
+  border-color: #d3d3d3;
+  background-color: #f9f9f9;
+  &:focus{
+    border-color: #222222;
+    background-color: #ffffff;
+    .ct-m-boxShadow(none);
+  }
+  &::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:-moz-placeholder {
+    color: transparent;
+  }
+  &::-moz-placeholder {
+    color: transparent;
+  }
+  &:-ms-input-placeholder {
+    color: transparent;
+  }
+}
+
+.ct-u-backgroundDarkGray, .ct-u-backgroundDarkGray2, .ct-u-backgroundDarkGray3{
+  .form-control{
+    border-color: #111111;
+    background-color: #222222;
+    color: #ffffff;
+    &:focus{
+      background-color: #333333;
+    }
+  }
+  .form-search{
+    background-color: inherit;
+    input{
+      border-color: #ffffff;
+      &:focus, &:active, &:valid{
+        & + .btn{
+          color: #ffffff;
+        }
+      }
+    }
+    .btn{
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #111111;
+      &:hover{
+        background-color: #ffffff;
+        border-color: #ffffff;
+      }
+    }
+  }
+}
+
+.input-sm, .form-horizontal .form-group-sm .form-control{
+  height: 30px;
+}
+
+.input-lg, .form-horizontal .form-group-lg .form-control{
+  height: 50px ;
+}
+
+.form-group{
+  position: relative;
+  margin-bottom: 30px;
+  label{
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 7px 7px;
+    line-height: 1;
+    top: -20px;
+    left: -7px;
+    .ct-m-transition(all, 0.2s, ease);
+    &:before{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 7px 7px 0;
+      bottom: -7px;
+      left: 0;
+    }
+  }
+  .form-control:valid ~ label{
+    background-color: @brand-success;
+    &:before{
+      border-color: transparent darken(@brand-success, 20%) transparent transparent;
+    }
+  }
+}
+
+.alert{
+  .ct-m-borderRadius(0,0,0,0);
+}
+.close{
+  line-height: 1.5;
+}
+
+.input-group-addon{
+  .ct-m-borderRadius(0,0,0,0);
+}
+
+.form-search{
+  .btn{
+    .ct-m-borderRadius(0,0,0,0);
+  }
+}
+
+.form-search{
+  margin-bottom: 25px;
+  input, .btn{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  input{
+    width: 75%;
+    border-color: #222222;
+    background-color: #ffffff;
+    &::-webkit-input-placeholder {
+      color: #999999;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #999999;
+      font-style: italic;
+    }
+    &::-moz-placeholder {  /* Firefox 19+ */
+      color: #999999;
+      font-style: italic;
+    }
+    &:-ms-input-placeholder {
+      color: #999999;
+      font-style: italic;
+    }
+  }
+  .btn{
+    width: 25%;
+    text-transform: uppercase;
+    padding: 0;
+    .ct-m-transition(all, 0.4s, ease);
+    &:hover{
+      background-color: #222222;
+      border-color: #222222;
+    }
+  }
+}
+
+.form-group input[type="file"] {
+  line-height: 1;
+}
+
+.checkbox{
+  label{
+    padding-left: 10px;
+    &:before{
+      width: 25px;
+      display: inline-block;
+      content: "\f096";
+      padding-right: 5px;
+      font-family: fontawesome;
+    }
+  }
+  input{
+    float: none;
+    width: auto;
+    display: none;
+  }
+  input[type=checkbox]:checked + label:before{
+    content: "\f046";
+  }
+}
+
+fieldset[disabled]{
+  .form-group label{
+    background-color: #cccccc;
+    &:before{
+      border-color: transparent #999 transparent transparent;
+    }
+  }
+}
+
+.has-success, .has-error, .has-warning{
+  label{
+    color: #ffffff !important;
+  }
+}
+.has-success{
+  label{
+    background-color: @brand-success !important;
+    &:before{
+      border-color: transparent darken(@brand-success, 20%) transparent transparent !important;
+    }
+  }
+}
+.has-error{
+  label{
+    background-color: @brand-danger !important;
+    &:before{
+      border-color: transparent darken(@brand-danger, 20%) transparent transparent !important;
+    }
+  }
+}
+.has-warning{
+  label{
+    background-color: @brand-warning !important;
+    &:before{
+      border-color: transparent darken(@brand-warning, 20%) transparent transparent !important;
+    }
+  }
+}

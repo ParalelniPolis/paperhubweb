@@ -1,0 +1,52 @@
+.table{
+  > thead{
+    > tr{
+      > th, > td{
+        padding: 14px 5px;
+        background-color: #222222;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-bottom: none;
+      }
+    }
+  }
+  > tbody{
+    > tr{
+      > th, > td{
+        padding: 14px 5px;
+      }
+    }
+  }
+  > tfoot{
+    > tr{
+      > th, > td{
+        padding: 14px 5px;
+      }
+    }
+  }
+}
+
+.table-bordered{
+  > thead{
+    > tr{
+      > th, > td{
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+.ct-u-backgroundDarkGray, .ct-u-backgroundDarkGray2, .ct-u-backgroundDarkGray3{
+  .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border-top-color: #2d2e30;
+  }
+  .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th{
+    background-color: #444444;
+  }
+  .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+    border-color: #2d2e30;
+  }
+  .table-bordered > thead > tr > th, .table-bordered > thead > tr > td{
+    border-color: transparent;
+  }
+}

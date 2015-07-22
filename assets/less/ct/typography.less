@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Arapey:400italic,400);
+
+
+body{
+  font-size: 15px;
+  line-height: 2em;
+  color: #555555;
+}
+
+.ct--darkMotive{
+  color: #aaaaaa;
+}
+
+.ct--darkMotive{
+  hr{
+    border-top-color: #2d2e30;
+  }
+}
+
+a{
+  .ct-m-transition(all, 0.2s, ease);
+  &:hover, &:focus{
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+p{
+  margin-bottom: 20px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+h1, .h1{
+  font-size: 125px;
+  small{
+    font-size: 50px;
+  }
+}
+
+h2, .h2{
+  font-size: 80px;
+  small{
+    font-size: 50px;
+  }
+}
+
+h3, .h3{
+  font-size: 48px;
+  small{
+    font-size: 14px;
+    line-height: 1.8;
+  }
+}
+
+h4, .h4{
+  font-size: 30px;
+}
+
+h5, .h5{
+  font-size: 20px;
+}
+
+h6, .h6{
+  font-size: 14px;
+}
+
+// Headers resize on mobile
+@media (max-width:399px){
+  .ct-h3xs{
+    font-size:45px !important;
+  }
+  .ct-h4xs{
+    font-size: 28px !important;
+  }
+}
+
+
+h1, .h1, h2, .h2, h3, .h3{
+  margin-bottom: 20px;
+}
+
+h1, .h1, h2, .h2, h3, .h3,  h4, .h4, h5, .h5, h6, .h6{
+  color: #222222;
+  small{
+    display: block;
+    color: #222222;
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3,  h4, .h4, h5, .h5, h6, .h6{
+  &.ct-u-colorWhite{
+    color: #ffffff;
+    &.ct-u-hrLeft:after, &.ct-u-hrRight:after, &.ct-u-hrMid:after{
+      background-color: #ffffff;
+    }
+  }
+  &.ct-u-hrLeft, &.ct-u-hrRight, &.ct-u-hrMid{
+    padding-bottom: 20px;
+    position: relative;
+    &:after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 1px;
+      width: 30px;
+      background-color: #222222;
+    }
+  }
+  &.ct-u-hrLeft:after{
+    left: 0;
+  }
+  &.ct-u-hrRight:after{
+    right: 0;
+  }
+  &.ct-u-hrMid:after{
+    left: 50%;
+    margin-left: -15px;
+  }
+}
+
+.ct-intro-topImage{
+  h1, .h1, h2, .h2, h3, .h3,  h4, .h4, h5, .h5, h6, .h6{
+    &.ct-u-hrLeft:after, &.ct-u-hrRight:after, &.ct-u-hrMid:after{
+      background-color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: @screen-sm) {
+  h1, .h1{
+    font-size: 80px;
+  }
+
+  h2, .h2{
+    font-size: 60px;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  h1, .h1{
+    font-size: 55px;
+  }
+
+  h2, .h2{
+    font-size: 40px;
+  }
+}
+sup{
+  top: -1.2em;
+  font-size: 40%;
+}
+
+
+.dropcap:first-child:first-letter{
+  float: left;
+  font-size: 60px;
+  line-height: 50px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+.list-group-item:last-child{
+  .ct-m-borderRadius(0,0,0,0);
+}
+.list-group-item:first-child{
+  .ct-m-borderRadius(0,0,0,0);
+}
+.badge{
+  line-height: 2;
+}
+
+body,
+.ct-pagination .ct-pagination-nextText span, .ct-pagination .ct-pagination-prevText span{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+blockquote, .counter-block .counter .number, .ct-twitter .tweet_user, .tweet_text{
+  font-family: 'Arapey', serif;
+}
+
+.ct-pageHeader, .navbar-nav > li > a,
+h1, .h1, h2, .h2, h3, .h3,  h4, .h4, h5, .h5, h6, .h6,
+.ct-widget-recentPortfolio-titleContent,
+.widget .widget-inner > ul li a,
+.ct-graphBox .ct-graphBox--default .ct-graphBox-graph .ct-graphBox-graphPercentage,
+.ct-articleBox .ct-articleBox-date,
+.ct-articleBox .ct-articleBox-button,
+.ct-articleBox .ct-articleBox-meta,
+blockquote footer,
+.ct-flexslider-imageDescription .ct-flexslider-imageDescriptionTitle,
+.ct-gallery-itemDescription .ct-gallery-itemDescription-title,
+.ct-gallery-itemDescription .ct-gallery-itemDescription-category,
+.ct-galleryAjax-itemDescription,
+.ct-galleryAjax-item .ct-galleryAjax-item-number span,
+.panel-title,
+.pagination > li > a,
+.pagination > li > span,
+.ct-pagination-notice,
+.btn,
+.dropcap:first-child:first-letter,
+.ct-pagination .ct-pagination-prev, .ct-pagination .ct-pagination-next, .ct-pagination .ct-pagination-middle,
+.intro-effect-jam3 .ct-intro-title h1,
+.ct-intro--fadeOut .ct-intro-title h1,
+.ct-intro--effectPush .ct-intro-title h1,
+.ct-intro--sliced .ct-intro-title h1,
+.ct-navbar-search, input,
+.progress .progress-bar, .ct-twitter .tweet_time,{
+  font-family: "Lato", sans-serif;
+}
+
+.vco-storyjs .vco-feature h1, .vco-storyjs .vco-feature h2, .vco-storyjs .vco-feature h3, .vco-storyjs .vco-feature h4, .vco-storyjs .vco-feature h5, .vco-storyjs .vco-feature h6{
+  font-family: "Lato", sans-serif !important;
+}

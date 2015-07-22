@@ -1,0 +1,607 @@
+html, body, .ct-intro-topImage {
+  height: 100%;
+}
+
+/* Header */
+.ct-intro-topImage {
+  position: relative;
+  margin: 0 auto;
+  min-height: 760px;
+  width: 100%;
+  display: table;
+  z-index: 9999;
+}
+
+.bg-img {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.bg-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: none;
+}
+
+.intro-effect-jam3 .ct-intro-title,
+.ct-intro--fadeOut .ct-intro-title,
+.ct-intro--push .ct-intro-title,
+.ct-intro--sliced .ct-intro-title{
+  z-index: 9000;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  z-index: 9999;
+  *{
+    position: relative;
+  }
+}
+
+/* Trigger Button */
+button.trigger {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  z-index: 9999;
+  display: block;
+  margin-left: -0.5em;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.ct-pageWrapper:not(.notrans) button.trigger {
+  -webkit-transition: opacity 0.3s 0.5s;
+  transition: opacity 0.3s 0.5s;
+}
+
+.ct-pageWrapper.modify:not(.notrans) button.trigger {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+button.trigger::before {
+  position: absolute;
+  top: 100%;
+  left: -100%;
+  padding: 0.8em;
+  width: 300%;
+  color: #fff;
+  content: attr(data-info);
+  font-size: 14px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-transform: uppercase;
+}
+
+button.trigger:focus {
+  outline: none;
+}
+
+button.trigger span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+
+button.trigger span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  content: "\f107";
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: fontawesome;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: 2px solid #ffffff;
+  .ct-m-borderRadius(50%,50%,50%,50%);
+}
+
+.modify button.trigger{
+  display: none;
+}
+
+/***** Individual effects *****/
+
+/* -------------------------- */
+/* Jam 3 */
+/* -------------------------- */
+.intro-effect-jam3:not(.notrans) .bg-img {
+  -webkit-transition-property: top, left, right, bottom;
+  transition-property: top, left, right, bottom;
+}
+
+.intro-effect-jam3:not(.notrans) .ct-intro-topImage h1,
+.intro-effect-jam3:not(.notrans) .codrops-top a {
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.intro-effect-jam3:not(.notrans) .codrops-demos a {
+  -webkit-transition-property: border-color, color;
+  transition-property: border-color, color;
+}
+
+.intro-effect-jam3:not(.notrans) .ct-intro-topImage p {
+  -webkit-transition-property: color, opacity, -webkit-transform;
+  transition-property: color, opacity, transform;
+}
+
+.intro-effect-jam3:not(.notrans) .ct-intro-content > div {
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+}
+
+.intro-effect-jam3:not(.notrans) .bg-img,
+.intro-effect-jam3:not(.notrans) .ct-intro-topImage h1,
+.intro-effect-jam3:not(.notrans) .codrops-top a,
+.intro-effect-jam3:not(.notrans) .codrops-demos a,
+.intro-effect-jam3:not(.notrans) .ct-intro-content > div {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.intro-effect-jam3:not(.notrans) .ct-intro-topImage p,
+.intro-effect-jam3:not(.notrans) .ct-intro-topImage p.subline,
+.intro-effect-jam3:not(.notrans) .ct-intro-content > div {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-topImage p,
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-topImage p.subline,
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-content > div {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.intro-effect-jam3 .codrops-demos a {
+  color: #fff;
+}
+
+.intro-effect-jam3 .codrops-demos a.current-demo {
+  border-color: #fff;
+}
+
+.intro-effect-jam3.modify .codrops-demos a {
+  color: #c03b5d;
+}
+
+.intro-effect-jam3.modify .codrops-demos a.current-demo {
+  border-color: #c03b5d;
+}
+
+.intro-effect-jam3.ct-pageWrapper {
+  padding: 45px 30px;
+}
+
+.intro-effect-jam3 .bg-img {
+  top: -45px;
+  right: -30px;
+  bottom: -45px;
+  left: -30px;
+  background: #514753;
+}
+
+.intro-effect-jam3.modify .bg-img {
+  top: 0;
+  right: 0;
+  bottom: 85%;
+  left: 0;
+}
+
+.intro-effect-jam3.modify .ct-intro-topImage h1 {
+  color: #514753;
+}
+
+.intro-effect-jam3 .ct-intro-topImage p {
+  color: #514753;
+  opacity: 0;
+  -webkit-transform: translateY(150px);
+  transform: translateY(150px);
+}
+
+.intro-effect-jam3.modify .ct-intro-topImage p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.intro-effect-jam3 .ct-intro-content {
+  padding: 0 5em 5em;
+}
+
+.intro-effect-jam3 .ct-intro-topImage,
+.intro-effect-jam3 .ct-intro-content {
+  background: #fff;
+}
+
+.intro-effect-jam3 .ct-intro-content > div {
+  opacity: 0;
+  -webkit-transform: translateY(150px);
+  transform: translateY(150px);
+}
+
+.intro-effect-jam3.modify .ct-intro-content > div {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.intro-effect-jam3.modify .codrops-top a {
+  color: #514753;
+}
+
+/* Delays */
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-topImage p:nth-last-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-topImage p:last-child {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.intro-effect-jam3.modify:not(.notrans) .ct-intro-content > div {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* -------------------------- */
+/* Faded gradient */
+/* -------------------------- */
+
+.ct-intro--fadeOut .ct-intro-topImage{
+  display: table;
+  height: 760px;
+}
+
+.ct-intro--fadeOut .ct-intro-topImage .inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ct-intro--fadeOut:not(.notrans) .bg-img {
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+}
+
+.ct-intro--fadeOut:not(.notrans) .bg-img::after {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.ct-intro--fadeOut:not(.notrans) .ct-intro-topImage p,
+.ct-intro--fadeOut:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.ct-intro--fadeOut:not(.notrans) .bg-img,
+.ct-intro--fadeOut:not(.notrans) .bg-img::after,
+.ct-intro--fadeOut:not(.notrans) .ct-intro-topImage p,
+.ct-intro--fadeOut:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.ct-intro--fadeOut .ct-intro-topImage {
+  overflow: hidden;
+}
+
+.ct-intro--fadeOut.modify .bg-img {
+  -webkit-transform: translateY(-25%);
+  transform: translateY(-25%);
+}
+
+.ct-intro--fadeOut .bg-img::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 101%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.ct-intro--fadeOut.modify .bg-img::after {
+  opacity: 1;
+}
+
+.ct-intro--fadeOut .ct-intro-title {
+  text-align: left;
+  max-width: 900px;
+}
+
+.ct-intro--fadeOut.modify .ct-intro-topImage h1,
+.ct-intro--fadeOut.modify .ct-intro-topImage h2,
+.ct-intro--fadeOut.modify .ct-intro-topImage h3,
+.ct-intro--fadeOut.modify .ct-intro-topImage h4,
+.ct-intro--fadeOut.modify .ct-intro-topImage h5,
+.ct-intro--fadeOut.modify .ct-intro-topImage h6,
+.ct-intro--fadeOut.modify .ct-intro-topImage p{
+  color: #313842 ;
+}
+
+.ct-intro--fadeOut .ct-intro-topImage p {
+  opacity: 0;
+}
+
+.ct-intro--fadeOut .ct-intro-topImage p:nth-child(2) {
+  -webkit-transform: translateX(150px);
+  transform: translateX(150px);
+}
+
+.ct-intro--fadeOut .ct-intro-topImage p:nth-child(3) {
+  -webkit-transform: translateX(-150px);
+  transform: translateX(-150px);
+}
+
+.ct-intro--fadeOut.modify .ct-intro-topImage p:nth-child(2),
+.ct-intro--fadeOut.modify .ct-intro-topImage p:nth-child(3) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.ct-intro--fadeOut .ct-intro-content {
+  z-index: 1000;
+  position: relative;
+}
+
+.ct-intro--fadeOut .ct-intro-content > .div,
+.ct-intro--fadeOut .ct-intro-content > .div-top,
+.ct-intro--fadeOut .ct-intro-content > .div-bottom{
+  opacity: 0;
+  -webkit-transform: translateY(350px);
+  transform: translateY(350px);
+}
+
+.ct-intro--fadeOut.modify .ct-intro-content > div{
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* -------------------------- */
+/* Sliced */
+/* -------------------------- */
+
+.ct-intro--sliced .ct-intro-topImage{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ct-intro--sliced .ct-intro-topImage.fix-zindex{
+  z-index: 0;
+}
+
+
+.ct-intro--sliced:not(.notrans) .bg-img,
+.ct-intro--sliced:not(.notrans) .ct-intro-title {
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+}
+
+.ct-intro--sliced:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.ct-intro--sliced:not(.notrans) .bg-img,
+.ct-intro--sliced:not(.notrans) .ct-intro-title,
+.ct-intro--sliced:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.ct-intro--sliced.modify:not(.notrans) .ct-intro-title,
+.ct-intro--sliced.modify:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.ct-intro--sliced .bg-img:first-child {
+  bottom: 50%;
+  position: fixed;
+}
+
+.ct-intro--sliced .bg-img:last-child {
+  top: 50%;
+  position: fixed;
+  z-index: 900;
+}
+
+.snapjs-left, .snapjs-right, .boxed {
+  .ct-intro--sliced .bg-img:last-child {
+    position: absolute;
+  }
+  .ct-intro--sliced .bg-img:first-child {
+    position: absolute;
+  }
+}
+
+.ct-intro--sliced .bg-img:last-child img {
+  top: -100%;
+}
+
+.ct-intro--sliced.modify .bg-img:first-child {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.ct-intro--sliced.modify .bg-img:last-child {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.ct-intro--sliced .ct-intro-title {
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.ct-intro--sliced.modify .ct-intro-title {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.ct-intro--sliced .ct-intro-content > div{
+  -webkit-transform: translateY(200px);
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.ct-intro--sliced.modify .ct-intro-content > div{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Delays */
+.ct-intro--sliced.modify:not(.notrans) .ct-intro-title {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/* -------------------------- */
+/* Push */
+/* -------------------------- */
+.ct-intro--push:not(.notrans) .ct-intro-topImage,
+.ct-intro--push:not(.notrans) > .ct-intro-title,
+.ct-intro--push:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.ct-intro--push:not(.notrans) .ct-intro-topImage {
+  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  -webkit-transition-duration: 1.2s;
+  transition-duration: 1.2s;
+}
+
+.ct-intro--push .ct-intro-topImage {
+  position: absolute;
+  top: 0;
+}
+
+.ct-intro--push > .ct-intro-title {
+  position: relative;
+  top: auto;
+  left: auto;
+  padding: 6em 1em 2em;
+}
+
+.ct-intro--push > .ct-intro-title,
+.ct-intro--push .ct-intro-content > div{
+  -webkit-transform: translateY(400px);
+  transform: translateY(400px);
+  opacity: 0;
+}
+
+.ct-intro--push.modify > .ct-intro-title,
+.ct-intro--push.modify .ct-intro-content > div{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.ct-intro--push.modify .ct-intro-topImage {
+  opacity: 0;
+  -webkit-transform: translateY(-100%) scale(0.9);
+  transform: translateY(-100%) scale(0.9);
+}
+
+/* Delays */
+.ct-intro--push.modify:not(.notrans) > .ct-intro-title {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.ct-intro--push.modify:not(.notrans) .ct-intro-content > div{
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+/* Media Queries */
+@media screen and (max-width: 47em) {
+  .ct-intro-title {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ct-intro--push .ct-intro-topImage .ct-intro-title,
+  .ct-intro--sliced .ct-intro-topImage .ct-intro-title,
+  .intro-effect-jam3 .ct-intro-topImage .ct-intro-title,
+  .ct-intro--push .ct-intro-topImage .ct-intro-title{
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro-effect-jam3 .ct-intro-content {
+    padding: 0 2em 5em;
+  }
+  .bg-img img{
+    min-height: 0;
+  }
+
+
+  .ct-intro--push .ct-intro-topImage .ct-intro-title,
+  .ct-intro--sliced .ct-intro-topImage .ct-intro-title,
+  .intro-effect-jam3 .ct-intro-topImage .ct-intro-title,
+  .ct-intro--push .ct-intro-topImage .ct-intro-title{
+    top: 60px;
+  }
+
+  .ct-intro-title {
+    font-size: 50%;
+  }
+
+  button.trigger::before {
+    display: none;
+  }
+}

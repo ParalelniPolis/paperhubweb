@@ -1,0 +1,141 @@
+.panel{
+  background-color: transparent;
+  .ct-m-boxShadow(none);
+  .ct-m-borderRadius(0,0,0,0);
+}
+
+.panel-group{
+  margin-bottom: 0;
+  .panel{
+    border: none;
+    > .panel-heading{
+      background-color: #f9f9f9;
+      border: none;
+    }
+  }
+  .panel-body{
+    background-color: #f9f9f9;
+    margin-top: 5px;
+    margin-left: 60px;
+    border: 1px solid #d3d3d3 !important;
+  }
+}
+
+.ct-panelGroup--dark.panel-group{
+  .panel-default .panel-title > a.collapsed{
+    background-color: #222222;
+    border-color: #000000;
+    color: #ffffff;
+  }
+  .panel-body{
+    background-color: #222222;
+    border-color: #000000 !important;
+  }
+}
+
+.panel-heading{
+  padding: 0;
+}
+
+.panel-title{
+  font-size: 30px;
+  text-transform: lowercase;
+  font-weight: bold;
+  > a{
+    display: block;
+    padding: 20px 20px 20px 60px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    &:before{
+      font-family: fontawesome;
+      content: "\f056";
+      position: absolute;
+      left: 20px;
+    }
+    &.collapsed{
+      &:before{
+        content: "\f055";
+      }
+    }
+  }
+}
+
+.panel-default{
+ .panel-title{
+    > a{
+      color: #ffffff;
+      &.collapsed{
+        border-color: #d3d3d3;
+        background-color: transparent;
+        color: #222222;
+      }
+    }
+  }
+}
+.panel-primary{
+ .panel-title{
+    > a{
+      border-color: #222222;
+      background-color: #222222;
+      color: #ffffff;
+
+    }
+  }
+}
+.panel-success{
+ .panel-title{
+    > a{
+      border-color: #5cb85c;
+      background-color: #5cb85c;
+      color: #ffffff;
+    }
+  }
+}
+.panel-warning{
+ .panel-title{
+    > a{
+      border-color: #f0ad4e;
+      background-color: #f0ad4e;
+      color: #ffffff;
+    }
+  }
+}
+.panel-danger{
+ .panel-title{
+    > a{
+      border-color: #d9534f;
+      background-color: #d9534f;
+      color: #ffffff;
+    }
+  }
+}
+.panel-info{
+ .panel-title{
+    > a{
+      border-color: #5bc0de;
+      background-color: #5bc0de;
+      color: #ffffff;
+    }
+  }
+}
+
+@media(max-width: @screen-xs-max){
+  .panel-group{
+    .panel-body{
+      margin-left: 0px;
+    }
+  }
+
+  .panel-title{
+    > a{
+      padding: 20px 20px 20px 20px;
+      &:before{
+        color: #222222;
+        left: 50%;
+        margin-left: -15px;
+        top: -15px;
+      }
+    }
+  }
+}

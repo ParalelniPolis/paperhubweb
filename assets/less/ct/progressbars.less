@@ -1,0 +1,121 @@
+.progress{
+  height: 40px;
+  background-color: #eeeeee;
+  .ct-m-boxShadow(none);
+  .ct-m-borderRadius(0,0,0,0);
+  margin-right: 20px;
+  margin-left: 50px;
+  overflow: visible;
+  position: relative;
+  .progress-bar{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 15px;
+    .ct-m-boxShadow(none);
+    .ct-progressBar-text{
+      line-height: 40px;
+      font-weight: bold;
+    }
+    .ct-progressBar-tr{
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      left: -50px;
+      top: -10px;
+      &:before{
+        content: "";
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 10px 0 0;
+      }
+      &:after{
+        content: "";
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 10px 10px;
+      }
+    }
+    &.progress-bar-success{
+      background-color: @brand-success;
+      .ct-progressBar-tr{
+        background-color: darken(@brand-success, 5%);
+        &:before{
+          border-color: darken(@brand-success, 5%) transparent transparent transparent;
+        }
+        &:after{
+          border-color: transparent transparent darken(@brand-success, 25%) transparent;
+        }
+      }
+    }
+    &.progress-bar-info{
+      background-color: @brand-info;
+      .ct-progressBar-tr{
+        background-color: darken(@brand-info, 5%);
+        &:before{
+          border-color: darken(@brand-info, 5%) transparent transparent transparent;
+        }
+        &:after{
+          border-color: transparent transparent darken(@brand-info, 25%) transparent;
+        }
+      }
+    }
+    &.progress-bar-warning{
+      background-color: @brand-warning;
+      .ct-progressBar-tr{
+        background-color: darken(@brand-warning, 5%);
+        &:before{
+          border-color: darken(@brand-warning, 5%) transparent transparent transparent;
+        }
+        &:after{
+          border-color: transparent transparent darken(@brand-warning, 25%) transparent;
+        }
+      }
+    }
+    &.progress-bar-danger{
+      background-color: @brand-danger;
+      .ct-progressBar-tr{
+        background-color: darken(@brand-danger, 5%);
+        &:before{
+          border-color: darken(@brand-danger, 5%) transparent transparent transparent;
+        }
+        &:after{
+          border-color: transparent transparent darken(@brand-danger, 25%) transparent;
+        }
+      }
+    }
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #eeeeee;
+  }
+}
+.ct-u-backgroundDarkGray, .ct-u-backgroundDarkGray2, .ct-u-backgroundDarkGray3{
+  .progress{
+    background: #222222;
+    &:after{
+      border-color: transparent transparent transparent #222222;
+    }
+  }
+}
+
+.progress-icons{
+  &:before, &:after{
+    display: none;
+  }
+}

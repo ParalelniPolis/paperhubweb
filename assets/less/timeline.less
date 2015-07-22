@@ -1,0 +1,78 @@
+.vco-storyjs .vco-feature h1, .vco-storyjs .vco-feature h2, .vco-storyjs .vco-feature h3, .vco-storyjs .vco-feature h4, .vco-storyjs .vco-feature h5, .vco-storyjs .vco-feature h6{
+  text-transform: uppercase;
+}
+
+.vco-storyjs .vco-feature h3{
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.vco-storyjs .vco-feature h2.date{
+  font-size: 12px !important;
+  text-transform: uppercase;
+}
+
+.nav-previous, .nav-next{
+  .date, .title{
+    visibility: hidden;
+  }
+  .icon{
+    width: 70px !important;
+    height: 70px !important;
+    .ct-m-borderRadius(50%, 50%, 50%, 50%) !important;
+    background: transparent !important;
+    text-align: center;
+    &:before{
+      font-family: fontawesome;
+      font-size: 50px;
+      line-height: 70px;
+    }
+  }
+}
+.nav-next{
+  .icon{
+    &:before{
+      content: "\f105";
+    }
+  }
+}
+.nav-previous{
+  .icon{
+    &:before{
+      content: "\f104";
+    }
+  }
+}
+
+.vco-slider .nav-next .icon{
+  margin-left: 10px !important;
+}
+
+.vco-notouch .vco-slider .nav-previous:hover .icon{
+  margin-left: 15px !important;
+}
+
+.vco-slider .slider-item .content{
+  max-width: 1140px;
+  display: block !important;
+  margin: auto;
+}
+
+@media(min-width: @screen-md){
+  .vco-slider .slider-item .content .content-container .media{
+    width: 50% !important;
+  }
+  .vco-slider .slider-item .content .content-container .text{
+    float: left;
+  }
+}
+
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .wikipedia h4 a, .vco-timeline .vco-navigation .timenav .content .marker.active .flag .flag-content h3, .vco-timeline .vco-navigation .timenav .content .marker.active .flag-small .flag-content h3, .vco-storyjs h1, .vco-storyjs h2, .vco-storyjs h3, .vco-storyjs h4, .vco-storyjs h5, .vco-storyjs h6{
+  color: inherit !important;
+}
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-frame, .vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-image img{
+  border: none !important;
+}
+
+.vco-storyjs, .storyjs-embed, .vco-timeline .vco-navigation .timenav-background .timenav-interval-background{
+  background-color: transparent !important;
+}
