@@ -12,20 +12,18 @@
                                 Ups! An error occured. Please try again later.
                             </div>
 
-                            <form role="form" action="/index.php#send_me_something" method="post" class="contactForm validateIt"
-                                  data-email-subject="Contact Form" data-show-errors="true">
+                            <form role="form" action="http://formspree.io/pavel@pavelkral.eu" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
+                            <input type="hidden" name="_subject" value="Zpráva z webu paperhub.cz" />
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="contact_name" placeholder="Name" required type="text" name="contact_name"
-                                                   class="form-control">
+                                            <input id="contact_name" placeholder="Name" required type="text" name="name" class="form-control">
                                             <label for="contact_name">Jméno</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input id="contact_email" placeholder="Email" required type="email" name="contact_email"
-                                                   class="form-control">
+                                            <input id="contact_email" placeholder="Email" required type="email" name="_replyto" class="form-control">
                                             <label for="contact_email">Email</label>
                                         </div>
                                     </div>
@@ -33,9 +31,9 @@
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <div class="form-group">
-                                            <textarea id="contact_message" placeholder="Message" class="form-control" rows="8" name="contact_message" required>
-        Ahoj,
-        rád bych se u vás stavil na jeden den na zkoušku.
+                                            <textarea id="contact_message" placeholder="Message" class="form-control" rows="8" name="body" required>
+Ahoj,
+rád bych se u vás stavil na jeden den na zkoušku.
                                             </textarea>
                                             <label for="contact_message">Zpráva</label>
                                         </div>
