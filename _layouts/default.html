@@ -98,17 +98,20 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     <div class="flexslider ct-flexslider--controlsVertical ct-flexslider--controlsWhite ct-js-flexslider"
          data-animations="true" data-animationloop="true" data-height="100%">
         <ul class="slides">
-            <li data-bg="/assets/images/CET_8447_c.jpg">
+
+
+        {% for slide in site.data.slides %}
+            <li data-bg="{{slide.background_image}}">
                 <div class="inner ct-u-paddingBoth100">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 col-md-5 ">
                             
                                     <h3 class="ct-u-colorWhite ct-u-hrLeft animatedw add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite">ZAJÍMÁ VÁS PAPER HUB?</small>
-                                    <span class="ct-fw-300">Den na zkoušku zdarma</span>
+                                    <small class="text-uppercase ct-u-colorWhite">{{slide.text_small[page.content_language]}}</small>
+                                    <span class="ct-fw-300">{{slide.text_big[page.content_language]}}</span>
                                 </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">V Paper Hubu máme vždy otevřené dveře. Můžete si s námi domluvit schůzku, anebo jen tak přijít a obhlédnout si prostředí. A když už budete u nás, můžete tu rovnou strávit celý den.</p>
+                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">{{slide.description[page.content_language]}}</p>
                                 <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
                                    data-fx="fadeInUp" data-time="800">Zkuste to</a>
 
@@ -117,50 +120,11 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                     </div>
                 </div>
             </li>
-            <li data-bg="/assets/images/CET_8461_c.jpg">
-                <div class="inner ct-u-paddingBoth100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-5">
-                               
-                               
-                                <h3 class="ct-u-colorWhite ct-u-hrLeft animated add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite">HLEDÁTE NOVÉ ZÁŽITKY?</small>
-                                    <span class="ct-fw-300">Pořád se něco děje</span>
-                                </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">Paper Hub je součástí Paralelní Polis - místa, kde se pořád něco děje. Meetupy, přednášky, workshopy jdou za sebou jako na běžícím páse.</p>
-                                <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
-                                   data-fx="fadeInUp" data-time="800">Zkuste to</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-
-            <li data-bg="/assets/images/CET_8432.jpg">
-                <div class="inner ct-u-paddingBoth100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-5">
-
-                                                                <h3 class="ct-u-colorWhite ct-u-hrLeft animated add_drop_shadow" data-fx="fadeInUp">
-                                    <small class="text-uppercase ct-u-colorWhite ">HLEDÁTE VÍC NEŽ COWORKING?</small>
-                                    <span class="ct-fw-300">Místo pro schůzky i nové nápady</span>
-                                </h3>
-                                <p class="ct-u-colorWhite animated add_drop_shadow" data-fx="zoomInDown">Sympatizujete s idejemi Paralelní Polis? Staňte se jeho stálým obyvatelem a získejte členstvím v Paper Hubu příjemné, kreativní a inovativní zázemí pro vaši práci. Nezapomeňte se posílit vynikající kávou v Bitcoin Coffee a rozšířit technické obzory ve 3D tiskové dílně MakersLab.</p>
-                                <a href="#send_me_something" class="btn ct-btn--rounded btn-primary text-uppercase animated ct-js-btnScroll"
-                                   data-fx="fadeInUp" data-time="800">Zkuste to</a>
-
-                               
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
+        {% endfor %}
+            
 
         </ul>
+
     </div>
     <a class="ct-sectionButton ct-js-btnScroll" href="#section1"><span
             class="ct-sectionButton-circle animated pulse activate infinite"><i

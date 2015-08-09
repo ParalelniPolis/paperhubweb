@@ -1,0 +1,32 @@
+-   background_image: /assets/images/CET_8447_c.jpg
+    text_small: 
+        cz: txt smll
+        eng: txt smll
+    text_big:
+        cz: txt big
+        eng: txt big
+    description:
+        cz: desc
+        eng: desc
+
+-   background_image: /assets/images/CET_8461_c.jpg
+    text_small: 
+        cz: txt smll A
+        eng: txt smll A
+    text_big:
+        cz: txt big A
+        eng: txt big A
+    description:
+        cz: desc A
+        eng: desc A
+
+-   background_image: /assets/images/CET_8432.jpg
+    text_small: 
+        cz: txt smll A
+        eng: txt smll A
+    text_big:
+        cz: txt big A
+        eng: txt big A
+    description:
+        cz: desc A
+        eng: desc A
