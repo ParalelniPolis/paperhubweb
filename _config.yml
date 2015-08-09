@@ -1,8 +1,6 @@
 # Dependencies
 markdown:         rdiscount
 
-# Permalinks
-permalink:        pretty
 
 # Server
 destination:      _gh_pages

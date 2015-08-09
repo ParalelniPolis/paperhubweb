@@ -1,0 +1,31 @@
+##########################
+# Texty webu paperhub.cz #
+########################## 
+
+# Toto je neskodny komentar
+
+# Description pouzivany v <meta> i Facebook Opengraph
+website_description:
+    cz: Sdílená kancelář v Praze 7, inspirativní prostředí a vybavené pracovní zázemí pro angažované, inovativní a kreativní lidi? Coworking Paper Hub v Paralelní Polis!
+    eng: Eng desc
+
+
+# Menu
+menu_item_a:
+    cz: PAPER HUB
+    eng: PAPER HUB
+
+menu_item_b:
+    cz: CENÍK
+    eng: PRICELIST
+
+menu_item_c:
+    cz: KONTAKT
+    eng: CONTACT
+
+
+
+
+header_text: 
+    czech: CZECH_BLBLLBLBLLB
+    english: ENG_LALLLALLLA
