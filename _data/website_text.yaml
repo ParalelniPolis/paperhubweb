@@ -10,22 +10,7 @@ website_description:
     eng: Eng desc
 
 
-# Menu
-menu_item_a:
-    cz: PAPER HUB
-    eng: PAPER HUB
+continue_button:
+    cz: Pokračovat
+    eng: Continue
 
-menu_item_b:
-    cz: CENÍK
-    eng: PRICELIST
-
-menu_item_c:
-    cz: KONTAKT
-    eng: CONTACT
-
-
-
-
-header_text: 
-    czech: CZECH_BLBLLBLBLLB
-    english: ENG_LALLLALLLA

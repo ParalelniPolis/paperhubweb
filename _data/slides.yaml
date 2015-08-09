@@ -8,6 +8,12 @@
     description:
         cz: desc
         eng: desc
+    button:
+        link: \#sonewhere
+        cz: Zkuste to
+        eng: Try it
+
+
 
 -   background_image: /assets/images/CET_8461_c.jpg
     text_small: 
@@ -19,6 +25,12 @@
     description:
         cz: desc A
         eng: desc A
+    button:
+        link: \#sonewhere
+        cz: Zkuste to
+        eng: Try it
+
+
 
 -   background_image: /assets/images/CET_8432.jpg
     text_small: 
@@ -30,3 +42,7 @@
     description:
         cz: desc A
         eng: desc A
+    button:
+        link: \#sonewhere
+        cz: Zkuste to
+        eng: Try it
