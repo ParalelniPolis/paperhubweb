@@ -113,7 +113,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
         <ul class="slides">
 
 
-        {% for slide in site.data.slides %}
+        {% for slide in site.data.website_text.slides %}
             <li data-bg="{{slide.background_image}}">
                 <div class="inner ct-u-paddingBoth100">
                     <div class="container">
@@ -142,7 +142,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
         </ul>
 
     </div>
-    <a class="ct-sectionButton ct-js-btnScroll" href="#section1">
+    <a class="ct-sectionButton ct-js-btnScroll" href="#coworking">
         <span class="ct-sectionButton-circle animated pulse activate infinite">
             <i class="fa fa-angle-down animated activate bounce infinite"></i>
         </span>
@@ -151,7 +151,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 </section>
 
 
-<section id="section1">
+<section id="coworking">
     <div class="container">
         <header class="ct-pageSectionHeader ct-pageSectionHeader--numbered ct-u-marginTop100 ct-u-marginBottom70 ">
             <h2 class="ct-fw-600">
@@ -214,7 +214,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 
 
 
-<section id="sendemail">
+<section id="pricelist">
     <section class="ct-u-paddingTop50 ct-u-paddingBottom80 ct-u-borderBoth ct-u-backgroundGray">
         <div class="container">
             <div class="row">
@@ -313,7 +313,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     </div>
 </header>
 
-<section class="ct-u-paddingBottom150" id="send_me_something">
+<section class="ct-u-paddingBottom150" id="contact">
     <div class="container">
         <div class="row">
 
@@ -474,12 +474,12 @@ rád bych se u vás stavil(a) na jeden den na zkoušku.
         <div class="row">
             <div class="col-md-8">
                 <h1 class="text-lowercase ct-fw-600 ct-u-colorWhite">
-                    Kde jsme<sup><i class="fa fa-paper-plane"></i></sup>
+                    {{site.data.website_text.map.title[page.content_language]}}<sup><i class="fa fa-paper-plane"></i></sup>
                 </h1>
             </div>
             <div class="col-md-4">
                     <span class="ct-u-size20 ct-u-colorWhite">
-                        Najdete nás kousek od tramvajové zastávky Dělnická v Praze 7.
+                        {{site.data.website_text.map.header[page.content_language]}}.
                     </span>
             </div>
         </div>
@@ -496,33 +496,17 @@ rád bych se u vás stavil(a) na jeden den na zkoušku.
         <div class="row ct-u-borderLeft">
             <div class="col-sm-12 col-md-4 ct-u-paddingBoth20">
                 <p>
-                    <img src="/assets/images/pp.png" alt="Orlando Logo">
+                    <img src="/assets/images/pp.png" alt="Paper Hub Logo">
                     <br>
                     <br>
-                     Příležitost i každodenní zázemí určené pro práci.
+                     {{site.data.website_text.footer.description[page.content_language]}}
                 </p>
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBoth30">
 
-<!--                 <div class="widget">
-                    <div class="widget-inner">
-                        <h5 class="text-uppercase"><i class="fa fa-dot-circle-o"></i> Latest Projects</h5>
-                        <ul>
-                            <li>
-                                <a href="#">Monster Cars - Website Redesign</a>
-                            </li>
-                            <li>
-                                <a href="#">The House Of Arts - Branding Strategy</a>
-                            </li>
-                            <li>
-                                <a href="#">Zillionare - Online Presentation</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div> -->
             </div>
             <div class="col-sm-6 col-md-4 ct-u-paddingBoth30">
-                <h5 class="text-uppercase ct-fw-600"><i class="fa fa-dot-circle-o"></i>ozvěte se nám</h5>
+                <h5 class="text-uppercase ct-fw-600"><i class="fa fa-dot-circle-o"></i>{{site.data.website_text.footer.point[page.content_language]}}</h5>
                 <br>
                 <span class="h3 ct-fw-800" style="font-size:38px;"><span class="ct-u-colorDarkerGray">+420</span> 736 114 060</span>
                 <br>

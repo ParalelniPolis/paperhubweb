@@ -14,20 +14,71 @@ website_description:
 # Hlavni menu
 
 main_menu:
-    -   link: \#linka
+    -   link: \#coworking
         text:
             cz: PAPER HUB
             eng: PAPER HUB
 
-    -   link: \#linkb
+    -   link: \#pricelist
         text:
             cz: CENÍK
             eng: PRICELIST
 
-    -   link: \#linkc
+    -   link: \#contact
         text:
             cz: KONTAKT
             eng: CONTACT
+
+
+slides:
+    -   background_image: /assets/images/CET_8447_c.jpg
+        text_small: 
+            cz: "ZAJÍMÁ VÁS PAPER HUB?"
+            eng: txt smll
+        text_big:
+            cz: "Den na zkoušku zdarma"
+            eng: txt big
+        description:
+            cz: "V Paper Hubu máme vždy otevřené dveře. Můžete si s námi domluvit schůzku, anebo jen tak přijít a obhlédnout si prostředí. A když už budete u nás, můžete tu rovnou strávit celý den."
+            eng: desc
+        button:
+            link: \#sonewhere
+            cz: Zkuste to
+            eng: Try it
+
+
+
+    -   background_image: /assets/images/CET_8461_c.jpg
+        text_small: 
+            cz: "LEDÁTE NOVÉ ZÁŽITKY?"
+            eng: txt smll A
+        text_big:
+            cz: "Pořád se něco děje"
+            eng: txt big A
+        description:
+            cz: "Paper Hub je součástí Paralelní Polis - místa, kde se pořád něco děje. Meetupy, přednášky, workshopy jdou za sebou jako na běžícím páse."
+            eng: desc A
+        button:
+            link: \#sonewhere
+            cz: Zkuste to
+            eng: Try it
+
+
+
+    -   background_image: /assets/images/CET_8432.jpg
+        text_small: 
+            cz: "HLEDÁTE VÍC NEŽ COWORKING?"
+            eng: txt smll A
+        text_big:
+            cz: "Místo pro schůzky i nové nápady"
+            eng: txt big A
+        description:
+            cz: "Sympatizujete s idejemi Paralelní Polis? Staňte se jeho stálým obyvatelem a získejte členstvím v Paper Hubu příjemné, kreativní a inovativní zázemí pro vaši práci. Nezapomeňte se posílit vynikající kávou v Bitcoin Coffee a rozšířit technické obzory ve 3D tiskové dílně MakersLab."
+            eng: desc A
+        button:
+            link: \#sonewhere
+            cz: Zkuste to
+            eng: Try it
 
 
 # Tlacitko na slidech
@@ -50,24 +101,24 @@ below_slides:
 
 items_below_slides:
     -   title:
-            cz: tit
-            eng: ttt
+            cz: "technologie a bezpečný internet"
+            eng: ""
         content:
-            cz: tit
+            cz: "V rámci Paper Hubu můžete využívat 40 Mbps spolehlivé připojení a rychlou multifunkční tiskárnu až formátu A3. K dispozici nabízíme také zařízení na sítotisk a 3D tiskárny."
             eng: ttt
 
     -   title:
-            cz: tit
+            cz: "přístup 7 dní v týdnu"
             eng: ttt
         content:
-            cz: tit
+            cz: "Každý má trochu jiný pracovní režim. Proto nabízíme různé možnosti pronájmu, od pěti hodin měsíčně po neomezený přístup, případně pevný stůl. Pokud potřebujete uspořádat malý meeting pro 5 lidí, prezentaci pro 20 klientů anebo přednášku pro 100 návštěvníků, najdeme spolu správné místo."
             eng: ttt
 
     -   title:
-            cz: tit
+            cz: "váš růst není jen o pracovním stole"
             eng: ttt
         content:
-            cz: tit
+            cz: "Paper Hub je součástí Paralelní Polis, jenž nabízí pravidelný program vzdělávacích a oddechových akcí, kulinářské zázemí zajištěné Bitcoin Coffee a technické podhoubí v podobě 3D tiskové dílny MakersLab."
             eng: ttt
 
 
@@ -230,12 +281,23 @@ html_video:
 
 
 
+map:
+    title:
+        cz: "kde jsme"
+        eng: ""
+    header:
+        cz: "Najdete nás kousek od tramvajové zastávky Dělnická v Praze 7"
+        eng: ""
 
 
 
-
-
-
+footer:
+    point:
+        cz: "OZVĚTE SE NÁM"
+        eng: ""
+    description:
+        cz: "Příležitost i každodenní zázemí určené pro práci."
+        eng: ""
 
 
 
