@@ -174,20 +174,58 @@ faq:
                 eng: ""
 
 
+contact_us:
+    title:
+        cz: "napište nám"
+        eng: ""
+    description:
+        cz: "Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis."
+        eng: ""
+    message:
+        cz: Ahoj,
+            rád bych se u vás stavil(a) na jeden den na zkoušku.
+        eng: ""
+    field_name:
+        cz: "Jméno"
+        eng: ""
+    field_email:
+        cz: "Email"
+        eng: ""
+    field_message:
+        cz: "Zpráva"
+        eng: ""
+    field_send:
+        cz: "Odeslat"
+        eng: ""
+    field_subject:
+        cz: "Den na zkoušku v Paper Hub"
+        eng: "Visit us at Paper Hub"
 
 
 
 
+black_stripe_second:
+    title:
+        cz: "BITCOIN COFFEE"
+        eng: "ČLENSTVÍ V PAPER HUBU"
+    title_small:
+        cz: "Místo pro otevřené setkávání a diskuzi"
+        eng: "ČLENSTVÍ V PAPER HUBU"
+    description:
+        cz: "Tomu odpovídá celý interiér kavárny i design baru. Můžete se kolem něj volně pohybovat a přímo tak vidět celý proces přípravy kávy. Téměř laboratorními postupy se snažíme \"hacknout\" kávová zrna a dostat z nich tu nejlepší chuť a aroma. Aktuální nabídku najdete <a href=\"https://www.facebook.com/bitcoincoffeeprague\">zde</a>.<br>Těšíme se na Vás v první bitcoinové kavárně na světě!"
+        eng: "ČLENSTVÍ V PAPER HUBU"
 
 
-
-
-
-
-
-
-
-
+html_video:
+    title:
+        cz: "3D TISK"
+        eng: "ČLENSTVÍ V PAPER HUBU"
+    title_small:
+        cz: "NAUČÍME VÁS TISKNOUT SPRÁVNĚ"
+        eng: "ČLENSTVÍ V PAPER HUBU"
+    description:
+        cz: "V Makers Lab pořádáme pravidelná setkání zaměřená na 3D tisk a vše s ním spojené. Dozvíte se zde, co je a jak funguje 3D tisk, jaký má v dnešní době potenciál a kam směřuje jeho vývoj. Můžete se také těšit na testování materiálu a tiskáren a především na přednášky zajímavých hostů. Program a bližší informace najdete <a href=\"http://makerslab.cz/\">zde</a>."
+        eng: "ČLENSTVÍ V PAPER HUBU"
 
 
 

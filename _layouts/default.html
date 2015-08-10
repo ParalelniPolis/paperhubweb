@@ -350,9 +350,9 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     
             <div class="col-md-6 ct-u-paddingTop70">
 
-                <h3 class="text-lowercase ct-fw-600">Napište nám.</h3>
+                <h3 class="text-lowercase ct-fw-600">{{site.data.website_text.contact_us.title[page.content_language]}}.</h3>
 
-                        <p>Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis.</p>
+                        <p>{{site.data.website_text.contact_us.description[page.content_language]}}</p>
 
                         <div class="ct-contactForm" style="margin-top:50px">
                             <div class="successMessage alert alert-success" style="display: none">
@@ -365,18 +365,18 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                             </div>
 
                             <form role="form" action="http://formspree.io/hub@paralelnipolis.cz" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
-                            <input type="hidden" name="_subject" value="Den na zkoušku v Paper Hub" />
+                            <input type="hidden" name="_subject" value="{{site.data.website_text.contact_us.field_subject[page.content_language]}}" />
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <input id="contact_name" placeholder="Name" required type="text" name="name" class="form-control">
-                                            <label for="contact_name">Jméno</label>
+                                            <label for="contact_name">{{site.data.website_text.contact_us.field_name[page.content_language]}}</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <input id="contact_email" placeholder="Email" required type="email" name="_replyto" class="form-control">
-                                            <label for="contact_email">Email</label>
+                                            <label for="contact_email">{{site.data.website_text.contact_us.field_email[page.content_language]}}</label>
                                         </div>
                                     </div>
                                 </div>
@@ -387,7 +387,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 Ahoj,
 rád bych se u vás stavil(a) na jeden den na zkoušku.
                                             </textarea>
-                                            <label for="contact_message">Zpráva</label>
+                                            <label for="contact_message">{{site.data.website_text.contact_us.field_message[page.content_language]}}</label>
                                         </div>
                                     </div>
                                 </div>
@@ -395,7 +395,7 @@ rád bych se u vás stavil(a) na jeden den na zkoušku.
                                     <div class="col-xs-12">
                                         <button type="submit"
                                                 class="btn ct-btn--perspective btn-primary btn-lg text-uppercase pull-right"><i
-                                                class="fa fa-paper-plane"></i> Odeslat
+                                                class="fa fa-paper-plane"></i> {{site.data.website_text.contact_us.field_send[page.content_language]}}
                                         </button>
                                     </div>
                                 </div>
@@ -416,15 +416,15 @@ rád bych se u vás stavil(a) na jeden den na zkoušku.
                                 <div class="col-md-4">
                     <header class="ct-pageSectionHeader">
                         <h3 class="text-upperrcase ct-fw-600">
-                            BITCOIN COFFEE
-                            <small class="ct-fw-700 text-uppercase">Místo pro otevřené setkávání a diskuzi
+                            {{site.data.website_text.black_stripe_second.title[page.content_language]}}
+                            <small class="ct-fw-700 text-uppercase">{{site.data.website_text.black_stripe_second.title_small[page.content_language]}}
                             </small>
                         </h3>
                     </header>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Tomu odpovídá celý interiér kavárny i design baru. Můžete se kolem něj volně pohybovat a přímo tak vidět celý proces přípravy kávy. Téměř laboratorními postupy se snažíme "hacknout" kávová zrna a dostat z nich tu nejlepší chuť a aroma. Aktuální nabídku najdete <a href="https://www.facebook.com/bitcoincoffeeprague">zde</a>.<br> Těšíme se na Vás v první bitcoinové kavárně na světě!
+                        {{site.data.website_text.black_stripe_second.description[page.content_language]}}
                     </p>
                 </div>
 
@@ -446,19 +446,19 @@ rád bych se u vás stavil(a) na jeden den na zkoušku.
             <div class="container">
                 <div class="row">
 
-                                        <div class="col-sm-4">
+                    <div class="col-sm-4">
                         <header class="ct-pageSectionHeader">
                             <h3 class="text-uppercase ct-fw-600 ct-u-colorWhite">
-                                3D tisk
+                                {{site.data.website_text.html_video.title[page.content_language]}}
                                 <small class="ct-fw-700 text-uppercase ct-u-colorWhite">
-                                    NAUČÍME VÁS TISKNOUT SPRÁVNĚ
+                                    {{site.data.website_text.html_video.title_small[page.content_language]}}
                                 </small>
                             </h3>
                         </header>
                     </div>
                     <div class="col-sm-8">
                         <p>
-                            V Makers Lab pořádáme pravidelná setkání zaměřená na 3D tisk a vše s ním spojené. Dozvíte se zde, co je a jak funguje 3D tisk, jaký má v dnešní době potenciál a kam směřuje jeho vývoj. Můžete se také těšit na testování materiálu a tiskáren a především na přednášky zajímavých hostů. Program a bližší informace najdete <a href="http://makerslab.cz/">zde</a>.
+                            {{site.data.website_text.html_video.description[page.content_language]}}
                         </p>
                     </div>
 
