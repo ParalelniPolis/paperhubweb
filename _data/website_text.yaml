@@ -80,10 +80,7 @@ black_stripe_first:
 
 
     description:
-        cz: Každý člen Paper Hubu má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném 
-            prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací
-            místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl.
-            Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit.
+        cz: "Každý člen Paper Hubu má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl. Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit."
         eng: blalbevlerver
 
 
@@ -133,6 +130,67 @@ pricelist:
             description:
                 cz: "Toto členství Vám zajistí neomezený přístup do sdíleného pracovního prostoru v rámci našich otvíracích hodin od pondělí do pátku od 8:00 do 20:00. Součástí tohoto tarifu je zamykatelná skříňka."
                 eng: "engdesc"
+
+
+next_to_pricelist:
+    title: 
+        cz: "začínáte s bitcoinem?"
+        eng: ""
+    description: 
+        cz: "Pro běžné užívání Bitcoinu je důležité mít bitcoinovou peněženku. Tu si můžete buď stáhnout do svého chytrého telefonu, nebo si u nás vytisknout papírovou v případě, že nemáte podporovaný telefon nebo nejste na internetu. Nejjednodušší cestou jak Bitcoiny získat je bitcoinový bankomat v naší kavárně. V bankomatu naskenujete QR kód, jenž vygeneruje Vaše peněženka pro vyžádání platby, a vložíte papírovou hotovost. Během pár sekund budete mít Bitcoiny ve své peněžence. A jak s nimi zaplatíte? Zkuste si to nejdříve u nás v Bitcoin Coffee. Při placení Vám ukážeme QR kód. Otevřete svou peněženku a kód naskenujete. Autorizujete zobrazenou částku a v tom okamžiku je účet vyrovnán. Placení členství v Paper Hub poté bude pro Vás hračka!"
+        eng: ""
+
+
+
+
+
+faq:
+    header:
+        cz: "Nebojte se zeptat"
+        eng: ""
+    title:
+        cz: "mohlo by vás zajímat"
+        eng: ""
+    questions:
+        -   title:
+                cz: "Kdy mohu chodit pracovat do Paper Hubu ?"
+                eng: ""
+            description:
+                cz: "Každý člen obdrží vlastní klíč a v prostoru Paper Hubu může pracovat všechny pracovní dny vždy od 8:00 ráno do 20:00 do večera. Přístup mimo otvírací dny je možné individuálně domluvit."
+                eng: ""
+
+        -   title:
+                cz: "Mohu mít v Hubu vlastní monitor ?"
+                eng: ""
+            description:
+                cz: "Chápeme, že někteří členové potřebují využívat vlastní hardware (monitory, tablety apod.) a nechtějí jej pokaždé odnášet s sebou. Pro tento případ nabízíme v Paper Hubu zamykatelné skříňky. Ty jsou standardně součástí tarifu “Neomezený přístup”, ale lze ji nabídnout i k ostatním tarifům."
+                eng: ""
+
+        -   title:
+                cz: "Máte v Paper Hubu zasedací místnosti ?"
+                eng: ""
+            description:
+                cz: "Ano, je možné si rezervovat různé zasedací nebo konferenční místnosti pro setkání 2 až 100 lidí (prostory jsou vybaveny prezentační technikou, flipcharty apod). Za pozornost stojí naše jedinečná terasa, která je rovněž součástí Paper Hubu."
+                eng: ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

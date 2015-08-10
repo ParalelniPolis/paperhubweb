@@ -256,24 +256,12 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 
                 </div>
                 <div class="col-md-6">
-
-
-                                        <h3 class="text-lowercase ct-fw-600">
-                        Začínáte s bitcoinem?
+                    <h3 class="text-lowercase ct-fw-600">
+                        {{site.data.website_text.next_to_pricelist.title[page.content_language]}}
                     </h3>
 
                     <p>
-                        Pro běžné užívání Bitcoinu je důležité mít bitcoinovou peněženku. Tu si můžete buď stáhnout do svého chytrého telefonu, nebo si u
-
-                        nás vytisknout papírovou v případě, že nemáte podporovaný telefon nebo nejste na internetu. Nejjednodušší cestou jak Bitcoiny 
-
-                        získat je bitcoinový bankomat v naší kavárně. V bankomatu naskenujete QR kód, jenž vygeneruje Vaše peněženka pro vyžádání 
-
-                        platby, a vložíte papírovou hotovost. Během pár sekund budete mít Bitcoiny ve své peněžence. A jak s nimi zaplatíte? Zkuste si to 
-
-                        nejdříve u nás v Bitcoin Coffee. Při placení Vám ukážeme QR kód. Otevřete svou peněženku a kód naskenujete. Autorizujete 
-
-                        zobrazenou částku a v tom okamžiku je účet vyrovnán. Placení členství v Paper Hub poté bude pro Vás hračka!
+                        {{site.data.website_text.next_to_pricelist.description[page.content_language]}}
                     </p>
 
                     <!-- Kontakt -->
@@ -318,7 +306,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
             </div>
             <div class="col-md-4">
                     <span class="ct-u-size20 ct-u-colorWhite">
-                        Nebojte se zeptat.
+                        {{site.data.website_text.faq.header[page.content_language]}}.
                     </span>
             </div>
         </div>
@@ -329,73 +317,40 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     <div class="container">
         <div class="row">
 
-            <div class="col-md-6 ct-u-paddingTop70">
-        <h3 class="ct-fw-600 text-lowercase">Mohlo by vás zajímat.</h3>
+        <div class="col-md-6 ct-u-paddingTop70">
+            <h3 class="ct-fw-600 text-lowercase">{{site.data.website_text.faq.title[page.content_language]}}.</h3>
 
-        <div class="panel-group ct--lightMotive" id="accordion-general">
-                            <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse0" class="collapse">
-                                <span>Kdy mohu chodit pracovat do Paper Hubu ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse0"
-                         class="panel-collapse collapse  in">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Každý člen obdrží vlastní klíč a v prostoru Paper Hubu může pracovat všechny pracovní dny vždy od 8:00 ráno do 20:00 do večera. Přístup mimo otvírací dny je možné individuálně domluvit.
+            <div class="panel-group ct--lightMotive" id="accordion-general">
+                            
+                {% for faq_item in site.data.website_text.faq.questions %}
 
-                            </span>                        
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-general" href="#faqitem{{forloop.index}}"  
+                                {% if forloop.index != 1 %}class="collapsed"{% endif %}>
+                                    
+                                    {{faq_item.title[page.content_language]}}
+                                    
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="faqitem{{forloop.index}}" 
+                            class="panel-collapse {% if forloop.index != 1 %}collapse{% else %}in{% endif %} ">
+                            <div class="panel-body">
+                                {{faq_item.description[page.content_language]}}
+                            </div>
                         </div>
                     </div>
-                </div>
-                                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse1" class="collapsed">
-                                <span>Mohu mít v Hubu vlastní monitor ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse1"
-                         class="panel-collapse collapse  ">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Chápeme, že někteří členové potřebují využívat vlastní hardware (monitory, tablety apod.) a nechtějí jej pokaždé odnášet s sebou. Pro tento případ nabízíme v Paper Hubu zamykatelné skříňky. Ty jsou standardně součástí tarifu “Neomezený přístup”, ale lze ji nabídnout i k ostatním tarifům.
 
-                            </span>                        
-                        </div>
-                    </div>
-                </div>
-                                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent=#accordion-general                               href="#collapse2" class="collapsed">
-                                <span>Máte v Paper Hubu zasedací místnosti ?</span>
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse2"
-                         class="panel-collapse collapse  ">
-                        <div class="panel-body">
-                            <span style="color: #313842">
-                                
-                                Ano, je možné si rezervovat různé zasedací nebo konferenční místnosti pro setkání 2 až 100 lidí (prostory jsou vybaveny prezentační technikou, flipcharty apod). Za pozornost stojí naše jedinečná terasa, která je rovněž součástí Paper Hubu.
+                {% endfor %}
 
-                            </span>                        
-                        </div>
-                    </div>
-                </div>
             </div>
-    </div>
+        </div>
     
             <div class="col-md-6 ct-u-paddingTop70">
 
-                                        <h3 class="text-lowercase ct-fw-600">Napište nám.</h3>
+                <h3 class="text-lowercase ct-fw-600">Napište nám.</h3>
 
                         <p>Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis.</p>
 
