@@ -5,12 +5,90 @@
 # Toto je neskodny komentar
 
 # Description pouzivany v <meta> i Facebook Opengraph
+
 website_description:
     cz: Sdílená kancelář v Praze 7, inspirativní prostředí a vybavené pracovní zázemí pro angažované, inovativní a kreativní lidi? Coworking Paper Hub v Paralelní Polis!
     eng: Eng desc
 
 
+# Hlavni menu
+
+main_menu:
+    -   link: \#linka
+        text:
+            cz: PAPER HUB
+            eng: PAPER HUB
+
+    -   link: \#linkb
+        text:
+            cz: CENÍK
+            eng: PRICELIST
+
+    -   link: \#linkc
+        text:
+            cz: KONTAKT
+            eng: CONTACT
+
+
+# Tlacitko na slidech
+
 continue_button:
     cz: Pokračovat
     eng: Continue
+
+
+# Polozky zobrazene pod slajdy
+
+below_slides:
+    header:
+        cz: PAPER HUB V PARALELNÍ POLIS
+        eng: PAPER HUB V PARALELNÍ POLIS
+    red_text:
+        cz: Víme, co potřebujete pro vaši práci.
+        eng: Víme, co potřebujete pro vaši práci.
+
+
+items_below_slides:
+    -   title:
+            cz: tit
+            eng: ttt
+        content:
+            cz: tit
+            eng: ttt
+
+    -   title:
+            cz: tit
+            eng: ttt
+        content:
+            cz: tit
+            eng: ttt
+
+    -   title:
+            cz: tit
+            eng: ttt
+        content:
+            cz: tit
+            eng: ttt
+
+
+# Prvni cerny pruh 
+
+black_stripe_first:
+    title:
+        cz: ČLENSTVÍ V PAPER HUBU
+        eng: ČLENSTVÍ V PAPER HUBU
+
+
+    description:
+        cz: Každý člen Paper Hubu má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném 
+            prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací
+            místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl.
+            Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit.
+        eng: blalbevlerver
+
+
+
+
+
+
 

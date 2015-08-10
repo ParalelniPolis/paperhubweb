@@ -46,7 +46,7 @@
 <div class="ct-menuMobile">
     <ul class="ct-menuMobile-navbar">
 
-        {% for menu_item in site.data.menu %}
+        {% for menu_item in site.data.website_text.main_menu %}
         <li>
             <a href="{{menu_item.link}}" class="ct-js-btnScroll">
                 {{menu_item.text[page.content_language]}}
@@ -71,7 +71,7 @@
 <div class="collapse navbar-collapse">
 <ul class="nav navbar-nav ct-navbarNav--defaultActive ct-navbar--fadeIn yamm">
 
-        {% for menu_item in site.data.menu %}
+        {% for menu_item in site.data.website_text.main_menu %}
         <li>
             <a href="{{menu_item.link}}" class="ct-js-btnScroll">
                 {{menu_item.text[page.content_language]}}
@@ -142,9 +142,12 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
         </ul>
 
     </div>
-    <a class="ct-sectionButton ct-js-btnScroll" href="#section1"><span
-            class="ct-sectionButton-circle animated pulse activate infinite"><i
-            class="fa fa-angle-down animated activate bounce infinite"></i></span>{{site.data.website_text.continue_button[page.content_language]}}</a>
+    <a class="ct-sectionButton ct-js-btnScroll" href="#section1">
+        <span class="ct-sectionButton-circle animated pulse activate infinite">
+            <i class="fa fa-angle-down animated activate bounce infinite"></i>
+        </span>
+            {{site.data.website_text.continue_button[page.content_language]}}
+    </a>
 </section>
 
 
@@ -152,95 +155,56 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     <div class="container">
         <header class="ct-pageSectionHeader ct-pageSectionHeader--numbered ct-u-marginTop100 ct-u-marginBottom70 ">
             <h2 class="ct-fw-600">
-                <span class="text-uppercase">paper hub v paralelní polis</span>
-                <small class="ct-u-colorMotive ct-fw-300">Víme, co potřebujete pro vaši práci.</small>
+                <span class="text-uppercase">{{site.data.website_text.below_slides.header[page.content_language]}}</span>
+                <small class="ct-u-colorMotive ct-fw-300">{{site.data.website_text.below_slides.red_text[page.content_language]}}</small>
             </h2>
         </header>
         <div class="row">
-            <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
-                <div class="ct-iconBox ct-iconBox--default">
-                    <div class="ct-iconBox-icon ct-iconBox-icon--default">
-                        <i class="icon-cloud"></i>
+
+
+            {% for single_item in site.data.website_text.items_below_slides %}
+
+                <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
+                    <div class="ct-iconBox ct-iconBox--default">
+                        <div class="ct-iconBox-icon ct-iconBox-icon--default">
+                            <i class="icon-cloud"></i>
+                        </div>
+
+                        <div class="ct-iconBox-content">
+                            <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
+                                {{single_item.title[page.content_language]}}
+                            </h4>
+
+                            <p>
+                                {{single_item.content[page.content_language]}}
+                            </p>
+                        </div>
+
                     </div>
-
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Technologie a bezpečný internet
-                        </h4>
-
-                        <p>
-                            V rámci Paper Hubu můžete využívat 40 Mbps spolehlivé připojení a rychlou multifunkční tiskárnu až formátu A3. K dispozici nabízíme také zařízení na sítotisk a 3D tiskárny. 
-                        </p>
-                    </div>
-
-
                 </div>
-            </div>
-            <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
-                <div class="ct-iconBox ct-iconBox--default">
-                    <div class="ct-iconBox-icon ct-iconBox-icon--default">
-                        <i class="icon-clock"></i>
-                    </div>
-
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            Přístup 7 dní v týdnu
-                        </h4>
-
-                        <p>
-                            Každý má trochu jiný pracovní režim. Proto nabízíme různé možnosti pronájmu, od pěti hodin měsíčně po neomezený přístup, případně pevný stůl. Pokud potřebujete uspořádat malý meeting pro 5 lidí, prezentaci pro 20 klientů anebo přednášku pro 100 návštěvníků, najdeme spolu správné místo.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4 ct-u-marginBottom70">
-                <div class="ct-iconBox ct-iconBox--default">
-                    <div class="ct-iconBox-icon ct-iconBox-icon--default">
-                        <i class="icon-global"></i>
-                    </div>
-
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                           váš růst není jen o pracovním stole
-                        </h4>
-
-                        <p>
-                            Paper Hub je součástí <a href="https://www.facebook.com/pages/Paraleln%C3%AD-Polis/690647371027036">Paralelní Polis</a>, jenž nabízí pravidelný program vzdělávacích a oddechových akcí, kulinářské zázemí zajištěné Bitcoin Coffee a technické podhoubí v podobě 3D tiskové dílny MakersLab.
-                        </p>
-                    </div>
 
 
-                </div>
-            </div>
+            {% endfor %}
+
+
         </div>
     </div>
 
 
-   <!--  <section class="ct-u-paddingBoth80"> -->
-        <section class="ct-u-backgroundDarkGray ct-u-paddingBoth80">
+    <section class="ct-u-backgroundDarkGray ct-u-paddingBoth80">
         <div class="container">
             <div class="row">
 
-                                <div class="col-md-4">
+                <div class="col-md-4">
                     <header class="ct-pageSectionHeader">
                         <h3 class="text-uppercase ct-fw-600">
-                            ČLENSTVÍ V PAPER HUBU
-<!--                             <small class="ct-fw-700 text-uppercase">Design is not just what it looks like. Design is how
-                                it works.
-                            </small> -->
+                            {{site.data.website_text.black_stripe_first.title[page.content_language]}}
                         </h3>
                     </header>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Každý člen Paper Hubu má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném 
-
-                        prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací 
-
-                        místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl. 
-
-                        Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit.
+                    {{site.data.website_text.black_stripe_first.description[page.content_language]}}
                     </p>
                 </div>
 
