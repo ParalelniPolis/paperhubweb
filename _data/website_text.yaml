@@ -87,6 +87,57 @@ black_stripe_first:
         eng: blalbevlerver
 
 
+# Cenik
+
+pricelist:
+    title:
+        cz: ceník
+        eng: pricelist
+    plans:
+        -   time:
+                cz: "5h / měsíc"
+                eng: "5h / month"
+            price:
+                cz: "Cena : 300 kč / měsíc"
+                eng: "Cena : 300 kč / month"
+            description:
+                cz: "Nejnižší členství v sobě zahrnuje 5 hodin měsíčně ve sdíleném pracovním prostoru. Tarif je ideální pro vyzkoušení, jak Vám takové pracovní prostředí vyhovuje, nebo pro nárazové návštěvy."
+                eng: "engdesc"
+
+        -   time:
+                cz: "25h / měsíc"
+                eng: "5h / month"
+            price:
+                cz: "Cena : 1500 kč / měsíc"
+                eng: "Cena : 300 kč / month"
+            description:
+                cz: "Základní členství využijete, jestliže chcete v Paper Hubu pracovat pravidelně, ale stačí Vám na to méně než jeden den v týdnu. Tento tarif se hodí např. pro práci na určitém projektu, kterému se chcete věnovat koncentrovaně po určitý čas v měsíci."
+                eng: "engdesc"
+
+        -   time:
+                cz: "50h / měsíc"
+                eng: "5h / month"
+            price:
+                cz: "Cena : 2000 kč / měsíc"
+                eng: "Cena : 300 kč / month"
+            description:
+                cz: "Rozšířené členství, které v tuto chvíli využívá nejvíce našich členů, v sobě zahrnuje kromě možnosti využívat sdílený prostor také zlevněný pronájem zasedacích místností."
+                eng: "engdesc"
+
+        -   time:
+                cz: "neomezený přístup"
+                eng: "5h / month"
+            price:
+                cz: "Cena : 3000 kč / měsíc"
+                eng: "Cena : 300 kč / month"
+            description:
+                cz: "Toto členství Vám zajistí neomezený přístup do sdíleného pracovního prostoru v rámci našich otvíracích hodin od pondělí do pátku od 8:00 do 20:00. Součástí tohoto tarifu je zamykatelná skříňka."
+                eng: "engdesc"
+
+
+
+
+
 
 
 
