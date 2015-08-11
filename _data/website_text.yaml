@@ -7,8 +7,8 @@
 # Description pouzivany v <meta> i Facebook Opengraph
 
 website_description:
-    cz: Sdílená kancelář v Praze 7, inspirativní prostředí a vybavené pracovní zázemí pro angažované, inovativní a kreativní lidi? Coworking Paper Hub v Paralelní Polis!
-    eng: Eng desc
+    cz: "Sdílená kancelář v Praze 7, inspirativní prostředí a vybavené pracovní zázemí pro angažované, inovativní a kreativní lidi? Coworking Paper Hub v Paralelní Polis!"
+    eng: "Co-working space in Prague. Innovative place for innovative people."
 
 
 # Hlavni menu
@@ -26,12 +26,12 @@ main_menu:
 
     -   link: "#contact"
         text:
-            cz: KONTAKT
-            eng: CONTACT
+            cz: "KONTAKT"
+            eng: "CONTACT"
 
 
 slides:
-    -   background_image: /assets/images/CET_8447_c.jpg
+    -   background_image: "/assets/images/CET_8447_c.jpg"
         text_small: 
             cz: "ZAJÍMÁ VÁS PAPER HUB?"
             eng: "INTERESTED IN PAPER HUB?"
@@ -43,12 +43,12 @@ slides:
             eng: "The door is always open in Paper Hub. You can either make an appointment with us or just come by and take a look around. And while you’re at it, you can spend the whole day here."
         button:
             link: "#contact"
-            cz: Zkuste to
-            eng: Try it
+            cz: "Zkuste to"
+            eng: "Try it"
 
 
 
-    -   background_image: /assets/images/CET_8461_c.jpg
+    -   background_image: "/assets/images/CET_8461_c.jpg"
         text_small: 
             cz: "LEDÁTE NOVÉ ZÁŽITKY?"
             eng: "LOOKING FOR NEW EXPERIENCES?"
@@ -60,12 +60,12 @@ slides:
             eng: "Paper Hub forms a part of Paralelní Polis – a venue that never stays still. Meetups, lectures and workshops are taking place one after another."
         button:
             link: "#contact"
-            cz: Zkuste to
-            eng: Try it
+            cz: "Zkuste to"
+            eng: "Try it"
 
 
 
-    -   background_image: /assets/images/CET_8432.jpg
+    -   background_image: "/assets/images/CET_8432.jpg"
         text_small: 
             cz: "HLEDÁTE VÍC NEŽ COWORKING?"
             eng: "LOOKING FOR MORE THAN COWORKING?"
@@ -84,8 +84,8 @@ slides:
 # Tlacitko na slidech
 
 continue_button:
-    cz: Pokračovat
-    eng: Continue
+    cz: "Pokračovat"
+    eng: "Continue"
 
 
 # Polozky zobrazene pod slajdy
