@@ -59,7 +59,7 @@ slides:
             cz: "Paper Hub je součástí Paralelní Polis - místa, kde se pořád něco děje. Meetupy, přednášky, workshopy jdou za sebou jako na běžícím páse."
             eng: "Paper Hub forms a part of Paralelní Polis – a venue that never stays still. Meetups, lectures and workshops are taking place one after another."
         button:
-            link: \#contact
+            link: "#contact"
             cz: Zkuste to
             eng: Try it
 
@@ -76,7 +76,7 @@ slides:
             cz: "Sympatizujete s idejemi Paralelní Polis? Staňte se jeho stálým obyvatelem a získejte členstvím v Paper Hubu příjemné, kreativní a inovativní zázemí pro vaši práci. Nezapomeňte se posílit vynikající kávou v Bitcoin Coffee a rozšířit technické obzory ve 3D tiskové dílně MakersLab."
             eng: "Do you sympathize with Paralelní Polis? Become its resident and enjoy the creative and innovative base for your work that comes with Paper Hub membership. Do not forget to get refreshed by the delicious coffee in Bitcoin Coffee and further your technical skills in 3D workshop MakersLab."
         button:
-            link: \#contact
+            link: "#contact"
             cz: "Zkuste to"
             eng: "Try it"
 
