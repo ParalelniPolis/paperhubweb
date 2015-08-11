@@ -42,7 +42,7 @@
                             //latLng: [40.616439, -74.035540],
                             address: location, options: {
                                 //visible: false
-                                icon: new google.maps.MarkerImage("assets/images/marker.png")
+                                icon: new google.maps.MarkerImage("/assets/images/marker.png")
                             }, callback: function (marker) {
                                 atcenter = marker.getPosition();
                             }
