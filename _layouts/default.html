@@ -70,7 +70,7 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse">
 <ul class="nav navbar-nav ct-navbarNav--defaultActive ct-navbar--fadeIn yamm">
-
+            
         {% for menu_item in site.data.website_text.main_menu %}
         <li>
             <a href="{{menu_item.link}}" class="ct-js-btnScroll">
@@ -79,6 +79,19 @@
             </a>
         </li>
         {% endfor %}
+        <li>
+            {% if page.content_language == "cz" %}
+                <a href="/eng/" class="ct-js-btnScroll">
+                    <img src="/assets/images/flags/png/gb.png" alt="English">
+                    ENGLISH
+                </a>
+            {% else %}
+                <a href="/" class="ct-js-btnScroll">
+                    <img src="/assets/images/flags/png/cz.png" alt="Czech">
+                    CZECH
+                </a>
+            {% endif %}
+        </li>
 </ul>
 
 </div>
