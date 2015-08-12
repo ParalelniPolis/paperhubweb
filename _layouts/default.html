@@ -19,7 +19,7 @@
 
 
     <meta property="og:title" content="Paper Hub" />
-    <meta property="og:url" content="http://paperhub.cz" />
+    <meta property="og:url" content="http://paperhub.cz{% if page.content_language == "eng" %}/eng/{% endif %}"/>
     <meta property="og:image" content="http://paperhub.cz/assets/images/fbog.jpg" />
     <meta property="og:description" content="{{site.data.website_text.website_description[page.content_language]}}" />
 
@@ -54,7 +54,19 @@
             </a>
         </li>
         {% endfor %}
-
+        <li>
+            {% if page.content_language == "cz" %}
+                <a href="/eng/" class="ct-js-btnScroll">
+                    <img src="/assets/images/flags/png/gb.png" alt="English">
+                    ENGLISH
+                </a>
+            {% else %}
+                <a href="/" class="ct-js-btnScroll">
+                    <img src="/assets/images/flags/png/cz.png" alt="Czech">
+                    CZECH
+                </a>
+            {% endif %}
+        </li>
     </ul>
 </div>
 
