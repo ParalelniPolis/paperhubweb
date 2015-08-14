@@ -31,7 +31,7 @@ main_menu:
 
 
 slides:
-    -   background_image: "/assets/images/CET_8447_c.jpg"
+    -   background_image: "/assets/images/okna.jpg"
         text_small: 
             cz: "ZAJÍMÁ VÁS PAPER HUB?"
             eng: "INTERESTED IN PAPER HUB?"
@@ -48,7 +48,7 @@ slides:
 
 
 
-    -   background_image: "/assets/images/CET_8461_c.jpg"
+    -   background_image: "/assets/images/terasa.jpg"
         text_small: 
             cz: "LEDÁTE NOVÉ ZÁŽITKY?"
             eng: "LOOKING FOR NEW EXPERIENCES?"
@@ -65,7 +65,7 @@ slides:
 
 
 
-    -   background_image: "/assets/images/CET_8432.jpg"
+    -   background_image: "/assets/images/lid.jpg"
         text_small: 
             cz: "HLEDÁTE VÍC NEŽ COWORKING?"
             eng: "LOOKING FOR MORE THAN COWORKING?"
