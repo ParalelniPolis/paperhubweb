@@ -16,8 +16,8 @@ website_description:
 main_menu:
     -   link: "#coworking"
         text:
-            cz: PAPER HUB
-            eng: PAPER HUB
+            cz: COWORKING
+            eng: COWORKING
 
     -   link: "#pricelist"
         text:
