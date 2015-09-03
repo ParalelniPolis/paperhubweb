@@ -243,8 +243,8 @@ contact_us:
         cz: "Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet nebo rezervovat zasedací místnost? Určitě nás neváhejte kontaktovat, rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis."
         eng: "Do you have any further questions or is there something unclear? Do you want to give Paper Hub a try or to book a meeting room? Do not hesitate to contact us, we will be happy to meet you and give you a tour around the whole Paralelni Polis."
     message:
-        cz: "Ahoj,\nrád(a) bych se u vás stavil(a) na jeden den na zkoušku. \n Ahoj,\nrád(a) bych u vás rezervoval(a) zasedací místnost."
-        eng: "Hi,\nI'd like to stop by for a day and give it a try. \n Hi,\nI'd like to book a meeting room."
+        cz: "Ahoj,\nrád(a) bych se u vás stavil(a) na jeden den na zkoušku.\n\nAhoj,\nrád(a) bych u vás rezervoval(a) zasedací místnost."
+        eng: "Hi,\nI'd like to stop by for a day and give it a try.\n\nHi,\nI'd like to book a meeting room."
     field_name:
         cz: "Jméno"
         eng: "Name"
