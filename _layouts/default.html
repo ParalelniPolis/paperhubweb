@@ -391,12 +391,13 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                                 Ups! An error occured. Please try again later.
                             </div>
 
-                            <form role="form" action="http://formspree.io/hub@paralelnipolis.cz" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true">
+                            <form role="form" method="post" class="contactForm validateIt" data-email-subject="Contact Form" data-show-errors="true" id="send_email_to_paperhub">
                             <input type="hidden" name="_subject" value="{{site.data.website_text.contact_us.field_subject[page.content_language]}}" />
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <input id="contact_name" placeholder="Name" required type="text" name="name" class="form-control">
+                                            <input type="text" name="_gotcha" style="display:none" />
                                             <label for="contact_name">{{site.data.website_text.contact_us.field_name[page.content_language]}}</label>
                                         </div>
                                     </div>
@@ -434,6 +435,10 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
     </div>
 </section>
 
+<script>
+    var contactform =  document.getElementById('send_email_to_paperhub');
+    contactform.setAttribute('action', '//formspree.io/' + 'hub' + '@' + 'paralelnipolis' + '.' + 'cz');
+</script>
 
     <section class="ct-u-paddingBoth80 ct-u-backgroundDarkGray"  data-bg-image="/assets/images/content/bigImage1.jpg">
         <div class="container">
