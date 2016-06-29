@@ -24,12 +24,12 @@ main_menu:
             cz: CENÍK
             eng: PRICELIST
 
-  -   link: "https://www.paralelnipolis.cz/pronajem/"
+    -   link: "https://www.paralelnipolis.cz/pronajem/"
         text:
             cz: "PRONÁJEM"
             eng: "RENTAL"
 
-   -   link: "https://www.paralelnipolis.cz/tag/coworking/"
+    -   link: "https://www.paralelnipolis.cz/tag/coworking/"
         text:
             cz: "BLOG"
             eng: "BLOG"
