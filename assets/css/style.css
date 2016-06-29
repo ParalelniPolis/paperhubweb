@@ -5788,6 +5788,12 @@ body.ct-navbar-isTransparent-toInverse .ct-pageWrapper {
   line-height: 66px;
   padding: 0px 15px;
 }
+
+.navbar .navbar-brand img {
+  max-height: 90px;
+  vert-align: top;
+}
+
 .navbar.is-small .navbar-brand img {
   max-height: 66px;
   vert-align: top;
