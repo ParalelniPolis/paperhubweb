@@ -29,6 +29,11 @@ main_menu:
             cz: "PRONÁJEM"
             eng: "RENTAL"
 
+    -   link: "https://www.paralelnipolis.cz/#js-calendar"
+        text:
+            cz: "AKCE"
+            eng: "EVENTS"
+
     -   link: "https://www.paralelnipolis.cz/tag/coworking/"
         text:
             cz: "BLOG"
