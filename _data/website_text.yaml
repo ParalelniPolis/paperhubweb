@@ -148,8 +148,8 @@ black_stripe_first:
 
 
     description:
-        cz: "Každý člen Paper Hub má možnost v rozsahu zvoleného tarifu (od 300 do 3000 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl. Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit."
-        eng: "Each and every Paper Hub member has the possibility to use, according to the extent of his or hers subscription (300 – 3000 CZK a month) any free spot in the shared working space, the office facilities (printer, scanner, copying machine, Wi-Fi, presentation technology etc.), a kitchen, a terrace and a possibility of hiring a meeting room at discounted charge. It is also possible to hire your own desk. The membership fees are paid in Bitcoin. We will be happy to instruct you how to use it and help you with the exchange."
+        cz: "Každý člen Paper Hub má možnost v rozsahu zvoleného tarifu (od 500 do 3500 Kč / měsíc) využívat kterékoliv volné pracovní místo ve sdíleném prostoru, kancelářské vybavení (tisk, scan, kopírování, wifi, projekční technika etc.), kuchyňku, terasu a zvýhodněnou možnost pronájmu zasedací místnosti. Nabízíme taktéž možnost pronajmout si svůj vlastní pracovní stůl. Členství se platí pomocí kryptoměny Bitcoin, s jehož používáním vás rádi seznámíme a pomůžeme rozměnění i platbu uskutečnit."
+        eng: "Each and every Paper Hub member has the possibility to use, according to the extent of his or hers subscription (500 – 3500 CZK a month) any free spot in the shared working space, the office facilities (printer, scanner, copying machine, Wi-Fi, presentation technology etc.), a kitchen, a terrace and a possibility of hiring a meeting room at discounted charge. It is also possible to hire your own desk. The membership fees are paid in Bitcoin. We will be happy to instruct you how to use it and help you with the exchange."
 
 
 # Cenik
@@ -176,7 +176,7 @@ pricelist:
                 cz: "Cena : 1900 Kč / měsíc"
                 eng: "Price : 1900 CZK / month"
             description:
-                cz: "Vyhovuje ti tvůj domácí nebo firemní pracovní stůl, ale jednou za týden si provětráš hlavu v jiném prostředí. Nebo se potřebuješ nárazově koncentrovat na určitý projekt - prostor plný do práce zabraných lidí a nepřetržitý přísun výběrové kávy je pro tvou produktivutu to pravé!"
+                cz: "Vyhovuje ti tvůj domácí nebo firemní pracovní stůl, ale jednou za týden si provětráš hlavu v jiném prostředí. Nebo se potřebuješ nárazově koncentrovat na určitý projekt - prostor plný do práce zabraných lidí a nepřetržitý přísun výběrové kávy je pro tvou produktivitu to pravé!"
                 eng: "This subscription will suit you if you want to work in Paper Hub regularly, but you are not planning to spend there more time than one day a week. This subscription is useful for example when working on a specific project you want to focus on at a certain time during the month."
 
         -   time:
