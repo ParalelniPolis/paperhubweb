@@ -160,13 +160,13 @@ pricelist:
         eng: pricelist
     plans:
         -   time:
-                cz: "5h / měsíc"
-                eng: "5h / month"
+                cz: "8h / měsíc"
+                eng: "8h / month"
             price:
                 cz: "Cena : 300 Kč / měsíc"
                 eng: "Price : 300 CZK / month"
             description:
-                cz: "Nejnižší členství v sobě zahrnuje 5 hodin měsíčně ve sdíleném pracovním prostoru. Tarif je ideální pro vyzkoušení, jak Vám takové pracovní prostředí vyhovuje, nebo pro nárazové návštěvy."
+                cz: "Jsi často na cestách a Hub využiješ pouze nárazově. Chceš však zůstat v kontaktu s komunitou a mít přístup na členské akce."
                 eng: "A basic subscription that allows you to spend five hours a month in the coworking space. This subscription is the best option for a trial run or a one-time visit."
 
         -   time:
