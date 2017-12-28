@@ -167,7 +167,7 @@ pricelist:
                 eng: "Price : 500 CZK / month"
             description:
                 cz: "Jsi často na cestách a Hub využíváš pouze příležitostně. Jeden pracovní den za měsíc ti bohatě stačí, víc si ceníš možnosti zůstat v kontaktu s komunitou a mít přístup zdarma nebo se slevou na členské akce."
-                eng: "A basic subscription that allows you to spend five hours a month in the coworking space. This subscription is the best option for a trial run or a one-time visit."
+                eng: "You are often on the run, and you only use the Hub occasionally. One working day per month is enough, you appreciate more the opportunity to stay in touch with the community and to have access to member events free of charge or with a discount."
 
         -   time:
                 cz: "30h / měsíc"
@@ -177,7 +177,7 @@ pricelist:
                 eng: "Price : 1900 CZK / month"
             description:
                 cz: "Vyhovuje ti tvůj domácí nebo firemní pracovní stůl, ale jednou za týden si provětráš hlavu v jiném prostředí. Nebo se potřebuješ nárazově soustředit na určitý projekt - prostor plný do práce zabraných lidí a nepřetržitý přísun výběrové kávy je pro tvou produktivitu to pravé!"
-                eng: "This subscription will suit you if you want to work in Paper Hub regularly, but you are not planning to spend there more time than one day a week. This subscription is useful for example when working on a specific project you want to focus on at a certain time during the month."
+                eng: "The working desk at home or in your office suits you quite well, but once a week you like to discover new ideas in a different environment. Or, you need to concentrate on a particular project - a space full of focused people and the constant supply of specialty coffee makes a perfect combination for your productivity!"
 
         -   time:
                 cz: "60h / měsíc"
@@ -187,7 +187,7 @@ pricelist:
                 eng: "Price : 2600 CZK / month"
             description:
                 cz: "V Hubu se ti nejen dobře pracuje a networkuje, ale zároveň ho využíváš i na pracovní schůzky. Kromě možnosti chodit do sdílené kanceláře třeba dvakrát týdně máš také zlevněný pronájem zasedací místnosti s přístupem na terasu."
-                eng: "Currently being the most popular choice, this extended subscription includes, apart from the possibility to use the coworking space, a discount on hiring the boardrooms."
+                eng: "You enjoy working and collaborating with other coworkers in Hub, but you also use it for business meetings. In addition to the possibility of going to a shared office for exemple twice a week, you also have discounted meeting room rental with access to the terrace."
 
         -   time:
                 cz: "neomezený přístup"
@@ -197,17 +197,17 @@ pricelist:
                 eng: "Price : 3500 CZK / month"
             description:
                 cz: "Jsi tu zkrátka jako doma - máš svůj oblíbený stůl, vlastní skříňku na věci, baristky ví, jakou piješ kávu... Trávíš zde možná každý den a jsi aktivním členem komunity i pravidelným návštěvníkem akcí. A dvě hodiny zasedačky zdarma jsou jen třešničkou na dortu."
-                eng: "This subscription will provide you with unlimited access to the coworking space during our open hours (8am to 8pm on workdays). A locker is included in this package."
+                eng: "You feel here just like at home - you have your favorite table, your own locker, the baristas know what kind of coffee you're drinking ... You spend here maybe every day and you're an active member of the community and a regular visitor of the events. And two hours of meeting room for free are just the icing on the cake."
 
         -   time:
                 cz: "pevný pracovní stůl"
-                eng: "your personal desk"
+                eng: "fixed desk"
             price:
                 cz: "Cena : 4500 Kč / měsíc"
                 eng: "Price : 4500 CZK / month"
             description:
                 cz: "Máš svůj stálý pracovní kout, ale neutrácíš za drahou kancelář, neřešíš kauce a výpovědní lhůty. Chceš větší klid na práci a bezpečné místo pro uložení všech věcí, které pro ni potřebuješ - ať to je dvacet šanonů nebo dva monitory. Ideální zázemí pro workoholiky nebo malé týmy!"
-                eng: "We also offer the possibility of hiring your own desk. This solution is mostly chosen by members who spend a great quantities of time in Paper Hub and who often use external devices such as external screens or graphic tablets."
+                eng: "You have your permanent working desk, but you do not wast money for an expensive office and you do not deal with bail and notice periods. You want a calm environment and a safe place to store all the things you need for work - whether it's twenty files or two monitors. Ideal option for workaholics or small teams!"
 
 
 next_to_pricelist:
