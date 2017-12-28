@@ -170,21 +170,21 @@ pricelist:
                 eng: "A basic subscription that allows you to spend five hours a month in the coworking space. This subscription is the best option for a trial run or a one-time visit."
 
         -   time:
-                cz: "25h / měsíc"
-                eng: "25h / month"
+                cz: "30h / měsíc"
+                eng: "30h / month"
             price:
-                cz: "Cena : 1500 Kč / měsíc"
-                eng: "Price : 1500 CZK / month"
+                cz: "Cena : 1900 Kč / měsíc"
+                eng: "Price : 1900 CZK / month"
             description:
                 cz: "Základní členství využijete, jestliže chcete v Paper Hub pracovat pravidelně, ale stačí Vám na to méně než jeden den v týdnu. Tento tarif se hodí např. pro práci na určitém projektu, kterému se chcete věnovat koncentrovaně po určitý čas v měsíci."
                 eng: "This subscription will suit you if you want to work in Paper Hub regularly, but you are not planning to spend there more time than one day a week. This subscription is useful for example when working on a specific project you want to focus on at a certain time during the month."
 
         -   time:
-                cz: "50h / měsíc"
-                eng: "50h / month"
+                cz: "60h / měsíc"
+                eng: "60h / month"
             price:
-                cz: "Cena : 2000 Kč / měsíc"
-                eng: "Price : 2000 CZK / month"
+                cz: "Cena : 2600 Kč / měsíc"
+                eng: "Price : 2600 CZK / month"
             description:
                 cz: "Rozšířené členství, které v tuto chvíli využívá nejvíce našich členů, v sobě zahrnuje kromě možnosti využívat sdílený prostor také zlevněný pronájem zasedacích místností."
                 eng: "Currently being the most popular choice, this extended subscription includes, apart from the possibility to use the coworking space, a discount on hiring the boardrooms."
@@ -193,8 +193,8 @@ pricelist:
                 cz: "neomezený přístup"
                 eng: "unlimited access"
             price:
-                cz: "Cena : 3000 Kč / měsíc"
-                eng: "Price : 3000 CZK / month"
+                cz: "Cena : 3500 Kč / měsíc"
+                eng: "Price : 3500 CZK / month"
             description:
                 cz: "Toto členství Vám zajistí neomezený přístup do sdíleného pracovního prostoru v rámci našich otvíracích hodin od pondělí do pátku od 8:00 do 20:00. Součástí tohoto tarifu je zamykatelná skříňka."
                 eng: "This subscription will provide you with unlimited access to the coworking space during our open hours (8am to 8pm on workdays). A locker is included in this package."
