@@ -109,7 +109,7 @@ continue_button:
 
 below_slides:
     header:
-        cz: "PROČ SE STÁT ČLENEM"
+        cz: "PROČ SE STÁT ČLENEM?"
         eng: "PAPER HUB IN PARALELNI POLIS"
     red_text:
         cz: "Co získáš jedině v Paper Hubu"
@@ -143,7 +143,7 @@ items_below_slides:
 
 black_stripe_first:
     title:
-        cz: "Proč coworking v Paralelní Polis?"
+        cz: "Proč coworking?"
         eng: "Paper Hub Membership"
 
 
