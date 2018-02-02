@@ -157,7 +157,7 @@ black_stripe_first:
 pricelist:
     title:
         cz: ceník členství a pronájmu
-        eng: pricelist of membership and rent
+        eng: pricelist of membership and rental
     plans:
         -   time:
                 cz: "8h / měsíc"
