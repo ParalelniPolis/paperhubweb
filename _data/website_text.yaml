@@ -156,7 +156,7 @@ black_stripe_first:
 
 pricelist:
     title:
-        cz: ceník členství a pronájmu?
+        cz: ceník členství a pronájmu
         eng: pricelist
     plans:
         -   time:
@@ -208,6 +208,16 @@ pricelist:
             description:
                 cz: "Máš svůj stálý pracovní kout, ale neutrácíš za drahou kancelář, neřešíš kauce a výpovědní lhůty. Chceš větší klid na práci a bezpečné místo pro uložení všech věcí, které pro ni potřebuješ - ať to je dvacet šanonů nebo dva monitory. Ideální zázemí pro workoholiky nebo malé týmy!"
                 eng: "You have your permanent working desk, but you do not waste money for an expensive office and you do not deal with bail and notice periods. You want a calm environment and a safe place to store all the things you need for work - whether it's twenty files or two monitors. Ideal option for workaholics or small teams!"
+
+        -   time:
+                cz: "zasedací místnost"
+                eng: "meeting room"
+            price:
+                cz: "Cena : 350 Kč / hodina, včetně DPH"
+                eng: "Price : 350 CZK / hour, incl. VAT"
+            description:
+                cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu."
+                eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace."
 
 
 next_to_pricelist:
