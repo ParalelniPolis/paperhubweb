@@ -109,19 +109,19 @@ continue_button:
 
 below_slides:
     header:
-        cz: "PAPER HUB V PARALELNÍ POLIS"
+        cz: "PROČ SE STÁT ČLENEM"
         eng: "PAPER HUB IN PARALELNI POLIS"
     red_text:
-        cz: "Víme, co potřebujete pro vaši práci."
+        cz: "Co získáš jedině v Paper Hubu"
         eng: "We know what you need to do your job."
 
 
 items_below_slides:
     -   title:
-            cz: "technologie a bezpečný internet"
+            cz: "přátelské a klidné prostředí"
             eng: "technology and safe internet connection"
         content:
-            cz: "V Paper Hub můžete využívat 40 Mbps spolehlivé připojení a rychlou multifunkční tiskárnu až formátu A3. K dispozici nabízíme také zařízení na sítotisk a 3D tiskárny."
+            cz: "V Paper Hubu si zakládáme na dobrých vztazích, důvěře a pohodové atmosféře. Všichni si tu tykáme, vzájemně sdílíme naše know-how a inspirujeme se. Těšit se můžeš také z prostředí plného svobody, a to i ve formě flexibilního členství bez závazků a přesně podle tvých potřeb. Bude se ti tu tedy nejen dobře pracovat, ale budeš se tu doslova cítit jako doma."
             eng: "Paper Hub provides you with 40 Mbps reliable internet connection and fast multifunctional printer capable of printing in up to A3 size. Silk screen and 3D printers are also at your disposal."
 
     -   title:
