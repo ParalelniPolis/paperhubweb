@@ -39,7 +39,7 @@
     <![endif]-->
 
     <script src="/assets/js/modernizr.custom.js"></script>
-    
+
     <!-- Facebook Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -47,7 +47,7 @@
     n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
     document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    
+
     fbq('init', '1740425152908560');
     fbq('track', "PageView");</script>
     <noscript><img height="1" width="1" style="display:none"
@@ -81,7 +81,7 @@
 
         {% for menu_item in site.data.website_text.main_menu %}
         <li>
-            <a href="{{menu_item.link}}" {% if forloop.index == 4 %}id="menu-rental"{% endif %} class="ct-js-btnScroll">
+            <a href="{{menu_item.link}}" class="ct-js-btnScroll">
                 {{menu_item.text[page.content_language]}}
                 <i class="fa fa-angle-double-down"></i>
             </a>
@@ -115,10 +115,10 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse">
 <ul class="nav navbar-nav ct-navbarNav--defaultActive ct-navbar--fadeIn yamm">
-            
+
         {% for menu_item in site.data.website_text.main_menu %}
         <li>
-            <a href="{{menu_item.link}}" {% if forloop.index == 4 %}id="menu-rental"{% endif %} class="ct-js-btnScroll">
+            <a href="{{menu_item.link}}" class="ct-js-btnScroll">
                 {{menu_item.text[page.content_language]}}
                 <i class="fa fa-angle-double-down"></i>
             </a>
@@ -195,7 +195,7 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                 </div>
             </li>
         {% endfor %}
-            
+
 
         </ul>
 
@@ -258,9 +258,6 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                         <h3 class="text-uppercase ct-fw-600">
                             {{site.data.website_text.black_stripe_first.title[page.content_language]}}
                         </h3>
-                        <span class="ct-fw-900 text-uppercase ct-u-colorMotive">
-                            {{site.data.website_text.black_stripe_first.subtitle[page.content_language]}}
-                        </span>
                     </header>
                 </div>
                 <div class="col-md-8">
@@ -282,25 +279,25 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 
                 <div class="col-md-6">
                     <h3 class="text-lowercase ct-fw-600">
-                        {{site.data.website_text.pricelist.title[page.content_language]}}
+                        {{site.data.website_text.pricelist.title[page.content_language]}}.
                     </h3>
 
                     <div class="panel-group" id="accordion">
 
                         {% for price_item in site.data.website_text.pricelist.plans %}
 
-                            <div {% if forloop.index == 6 %}id="rental"{% endif %} class="panel panel-default">
+                            <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#pricelistitem{{forloop.index}}"  
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#pricelistitem{{forloop.index}}"
                                         {% if forloop.index != 1 %}class="collapsed"{% endif %}>
-                                            
+
                                             {{price_item.time[page.content_language]}}
-                                            
+
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="pricelistitem{{forloop.index}}" 
+                                <div id="pricelistitem{{forloop.index}}"
                                     class="panel-collapse {% if forloop.index != 1 %}collapse{% else %}in{% endif %} ">
                                     <div class="panel-body">
                                         {{price_item.description[page.content_language]}}
@@ -311,42 +308,25 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                             </div>
 
                         {% endfor %}
-                           
+
                     </div>
 
                 </div>
 
                 <div class="col-md-6">
                     <h3 class="text-lowercase ct-fw-600">
-                        {{site.data.website_text.bonuslist.title[page.content_language]}}
+                        {{site.data.website_text.next_to_pricelist.title[page.content_language]}}
                     </h3>
 
-                    <div class="panel-group" id="accordionb">
+                    <p>
+                        {{site.data.website_text.next_to_pricelist.description[page.content_language]}}
+                    </p>
 
-                        {% for bonus_item in site.data.website_text.bonuslist.plans %}
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordionb" href="#bonuslistitem{{forloop.index}}"
-                                        {% if forloop.index != 1 %}class="collapsed"{% endif %}>
-
-                                            {{bonus_item.time[page.content_language]}}
-
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="bonuslistitem{{forloop.index}}"
-                                    class="panel-collapse {% if forloop.index != 1 %}collapse{% else %}in{% endif %} ">
-                                    <div class="panel-body">
-                                        {{bonus_item.description[page.content_language]}}
-                                    </div>
-                                </div>
-                            </div>
-
-                        {% endfor %}
+                    <!-- Kontakt -->
+                    <div class="ct-contactForm">
 
                     </div>
+
 
                 </div>
 
@@ -356,13 +336,13 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 </section>
 
 <script type="text/javascript">
-    
+
     function update_btc_czk_price(czk){
 
         return true;
 
         console.log(czk)
-        
+
         var czk_price = document.getElementById("czk_price");
         var btc_price = document.getElementById("btc_price");
 
@@ -373,254 +353,63 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 
 </script>
 
-    <section id="crypto" class="ct-u-paddingBoth80 ct-u-backgroundDarkGray"  data-bg-image="/assets/images/content/bigImage1.jpg">
-        <div class="container">
-            <div class="row">
 
-                                <div class="col-md-4">
-                    <header class="ct-pageSectionHeader">
-                        <h3 class="text-upperrcase ct-fw-600">
-                            {{site.data.website_text.next_to_pricelist.title[page.content_language]}}
-                        </h3>
-                        <span class="ct-fw-900 text-uppercase ct-u-colorMotive">    {{site.data.website_text.next_to_pricelist.subtitle[page.content_language]}}
-                        </span>
-                    </header>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        {{site.data.website_text.next_to_pricelist.description[page.content_language]}}
-                    </p>
-                </div>
-
+<header class="ct-pageHeader ct-pageHeader--motive ct-pageHeader--hasDescription ct-u-paddingBoth10">
+    <div class="container ct-u-triangleBottomLeft">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="text-lowercase ct-fw-600 ct-u-colorWhite">
+                    Faq<sup><i class="fa fa-question-circle"></i></sup>
+                </h1>
             </div>
-        </div>
-    </section>
-
-
-<section id="section5" class="ct-u-diagonalTopLeft section">
-    <!--div class="ct-u-backgroundMotive">
-        <div class="container">
-            <header class="ct-pageSectionHeader ct-pageSectionHeader--numbered ct-u-marginTop100 ct-u-marginBottom70 ct-js-wayPoint1">
-                <h2 class="ct-fw-600">
-                    <span class="text-lowercase">{{site.data.website_text.eventlist.title[page.content_language]}}</span>
-                    <small class="ct-u-colorWhite ct-fw-300">{{site.data.website_text.eventlist.subtitle[page.content_language]}}</small>
-                </h2>
-            </header>
+            <div class="col-md-4">
+                    <span class="ct-u-size20 ct-u-colorWhite">
+                        {{site.data.website_text.faq.header[page.content_language]}}.
+                    </span>
+            </div>
         </div>
     </div>
-    <div id="ct-gallery" class="ct-gallery ct-gallery--col5 ct-js-magnificPortfolioPopupGroup">
-
-        {% for event_item in site.data.website_text.eventlist.events %}
-
-        <div class="ct-gallery-item ct-gallery-item--masonry ct-gallery-item--default hidden ct-gallery-item--normal webdesign">
-
-            <div class="ct-gallery-itemInner">
-                <a class="ct-js-magnificPortfolioPopup" href="{{event_item.eventurl}}">
-                    <div class="ct-gallery-itemImage">
-                        <img src="{{event_item.imageurl}}" alt="{{event_item.title[page.content_language]}}">
-                    </div>
-                    <div class="ct-gallery-itemDescription">
-                        <span class="ct-gallery-itemDescription-title">{{event_item.title[page.content_language]}}</span>
-                        <span class="ct-gallery-itemDescription-category"><i class="fa fa-long-arrow-right"></i> {{event_item.description[page.content_language]}}</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        {% endfor %}
-
-    </div -->
-
-    <!-- testimonials -->
-    <section class="ct-u-paddingBoth50">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 ct-u-paddingTop70">
-                    <div class="flexslider ct-flexslider--controlsVertical ct-js-flexslider" data-smoothheight="true" data-direction="vertical">
-                        <ul class="slides">
-
-                            {% for feedback_item in site.data.website_text.feedbacklist.feedbacks %}
-
-                            <li>
-                                <blockquote class="ct-blockquote ct-blockquote--default">
-                                    <div class="col-sm-5">
-                                        <div class="text-right">
-                                            <cite class="h3"><span class="ct-fw-300">{{feedback_item.firstname}}</span> <span
-                                                    class="ct-u-colorMotive">{{feedback_item.lastname}}</span></cite><br>
-                                            <span class="h6 text-uppercase">{{feedback_item.jobtitle[page.content_language]}}</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-7">
-                                        <span class="h4 ct-fs-i ct-fw-300 ct-u-arapey">
-                                            {{feedback_item.feedback[page.content_language]}}
-                                        </span>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </blockquote>
-                            </li>
-
-                            {% endfor %}
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-</section>
+</header>
 
 
-<section id="section3" class="ct-u-backgroundGray ct-u-diagonalTopLeft section">
-    <div class="ct-u-backgroundMotive">
-        <div class="container">
-            <header class="ct-pageSectionHeader ct-pageSectionHeader--numbered ct-u-marginTop100 ct-u-marginBottom70 ct-js-wayPoint1">
-                <h2 class="ct-fw-900">
-                    <span class="">{{site.data.website_text.conceptslist.title[page.content_language]}}</span>
-                    <small class="ct-u-colorWhite ct-fw-300">{{site.data.website_text.conceptslist.subtitle[page.content_language]}}</small>
-                </h2>
-            </header>
-        </div>
-    </div>
-    <div class="ct-u-borderBoth ct-u-paddingBoth70">
-        <div class="container">
-            <div class="row">
+<section class="ct-u-paddingBottom150" id="contact">
+    <div class="container">
+        <div class="row">
 
-                {% for concept_item in site.data.website_text.conceptslist.concepts %}
+        <div class="col-md-6 ct-u-paddingTop70">
+            <h3 class="ct-fw-600 text-lowercase">{{site.data.website_text.faq.title[page.content_language]}}.</h3>
 
-                <div class="col-sm-6 col-md-3">
-                    <div class="ct-personBox ct-personBox--default">
-                        <div class="ct-personBox-name text-uppercase">
-                            <div class="ct-personBox-nameInner">
-                                <span class="ct-personBox-firstName">{{concept_item.title_line_1}}</span> <span
-                                    class="ct-personBox-surname ct-fw-600">{{concept_item.title_line_2}}</span>
+            <div class="panel-group ct--lightMotive" id="accordion-general">
+
+                {% for faq_item in site.data.website_text.faq.questions %}
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion-general" href="#faqitem{{forloop.index}}"
+                                {% if forloop.index != 1 %}class="collapsed"{% endif %}>
+
+                                    {{faq_item.title[page.content_language]}}
+
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="faqitem{{forloop.index}}"
+                            class="panel-collapse {% if forloop.index != 1 %}collapse{% else %}in{% endif %} ">
+                            <div class="panel-body">
+                                {{faq_item.description[page.content_language]}}
                             </div>
                         </div>
-                        <div class="ct-personBox-image"><img src="{{concept_item.imageurl}}" alt="{{concept_item.title_line_1}} {{concept_item.title_line_2}}"></div>
-                        <div class="ct-personBox-function text-lowercase ct-fs-i">{{concept_item.description[page.content_language]}}</div>
-                        <div class="ct-socials">
-                            <ul>
-                                {% if concept_item.facebookurl != "" %}
-                                <li>
-                                    <a href="{{concept_item.facebookurl}}" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a>
-                                </li>
-                                {% endif %}
-                                {% if concept_item.instagramurl != "" %}
-                                <li>
-                                    <a href="{{concept_item.instagramurl}}" data-toggle="tooltip" data-placement="top"
-                                       title="Instagram"><i class="fa fa-fw fa-instagram"></i></a>
-                                </li>
-                                {% endif %}
-                                {% if concept_item.twitterurl != "" %}
-                                <li>
-                                    <a href="{{concept_item.twitterurl}}" data-toggle="tooltip" data-placement="top"
-                                       title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
-                                </li>
-                                {% endif %}
-                                {% if concept_item.websiteurl != "" %}
-                                <li>
-                                    <a href="{{concept_item.websiteurl}}" data-toggle="tooltip" data-placement="top"
-                                       title="Web"><i class="fa fa-fw fa-globe"></i></a>
-                                </li>
-                                {% endif %}
-                            </ul>
-                        </div>
                     </div>
-                </div>
 
                 {% endfor %}
 
             </div>
         </div>
-    </div>
-</section>
 
+            <div class="col-md-6 ct-u-paddingTop70">
 
-<section id="contact" class="ct-u-paddingTop70 ct-u-paddingBottom70">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <h3 class="text-lowercase ct-fw-600">{{site.data.website_text.contact_us.getintouch[page.content_language]}}</h3>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-map"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            {{site.data.website_text.contact_us.headquarters[page.content_language]}}
-                        </h4>
-
-                        <p class="text-uppercase ct-fw-600">
-                            {{site.data.website_text.contact_us.address}}
-                        </p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-phone"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            {{site.data.website_text.contact_us.callus[page.content_language]}}
-                        </h4>
-
-                        <p class="h5 ct-fw-600">
-                            <span class="ct-u-colorMotive">+420</span> {{site.data.website_text.contact_us.phone_1}}
-                        </p>
-                        <p class="h5 ct-fw-600">
-                            <span class="ct-u-colorMotive">+420</span> {{site.data.website_text.contact_us.phone_2}}
-                        </p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-envelope"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            {{site.data.website_text.contact_us.emailus[page.content_language]}}
-                        </h4>
-
-                        <p class="text-uppercase ct-fw-600">
-                            <a href="mailto:{{site.data.website_text.contact_us.emailaddress}}" class="text-uppercase ct-u-underline ct-fw-600">{{site.data.website_text.contact_us.emailaddress}}</a>
-                        </p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="ct-iconBox ct-iconBox--behind">
-                    <div class="ct-iconBox-icon">
-                        <i class="icon-profile-male"></i>
-                    </div>
-                    <div class="ct-iconBox-content">
-                        <h4 class="ct-iconBox-title text-lowercase ct-fw-600">
-                            {{site.data.website_text.contact_us.social[page.content_language]}}
-                        </h4>
-
-                        <div class="ct-socials">
-                            <ul>
-                                <li>
-                                    <a href="{{site.data.website_text.contact_us.instagramurl}}" data-toggle="tooltip" data-placement="top" title="Instagram"><i
-                                            class="fa fa-fw fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a href="{{site.data.website_text.contact_us.facebookurl}}" data-toggle="tooltip"
-                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-
-                <h3 class="text-lowercase ct-fw-600">{{site.data.website_text.contact_us.title[page.content_language]}}</h3>
+                <h3 class="text-lowercase ct-fw-600">{{site.data.website_text.contact_us.title[page.content_language]}}.</h3>
 
                         <p>{{site.data.website_text.contact_us.description[page.content_language]}}</p>
 
@@ -673,33 +462,180 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
                         </div>
 
             </div>
+
+       </div>
+    </div>
+</section>
+
+<script>
+    var contactform =  document.getElementById('send_email_to_paperhub');
+    contactform.setAttribute('action', '//formspree.io/' + 'hub' + '@' + 'paralelnipolis' + '.' + 'cz');
+</script>
+
+    <section class="ct-u-paddingBoth80 ct-u-backgroundDarkGray"  data-bg-image="/assets/images/content/bigImage1.jpg">
+        <div class="container">
+            <div class="row">
+
+                                <div class="col-md-4">
+                    <header class="ct-pageSectionHeader">
+                        <h3 class="text-upperrcase ct-fw-600">
+                            {{site.data.website_text.black_stripe_second.title[page.content_language]}}
+                            <small class="ct-fw-700 text-uppercase">{{site.data.website_text.black_stripe_second.title_small[page.content_language]}}
+                            </small>
+                        </h3>
+                    </header>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        {{site.data.website_text.black_stripe_second.description[page.content_language]}}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section class="ct-mediaSection ct-u-paddingBoth70 ct-u-colorWhite" data-height="700" data-type="video"
+         data-bg-image-mobile="/assets/images/content/bigImage3-mobile.jpg">
+    <div class="ct-mediaSection-video embed-responsive embed-responsive-16by9">
+
+        <video id="video1" muted loop autoplay="autoplay" preload="auto">
+            <source src='/assets/3D_timelapse_web_2.mp4' type='video/mp4'/>
+
+        </video>
+    </div>
+    <div class="ct-u-displayTable">
+        <div class="ct-mediaSection-inner">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <header class="ct-pageSectionHeader">
+                            <h3 class="text-uppercase ct-fw-600 ct-u-colorWhite">
+                                {{site.data.website_text.html_video.title[page.content_language]}}
+                                <small class="ct-fw-700 text-uppercase ct-u-colorWhite">
+                                    {{site.data.website_text.html_video.title_small[page.content_language]}}
+                                </small>
+                            </h3>
+                        </header>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>
+                            {{site.data.website_text.html_video.description[page.content_language]}}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 
-<div class="ct-googleMap--accordion ct-u-diagonalBottomRight">
-    <div class="ct-googleMap-header ct-u-backgroundDarkGray ct-u-paddingBoth40 ct-js-mapToogle text-center text-lowercase">
-        <span id="showmap">
-            <i class="fa fa-map-marker"></i> {{site.data.website_text.contact_us.showmap[page.content_language]}}
-        </span>
-        <span id="hidemap" style="display: none">
-            <i class="fa fa-map-marker"></i> {{site.data.website_text.contact_us.hidemap[page.content_language]}}
-        </span>
-    </div>
-    <div class="ct-googleMap-container">
-        <div class="ct-googleMap" data-height="500" data-location="{{site.data.website_text.contact_us.address}}" data-zoom="15">
+<header class="ct-pageHeader ct-pageHeader--motive ct-pageHeader--hasDescription ct-u-paddingBoth10">
+    <div class="container ct-u-triangleBottomLeft">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="text-lowercase ct-fw-600 ct-u-colorWhite">
+                    {{site.data.website_text.map.title[page.content_language]}}<sup><i class="fa fa-paper-plane"></i></sup>
+                </h1>
+            </div>
+            <div class="col-md-4">
+                    <span class="ct-u-size20 ct-u-colorWhite">
+                        {{site.data.website_text.map.header[page.content_language]}}.
+                    </span>
+            </div>
         </div>
     </div>
+</header>
+
+<div class="ct-googleMap" data-location="Dělnická 886/41 Praha" data-zoom="15" data-height="500"></div>
+
+
+
+
+<footer class="ct-u-backgroundDarkGray ">
+    <div class="container ct-u-paddingBoth50">
+        <div class="row ct-u-borderLeft">
+            <div class="col-sm-12 col-md-4 ct-u-paddingBoth20">
+                <p>
+                    <img src="/assets/images/pp.png" alt="Paper Hub Logo">
+                    <br>
+                    <br>
+                     {{site.data.website_text.footer.description[page.content_language]}}
+                </p>
+            </div>
+            <div class="col-sm-6 col-md-4 ct-u-paddingBoth30">
+
+            </div>
+            <div class="col-sm-6 col-md-4 ct-u-paddingBoth30">
+                <h5 class="text-uppercase ct-fw-600"><i class="fa fa-dot-circle-o"></i>{{site.data.website_text.footer.point[page.content_language]}}</h5>
+                <br>
+                <span class="h3 ct-fw-800" style="font-size:38px;"><span class="ct-u-colorDarkerGray">+420</span> 732 520 946</span>
+                <br>
+                <span class="h3 ct-fw-800" style="font-size:38px;"><span class="ct-u-colorDarkerGray">+420</span> 736 114 060</span>
+                <br>
+                <span class="text-uppercase ct-fw-600">DĚLNICKÁ 43, PRAHA 7, CZECH REPUBLIC</span>
+                <br>
+                <a href="mailto:hub@paralelnipolis.cz" class="text-uppercase ct-u-underline ct-fw-600">hub@paralelnipolis.cz</a>
+                <br>
+                <a href="https://www.facebook.com/paperhub"><i class="fa fa-fw fa-facebook-square"></i> facebook.com</a>
+                <br>
+                <a href="https://instagram.com/paper_hub/"><i class="fa fa-fw fa-instagram"></i> instagram.com</a>
+                <br>
+                <a href="https://twitter.com/Paper_Hub"><i class="fa fa-fw fa-twitter"></i> twitter.com</a>
+                <br>
+                <a href="https://plus.google.com/104114621737451145471/posts"><i class="fa fa-fw fa-google-plus"></i> Google Plus</a>
+            </div>
+        </div>
+    </div>
+    <div class="ct-footerBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="pull-right">
+                        <div class="ct-socials">
+                             <ul>
+<!--                                 <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
+                                            class="fa fa-fw fa-pinterest"></i></a>
+                                </li> -->
+                                <li>
+                                    <a href="https://instagram.com/paper_hub/" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                            class="fa fa-fw fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/paperhub" data-toggle="tooltip"
+                                       data-placement="top" title="Facebook"><i class="fa fa-fw fa-facebook-square"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Paper_Hub" data-toggle="tooltip" data-placement="top"
+                                       title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/104114621737451145471/posts" data-toggle="tooltip" data-placement="top"
+                                       title="Google"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+<!--                                 <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i
+                                            class="fa fa-fw fa-linkedin"></i></a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 </div>
 
-
-
-
 <script type="text/javascript">
-
-    var contactform =  document.getElementById('send_email_to_paperhub');
-    contactform.setAttribute('action', '//formspree.io/' + 'hub' + '@' + 'paralelnipolis' + '.' + 'cz');
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-65081690-1']);
@@ -739,10 +675,6 @@ text-shadow: 5px 5px 9px rgba(0, 0, 0, 1);
 
 <script src="/assets/js/counter/jquery.countTo.js"></script>
 <script src="/assets/js/counter/init.js"></script>
-
-<script src="/assets/js/portfolio/jquery.isotope.min.js"></script>
-<script src="/assets/js/portfolio/imagesloaded.js"></script>
-<script src="/assets/js/portfolio/init.js"></script>
 
 <script src="/assets/js/ct-portfolioAjax/init.js"></script>
 
