@@ -5,11 +5,13 @@
     $(".ct-googleMap--accordion .ct-js-mapToogle").click(function () {
         var $this = $(this);
         var $map = $this.parent().find('.ct-googleMap-container');
-        $this.html($this.html() == '<i class="fa fa-map-marker"></i> Hide map' ? '<i class="fa fa-map-marker"></i> Show map' : '<i class="fa fa-map-marker"></i> Hide map');
+        //$this.html($this.html() == '<i class="fa fa-map-marker"></i> Hide map' ? '<i class="fa fa-map-marker"></i> Show map' : '<i class="fa fa-map-marker"></i> Hide map');
 
         if ($map.height() != "0") {
             $map.animate({height: '0px'}, 500);
+            $('#hidemap').hide(); $('#showmap').show();
         } else {
+            $('#hidemap').show(); $('#showmap').hide();
             $map.animate({height: $maphelp.data("height") + "px"}, 500);
             setTimeout(function () {
                 $('html, body').animate({

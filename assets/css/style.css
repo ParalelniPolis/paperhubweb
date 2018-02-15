@@ -76,6 +76,7 @@ Last change:	26 November 2014
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.text-upperrcase { text-transform: uppercase; }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
