@@ -16,15 +16,20 @@ website_description:
 main_menu:
     -   link: "#coworking"
         text:
-            cz: COWORKING
-            eng: COWORKING
+            cz: "COWORKING"
+            eng: "COWORKING"
 
     -   link: "#pricelist"
         text:
-            cz: CENÍK
-            eng: PRICELIST
+            cz: "CENÍK"
+            eng: "PRICELIST"
 
-    -   link: "https://www.paralelnipolis.cz/pronajem/"
+    -   link: "#crypto"
+        text:
+            cz: "KRYPTOMĚNY"
+            eng: "CRYPTOCURRENCIES"
+
+    -   link: "#rental"
         text:
             cz: "PRONÁJEM"
             eng: "RENTAL"
@@ -33,11 +38,6 @@ main_menu:
         text:
             cz: "AKCE"
             eng: "EVENTS"
-
-    -   link: "https://www.paralelnipolis.cz/tag/coworking/"
-        text:
-            cz: "BLOG"
-            eng: "BLOG"
 
     -   link: "#contact"
         text:
@@ -50,52 +50,70 @@ main_menu:
 slides:
     -   background_image: "/assets/images/okna.jpg"
         text_small: 
-            cz: "ZAJÍMÁ VÁS PAPER HUB?"
-            eng: "INTERESTED IN PAPER HUB?"
+            cz: "Hledáš inspiraci?"
+            eng: "Looking for inspiration?"
         text_big:
-            cz: "Den na zkoušku zdarma"
-            eng: "Try it out for free"
+            cz: "Prostor pro nové nápady"
+            eng: "A space for new ideas"
         description:
-            cz: "V Paper Hub máme vždy otevřené dveře. Můžete si s námi domluvit schůzku, anebo jen tak přijít a obhlédnout si prostředí. A když už budete u nás, můžete tu rovnou strávit celý den."
-            eng: "The door is always open in Paper Hub. You can either make an appointment with us or just come by and take a look around. And while you’re at it, you can spend the whole day here."
+            cz: "Pracuj na svém projektu v prostředí, které ti nejvíce vyhovuje - u standing desků, širokých stolů v openspace, vlastního stolu v kanceláři nebo vleže v našem chilloutu."
+            eng: "Work on your project in an environment that suits you best - whether by one of the many standing desks or wide tables in the openspace, at your own table in an office or while lying down in our chill-out space."
         button:
             link: "#contact"
-            cz: "Zkuste to"
-            eng: "Try it"
+            cz: "Přidej se"
+            eng: "Join us"
+
+
+
+    -   background_image: "/assets/images/chillout.jpg"
+        text_small: 
+            cz: "Zasloužíš si pauzu?"
+            eng: "Deserve a break?"
+        text_big:
+            cz: "Místo pro relaxaci"
+            eng: "A place for relaxing"
+        description:
+            cz: "Odpočiň si během pracovního dne na pohodlné chillout zóně, přečti si něco z naší vybavené knihovny nebo se jen tak zaposlouchej do hudby podporující soustředění."
+            eng: "Take a break or two during a day of work in the comfortable chill-out zone where you can read something from our furnished library or just listen to music that is aimed to help you concentrate."
+        button:
+            link: "#contact"
+            cz: "Dej si pohov"
+            eng: "Take it easy"
+
+
+
+    -   background_image: "/assets/images/meeting.jpg"
+        text_small:
+            cz: "Potřebuješ změnu?"
+            eng: "Need a change?"
+        text_big:
+            cz: "Zázemí pro schůzky"
+            eng: "Meeting facilities"
+        description:
+            cz: "Domluv si týmovou poradu, schůzku s klientem, nebo workshop pro veřejnost. U nás najdeš potřebné zázemí, to vše v zasedačce s nejlepším výhledem v Praze."
+            eng: "Arrange a team meeting, an appointment with a client or a workshop for members of the public. Here at Paper Hub you will find all the facilities you could need and to top it all off, a meeting room boasting one of the best views in Prague."
+        button:
+            link: "#contact"
+            cz: "Rezervuj"
+            eng: "Reserve"
 
 
 
     -   background_image: "/assets/images/terasa.jpg"
         text_small: 
-            cz: "HLEDÁTE NOVÉ ZÁŽITKY?"
-            eng: "LOOKING FOR NEW EXPERIENCES?"
+            cz: "Chceš mezi lidi?"
+            eng: "Wanting to socialise?"
         text_big:
-            cz: "Pořád se něco děje"
-            eng: "There is always something going on"
+            cz: "Příležitost pro networking"
+            eng: "Networking opportunity"
         description:
-            cz: "Paper Hub je součástí Paralelní Polis - místa, kde se pořád něco děje. Meetupy, přednášky, workshopy jdou za sebou jako na běžícím páse."
-            eng: "Paper Hub forms a part of Paralelni Polis – a venue that never stays still. Meetups, lectures and workshops are taking place one after another."
+            cz: "Užij si ten pravý \"openspace\", vzdušnou a stinnou letní kancelář, nebo se seznam s dalšími členy Hubu na společných networkingových setkáních a akcích."
+            eng: "Enjoy a space that is truly \"open\", serving as either an airy and well-shaded office space in the summer or as a place to get to know other members of the hub during communal networking get-togethers and events."
         button:
             link: "#contact"
-            cz: "Zkuste to"
-            eng: "Try it"
+            cz: "Vyzkoušej"
+            eng: "Join"
 
-
-
-    -   background_image: "/assets/images/lid.jpg"
-        text_small: 
-            cz: "HLEDÁTE VÍC NEŽ COWORKING?"
-            eng: "LOOKING FOR MORE THAN COWORKING?"
-        text_big:
-            cz: "Místo pro schůzky i nové nápady"
-            eng: "A place for meetings and new ideas"
-        description:
-            cz: "Sympatizujete s idejemi Paralelní Polis? Staňte se jeho stálým obyvatelem a získejte členstvím v Paper Hub příjemné, kreativní a inovativní zázemí pro vaši práci. Nezapomeňte se posílit vynikající kávou v Bitcoin Coffee a rozšířit technické obzory ve 3D tiskové dílně MakersLab."
-            eng: "Do you sympathize with Paralelni Polis? Become its resident and enjoy the creative and innovative base for your work that comes with Paper Hub membership. Do not forget to get refreshed by the delicious coffee in Bitcoin Coffee and further your technical skills in 3D printing workshop MakersLab."
-        button:
-            link: "#contact"
-            cz: "Zkuste to"
-            eng: "Try it"
 
 
 # Tlacitko na slidech
@@ -109,34 +127,38 @@ continue_button:
 
 below_slides:
     header:
-        cz: "PROČ SE STÁT ČLENEM?"
-        eng: "PAPER HUB IN PARALELNI POLIS"
+        cz: "Proč se stát členem?"
+        eng: "Why become a member?"
     red_text:
         cz: "Co získáš jedině v Paper Hubu"
-        eng: "We know what you need to do your job."
+        eng: "What does Paper Hub have to offer"
+
 
 
 items_below_slides:
     -   title:
             cz: "přátelské a klidné prostředí"
-            eng: "technology and safe internet connection"
+            eng: "A friendly and tranquil environment"
         content:
             cz: "V Paper Hubu si zakládáme na dobrých vztazích, důvěře a pohodové atmosféře. Všichni si tu tykáme, vzájemně sdílíme naše know-how a inspirujeme se. Těšit se můžeš také z prostředí plného svobody, a to i ve formě flexibilního členství bez závazků a přesně podle tvých potřeb. Bude se ti tu tedy nejen dobře pracovat, ale budeš se tu doslova cítit jako doma."
-            eng: "Paper Hub provides you with 40 Mbps reliable internet connection and fast multifunctional printer capable of printing in up to A3 size. Silk screen and 3D printers are also at your disposal."
+            eng: "At Paper Hub, we pride ourselves on cultivating good relationships and trust between members, as well as a relaxed atmosphere. We are all friends here, who mutually inspire each other and share our know-how. You can also look forward to enjoying an environment offering total freedom, also reflected in the membership itself, which is a flexible, no lock-in membership that is customised according to your needs. More than just being a place for productive and efficient work, Paper Hub also provides a space that will literally make you feel at home."
+        icon: "icon-puzzle"
 
     -   title:
             cz: "originální a komfortní design"
-            eng: "rental-accessible 7 days a week"
+            eng: "Original and comfortable design"
         content:
             cz: "Pro interiéry Paper Hubu vybíráme takové vybavení, abychom co nejvíce podpořili tvou kreativitu. Nech se inspirovat modulárním papírovým nábytkem z voštiny nebo neotřelými doplňky vytištěnými na 3D tiskárně. Neobvyklé pracovní prostředí Paper Hubu bylo také několikrát oceněno, například v soutěži Zasedačka roku 2015 nebo za nejlepší coworking ve střední Evropě v roce 2016. Ještě důležitější než design je však pro nás tvé pohodlí a spokojenost."
-            eng: "Everyone’s working habits are different. That is why we offer various rent options ranging from five hours a month to unlimited access or even your own personal desk. Whether you want to arrange a small meeting of five people, presentation for 20 clients or a lecture for 120 attendants, we will find the right place for you."
+            eng: "We have furnished the interior of the Paper Hub to fuel your creativity as much as possible. Draw inspiration from the modular paper furniture made from honeycomb cardboard or from the fresh additions printed in our 3D printing lab. The Paper Hub and the unusual working space within it has also received multiple awards, being named meeting room of the year in the Zasedačka roku competition in 2015 and being awarded the prize for the best coworking space in Central Europe in 2016. However, something that is even more important than design to us is that you feel comfortable and satisfied."
+        icon: "icon-layers"
 
     -   title:
             cz: "inovace a nové technologie"
-            eng: "your growth is not just about your desk"
+            eng: "Innovation and new technology"
         content:
             cz: "Jako “stálý obyvatel” Paralelní Polis budeš mít nejblíže k našim hlavním tématům, jako jsou decentralizace, svoboda na internetu a kryptotechnologie, a také zajímavým kontaktům, nejen díky mezinárodnímu Hackers Congressu. Začíná to seznámením s kryptoměnami, kterými platíš za členství, ochranou tvého soukromí v digitálním prostředí a končí… třeba vývojem vlastního projektu na blockchainu."
-            eng: "Paper Hub forms a part of Paralelni Polis, a venue providing regular program of both educational and leisure events, a culinary facility provided by Bitcoin Coffee and the technical underworld of 3D printing workshop MakersLab."
+            eng: "As a \"permanent resident\" of Paralelní Polis, you will be up close and personal with our main themes such as decentralisation, internet freedom and crypto-technology, as well as having interesting contacts at your fingertips thanks to the international Hackers Congress among other things. It all starts with familiarising yourself with cryptocurrency, which you will use to pay for your membership, and with protecting your privacy in the digital sphere, and who knows... maybe it will end in the development of your own blockchain-based project."
+        icon: "icon-lightbulb"
 
 
 # Prvni cerny pruh 
@@ -144,20 +166,21 @@ items_below_slides:
 black_stripe_first:
     title:
         cz: "Proč coworking?"
-        eng: "Paper Hub Membership"
-
-
+        eng: "Coworking<br>in Paralelní Polis"
+    subtitle:
+        cz: "A pro koho se hodí"
+        eng: "And who is it suitable for?"
     description:
-        cz: "Paper Hub je součástí Paralelní Polis založené r. 2014 uměleckou skupinou Ztohoven a sídlící v atraktivní lokalitě dolních Holešovic. Čerpá ze zázemí kavárny, Institutu kryptoanarchie a hackerspace - jako “paperhubster” tedy získáváš all inclusive balíček služeb, které můžeš svobodně využívat. Vítáme liberálně smýšlející, inovativní freelancery a startupy se zájmem o témata digitální svobody, s iniciativou a kreativními nápady. Nabízíme možnost vyměnit hierarchii a přísná pravidla za plnou pracovní svobodu a vlastní realizaci ve využití prostoru a programu. Tento DIY koncept inspiruje členy k nezávislosti a tvůrčímu přístupu i v dalších oblastech jejich podnikání a života."
-        eng: "Each and every Paper Hub member has the possibility to use, according to the extent of his or hers subscription (500 – 3500 CZK a month) any free spot in the shared working space, the office facilities (printer, scanner, copying machine, Wi-Fi, presentation technology etc.), a kitchen, a terrace and a possibility of hiring a meeting room at discounted charge. It is also possible to hire your own desk. The membership fees are paid in Bitcoin. We will be happy to instruct you how to use it and help you with the exchange."
+        cz: "<p>Paper Hub je součástí Paralelní Polis založené r. 2014 uměleckou skupinou Ztohoven a sídlící v atraktivní lokalitě dolních Holešovic. Čerpá ze zázemí kavárny, Institutu kryptoanarchie a hackerspace - jako “paperhubster” tedy získáváš all inclusive balíček služeb, které můžeš svobodně využívat.</p> <p>Vítáme liberálně smýšlející, inovativní freelancery a startupy se zájmem o témata digitální svobody, s iniciativou a kreativními nápady. Nabízíme možnost vyměnit hierarchii a přísná pravidla za plnou pracovní svobodu a vlastní realizaci ve využití prostoru a programu. Tento DIY koncept inspiruje členy k nezávislosti a tvůrčímu přístupu i v dalších oblastech jejich podnikání a života.</p>"
+        eng: "<p>The Paper Hub is a part of Paralelní Polis, a project which was founded in 2014 by the artistic group Ztohoven and is located in the attractive locality of lower Holešovice in Prague. It draws on the facilities spread across the other three floors of the building, a cafe, the Institute of Cryptoanarchy and a hackerspace – as a ‘Paperhubster’ you will get an all inclusive bundle of services that you are free to take advantage of.</p><p>We welcome those with liberal views, innovative freelancers and startups that are interested in the themes of digital freedom, show initiative, and have creative ideas. We give you the chance to switch hierarchy and strict rules for total working freedom and the ability to make use of the space and other programs as you like. This DIY concept inspires members to transfer this independent and creative approach into other areas of their business and life in general.</p>"
 
 
 # Cenik
 
 pricelist:
     title:
-        cz: ceník členství a pronájmu
-        eng: pricelist of membership and rental
+        cz: "ceník členství a pronájmu"
+        eng: "pricelist of membership and rental"
     plans:
         -   time:
                 cz: "8h / měsíc"
@@ -216,53 +239,237 @@ pricelist:
                 cz: "Cena : 350 Kč / hodina, včetně DPH"
                 eng: "Price : 350 CZK / hour, incl. VAT"
             description:
-                cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu."
-                eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace."
+                cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu.  <a href=\"https://www.paralelnipolis.cz/pronajem/\">Pronájem</a>"
+                eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace. <a href=\"https://www.paralelnipolis.cz/pronajem/\">Rental</a>"
+
+bonuslist:
+    title:
+        cz: "Benefity<br>ke členství"
+        eng: "Benefits of having a membership"
+    plans:
+        -   time:
+                cz: "Promo"
+                eng: "Promo"
+            description:
+                cz: "Rádi ti pomůžeme s osobní prezentací či propagací tvého projektu. Pro vytvoření portfolia fotografií můžeš využít služeb našeho profesionálního fotografa. Hledáš-li nového kolegu do svého týmu, přijde ti pro změnu vhod první inzerce zdarma na startupjobs.cz"
+                eng: "We will gladly help you with the presentation or promotion of your individual project. You can take advantage of the services of our in-house professional photographer, who will help you create a photographic portfolio. In addition, if you are looking for a new colleague to add to your team, you will get your first ad posting on startupjobs.cz for free."
+
+        -   time:
+                cz: "Vzdělávání"
+                eng: "Education"
+            description:
+                cz: "Najdeš u nás nejen pracovní zázemí, ale také příležitost dále se vzdělávat. Pokud s freelance podnikáním začínáš, bude se ti hodit sleva na školení Navolnenoze.cz. Zajímají-li tě spíše technologie, určitě navštiv kurzy 3D technologií v MakersLab, kde máš jako člen Hubu slevu 30 %. Slevy nebo vstupy zdarma na další akce pořádané v Polis jsou samozřejmostí."
+                eng: "As well as providing facilities to work in, we also offer a lot of opportunities for further education. If you are just starting out work as a freelancer a discount on training courses at Navolnenoze.cz is just the thing for you. If you are more interested in technology, then attending some courses in 3D technology in the MakersLab, where you will receive a discount of 30% as a member of the Hub, could be right up your alley. Of course, you will also receive discounts or free entry into many of the other events that are held in Polis."
+
+        -   time:
+                cz: "Seberozvoj"
+                eng: "Self-development"
+            description:
+                cz: "Rozvíjet se u nás můžeš nejen po vědomostní stránce. Využij například cenově zvýhodněných osobních konzultací s našimi odborníky na různá témata - od účetnictví a daní přes právní služby až po business koučink."
+                eng: "Your knowledge is not the only thing that you will be able to develop at Paper Hub. For example, you could also make use of well-priced personal consultations on offer, and talk with one of the many experts we have on a wide variety of topics – from accounting and taxes to legal services and all the way to business coaching."
+
+        -   time:
+                cz: "Občerstvení"
+                eng: "Refreshments"
+            description:
+                cz: "Potřebuješ-li během tvého pracovního zápalu doplnit energii, dopřej si něco k zakousnutí a výběrovou kávu přímo z kavárny, kde jako člen Hubu platíš velmi přátelskou cenu. Pokud ani káva nebude stačit, najdeš v kuchyňce vždy nějaký energy drink zdarma."
+                eng: "If you need to refuel amongst working up a storm, then treat yourself to a snack and a selection of coffee directly from the café, where, as a member of the Hub, you will only be paying mates rates. If coffee doesn’t quite cut it for you, you will always be able to find some kind of energy drink in our kitchenette for free."
+
+        -   time:
+                cz: "Další služby"
+                eng: "Other services"
+            description:
+                cz: "Využij dalších výhod, které ti poskytuje členství v Paper Hubu. Aktivuj si platební kartu Revolut, kterou dostaneš zdarma, a můžeš s ní platit kdekoli v zahraničí. Nebo si naší kadeřnicí nech vykouzlit moderní účes - za příznivou cenu a samozřejmě v kryptoměnách."
+                eng: "Take advantage of many other benefits that you get from being a member of the Paper Hub. Activate your Revolut payment card, that you will receive free with your membership, and you will be able to use it to make payments wherever you go across the world. Or use it here and let our hairdressers conjure up a modern haircut for a good price, paid for in crypto of course."
 
 
 next_to_pricelist:
-    title: 
-        cz: "jak na kryptoměny?"
-        eng: "New with bitcoin?"
-    description: 
-        cz: "Paper Hub je jediný coworking na světě, kde se za členství platí POUZE kryptoměnou - bitcoinem nebo litecoinem. Pro běžné užívání těchto virtuálních měn je důležité mít speciální peněženku, kterou stáhneš jako applikaci do tvého chytrého telefonu. Nejjednodušší cestou jak ji následně nabít, je nákup kryptoměn v hotovosti přes bankomat v naší kavárně, nákup na dálku převodem přes online burzu nebo směnárnu nebo přímým nákupem od některého prodávajícího. A nejsnadněji si vyzkoušíš první útratu třeba za nákup kávy v naší kavárně. \n\nJsme zaměřeni na členy, kteří již zkušenosti s kryptoměnami mají, ale nemusíš být ostřílený znalec, aby ses u nás stal členem - jak fungují kryptoměny jsme schopni vysvětlit i naší mámě! \n\nVystavené faktury na všechny platby jsou samozřejmostí a kromě ceny zasedačky není na ceny členství aplikována DPH. Více info najdeš <a href=\"http://www.paralelnipolis.cz/jak-na-kryptomeny-v-paralelni-polis/\">ZDE.</a>"
-        eng: "At first, you need to get a bitcoin wallet. You can either download one on your smartphone or print a paper one in case the software is not supported by your telephone or you are not online. The easiest way to obtain bitcoins is through the bitcoin ATM down at the café. Scan the QR code your wallet generates for payment requests and insert the notes in the automat. Your bitcoins will be transferred to your wallet in a couple of seconds. And how to pay with them? Try it in Bitcoin Coffee! When paying, we will show you a QR code. Open your wallet and scan the code. Authorize the amount and the bill is paid. Paying the Paper Hub subscription will be a piece of cake then!"
-
-
-
-
-
-faq:
-    header:
-        cz: "Nebojte se zeptat"
-        eng: "Don’t be afraid to ask"
     title:
-        cz: "mohlo by vás zajímat"
-        eng: "You might want to know"
-    questions:
+        cz: "Kryptoměny"
+        eng: "Crypto currencies"
+    subtitle:
+        cz: "A jak na ně?"
+        eng: "And how to use them?"
+    description:
+        cz: "<p>Paper Hub je jediný coworking na světě, kde se za členství platí POUZE kryptoměnou - bitcoinem nebo litecoinem. Pro běžné užívání těchto virtuálních měn je důležité mít speciální peněženku, kterou stáhneš jako applikaci do tvého chytrého telefonu. Nejjednodušší cestou jak ji následně nabít, je nákup kryptoměn v hotovosti přes bankomat v naší kavárně, nákup na dálku převodem přes online burzu nebo směnárnu nebo přímým nákupem od některého prodávajícího. A nejsnadněji si vyzkoušíš první útratu třeba za nákup kávy v naší kavárně.</p><p>Jsme zaměřeni na členy, kteří již zkušenosti s kryptoměnami mají, ale nemusíš být ostřílený znalec, aby ses u nás stal členem - jak fungují kryptoměny jsme schopni vysvětlit i naší mámě! \n\nVystavené faktury na všechny platby jsou samozřejmostí a kromě ceny zasedačky není na ceny členství aplikována DPH. Více info najdeš <a href=\"http://www.paralelnipolis.cz/jak-na-kryptomeny-v-paralelni-polis/\">ZDE.</a></p>"
+        eng: "<p>At first, you need to get a bitcoin wallet. You can either download one on your smartphone or print a paper one in case the software is not supported by your telephone or you are not online. The easiest way to obtain bitcoins is through the bitcoin ATM down at the café.</p><p>Scan the QR code your wallet generates for payment requests and insert the notes in the automat. Your bitcoins will be transferred to your wallet in a couple of seconds. And how to pay with them? Try it in Bitcoin Coffee! When paying, we will show you a QR code. Open your wallet and scan the code. Authorize the amount and the bill is paid. Paying the Paper Hub subscription will be a piece of cake then!</p>"
+
+
+eventlist:
+    title:
+        cz: "CZ - Our events"
+        eng: "EN - Our events"
+    subtitle:
+        cz: "CZ - Some text about our events here..."
+        eng: "EN - Some text about our events here..."
+    events:
         -   title:
-                cz: "Kdy mohu chodit pracovat do Paper Hub&nbsp;?"
-                eng: "When can I work in Paper Hub&nbsp;?"
+                cz: "CZ - Event 1"
+                eng: "EN - Event 1"
             description:
-                cz: "Každý člen obdrží vlastní klíč a v prostoru Paper Hub může pracovat všechny pracovní dny vždy od 8:00 ráno do 20:00 do večera. Přístup mimo otvírací dny je možné individuálně domluvit."
-                eng: "Each Paper Hub member gets their own key and can use Paper Hub facilities on the working days from 8am to 8pm. Access outside of the opening hours can be arranged individually."
+                cz: "CZ - 27.02.2018"
+                eng: "EN - 27.02.2018"
+            imageurl: "/assets/images/content/portfolio5.jpg"
+            eventurl: "https://www.google.com"
 
         -   title:
-                cz: "Mohu mít v Hubu vlastní monitor&nbsp;?"
-                eng: "Can I use my own monitor in the Hub&nbsp;?"
+                cz: "CZ - Event 2"
+                eng: "EN - Event 2"
             description:
-                cz: "Chápeme, že někteří členové potřebují využívat vlastní hardware (monitory, tablety apod.) a nechtějí jej pokaždé odnášet s sebou. Pro tento případ nabízíme v Paper Hubu zamykatelné skříňky. Ty jsou standardně součástí tarifu “Neomezený přístup”, ale lze ji nabídnout i k ostatním tarifům."
-                eng: "We understand that some of our members need to use their own pieces hardware (monitors, tablets etc.) and do not want to carry them around all the time. That is why Paper Hub rents lockers. They are a standard part of the Unlimited Access package, but can be hired with other subscriptions as well."
+                cz: "CZ - 27.02.2018"
+                eng: "EN - 27.02.2018"
+            imageurl: "/assets/images/content/portfolio5.jpg"
+            eventurl: "https://www.google.com"
 
         -   title:
-                cz: "Máte v Paper Hub zasedací místnosti&nbsp;?"
-                eng: "Is there a boardroom in Paper Hub&nbsp;?"
+                cz: "CZ - Event 3"
+                eng: "EN - Event 3"
             description:
-                cz: "Ano, je možné si rezervovat různé zasedací nebo konferenční místnosti pro setkání 2 až 120 lidí (prostory jsou vybaveny prezentační technikou, flipcharty apod). Za pozornost stojí naše jedinečná terasa, která je rovněž součástí Paper Hubu. Více informací <a href=\"https://www.paralelnipolis.cz/pronajem/\">zde</a>." 
-                eng: "Yes, and it is possible to book various board or conference rooms with capacity up to 120 people. The rooms are equipped with presentation technology, flipcharts etc. Also, the terrace that is a part of the Hub is worth mentioning."
+                cz: "CZ - 27.02.2018"
+                eng: "EN - 27.02.2018"
+            imageurl: "/assets/images/content/portfolio5.jpg"
+            eventurl: "https://www.google.com"
 
+        -   title:
+                cz: "CZ - Event 4"
+                eng: "EN - Event 4"
+            description:
+                cz: "CZ - 27.02.2018"
+                eng: "EN - 27.02.2018"
+            imageurl: "/assets/images/content/portfolio5.jpg"
+            eventurl: "https://www.google.com"
+
+        -   title:
+                cz: "CZ - Event 5"
+                eng: "EN - Event 5"
+            description:
+                cz: "CZ - 27.02.2018"
+                eng: "EN - 27.02.2018"
+            imageurl: "/assets/images/content/portfolio5.jpg"
+            eventurl: "https://www.google.com"
+
+
+feedbacklist:
+    feedbacks:
+        -   firstname: "Jan"
+            lastname: "Bek"
+            jobtitle:
+                cz: ""
+                eng: ""
+            feedback:
+                cz: "Pracovat po kavárnách bylo ze začátku fajn, ale v tom hluku se toho moc udělat nedalo. V Paper Hubu se mi líbí, že je tu <b>klid</b>. Teď toho za den udělám mnohem víc."
+                eng: "Going from café to café to work was great to start with, but it was hard to get much done amongst all the noise. The thing that I like about Paper Hub, is that it's <b>peaceful</b> here. Now I’m able to do get a lot more done each day."
+
+        -   firstname: "Barbora"
+            lastname: "Klufová"
+            jobtitle:
+                cz: ""
+                eng: ""
+            feedback:
+                cz: "Jediný coworking, kde nemusí viset <b>motivační citáty</b> na zdi.<br><br>&nbsp;"
+                eng: "The only coworking space that doesn’t need to have <b>motivational quotes</b> hanging on the walls.<br><br><br>&nbsp;"
+
+        -   firstname: "Markéta"
+            lastname: "Aniolová"
+            jobtitle:
+                cz: ""
+                eng: ""
+            feedback:
+                cz: "Často si zvu své klienty a dodavatele do Bitcoin Coffee a je to de facto i součást mé značky, protože Polis má velmi osobitý <b>image</b> a není člověka, který by na to nějak nereagoval… A to se mi líbí!"
+                eng: "I regularly invite my clients and suppliers to Bitcoin Coffee, which has become a real part of my brand seeing as Polis has quite a distinctive <b>image</b> and there isn't a person in the world that wouldn't react in some way towards it... and this appeals to me!"
+
+        -   firstname: "Petr"
+            lastname: "Pražák"
+            jobtitle:
+                cz: ""
+                eng: ""
+            feedback:
+                cz: "Užívám si <b>velmi svobodné a tolerantní atmosféry</b>, posezení na místní terase i nejlepší kávu v Praze. A díky osvětě místních bitcoinových nadšenců vím o kryptoměnách víc než lecjaký ministr financí!"
+                eng: "I enjoy the <b>free and tolerant atmosphere</b>, get-togethers on the terrace and the best coffee in Prague. The local bitcoin enthusiasts have also enlightened me on cryptocurrencies, thanks to which I know more about crypto than a finance minister!"
+
+
+conceptslist:
+    title:
+        cz: "Spolupracujeme"
+        eng: "We collaborate"
+    subtitle:
+        cz: "Aneb další nálož svobody a kreativity"
+        eng: "even with more freedom and creativity"
+    concepts:
+        -   title_line_1: "Bitcoin"
+            title_line_2: "Coffee"
+            description:
+                cz: "kavárna"
+                eng: "Coffee bar"
+            imageurl: "/assets/images/content/bitcoincoffee.jpg"
+            facebookurl: "https://www.facebook.com/bitcoincoffeeprague"
+            instagramurl: "https://www.instagram.com/bitcoincoffee"
+            websiteurl: "https://www.bitcoincoffee.cz"
+            twitterurl: ""
+
+        -   title_line_1: "Institute of"
+            title_line_2: "Cryptoanarchy"
+            description:
+                cz: "think-tank"
+                eng: "think-tank"
+            imageurl: "/assets/images/content/institut.jpg"
+            facebookurl: "https://www.facebook.com/instituteofcryptoanarchy/"
+            instagramurl: ""
+            websiteurl: "https://www.paralelnipolis.cz/koncepty/institut-kryptoanarchie/"
+            twitterurl: "https://twitter.com/InstituteCrypto"
+
+        -   title_line_1: "Crypto"
+            title_line_2: "Lab"
+            description:
+                cz: "hackerspace"
+                eng: "hackerspace"
+            imageurl: "/assets/images/content/cryptolab.jpg"
+            facebookurl: "https://www.facebook.com/cryptolab.cz/"
+            instagramurl: ""
+            websiteurl: "https://www.paralelnipolis.cz/koncepty/cryptolab/"
+            twitterurl: ""
+
+        -   title_line_1: "Makers"
+            title_line_2: "Lab"
+            description:
+                cz: "3D tisková dílna"
+                eng: "3D print lab"
+            imageurl: "/assets/images/content/makerslab.jpg"
+            facebookurl: "https://www.facebook.com/makerslabcz"
+            instagramurl: "https://www.instagram.com/makerslab_cz/"
+            websiteurl: "https://www.makerslab.cz/"
+            twitterurl: ""
 
 contact_us:
+    getintouch:
+        cz: "Kontakty"
+        eng: "Get in Touch"
+    headquarters:
+        cz: "Adresa"
+        eng: "Address"
+    address: "Dělnická 43, Praha 7"
+    showmap:
+        cz: "Mapa"
+        eng: "Show map"
+    hidemap:
+        cz: "Skrýt mapu"
+        eng: "Hide map"
+    callus:
+        cz: "Telefon"
+        eng: "Call Us"
+    phone_1: "732 520 946"
+    phone_2: "736 114 060"
+    emailus:
+        cz: "Email"
+        eng: "Email Us"
+    emailaddress: "hub@paralelipolis.cz"
+    social:
+        cz: "Sociální sítě"
+        eng: "Social"
+    facebookurl: "https://www.facebook.com/paperhub"
+    instagramurl: "https://instagram.com/paper_hub/"
+    twitterurl: "https://twitter.com/Paper_Hub"
+    yoututbeurl: "https://plus.google.com/104114621737451145471/posts"
     title:
         cz: "napište nám"
         eng: "Contact us"

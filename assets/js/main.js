@@ -2,6 +2,12 @@
  * createIT main javascript file.
  */
 
+jQuery(document).on('click', '#menu-rental', function() {
+
+    jQuery('a[href=#pricelistitem6]').removeClass('collapsed');
+    jQuery('#pricelistitem6').collapse('show');
+});
+
 var $devicewidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 var $deviceheight = (window.innerHeight > 0) ? window.innerHeight : screen.height;
 var $bodyel = jQuery("body");
@@ -166,11 +172,12 @@ function parseBoolean(str, $defaultValue) {
             var target = this.hash, $target = $(target);
 
             $('html, body').stop().animate({
-                'scrollTop': $target.offset().top - 70
+                'scrollTop': $target.offset().top - 69
             }, 900, 'swing', function () {
-                window.location.hash = target;
+                //window.location.hash = target;
             });
         });
+
         $('.ct-js-btnScrollUp').click(function (e) {
             e.preventDefault();
             $("body,html").animate({scrollTop: 0}, 1200);
