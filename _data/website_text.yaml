@@ -7,8 +7,8 @@
 # Description pouzivany v <meta> i Facebook Opengraph
 
 website_description:
-    cz: "Sdílená kancelář v Praze 7, inspirativní prostředí a vybavené pracovní zázemí pro angažované, inovativní a kreativní lidi? Coworking Paper Hub v Paralelní Polis!"
-    eng: "Shared office in Prague, offering an innovative and creative background for your work? Coworking space Paper Hub in Paralelni Polis!"
+    cz: "Paper Hub je sdílená kancelář v Paralelní Polis pro liberálně smýšlející, inovativní freelancery a startupy se zájmem o témata digitální svobody. Tenhle holešovický coworking není pro každého!"
+    eng: "Shared office in Paralelni Polis, Prague, for liberal and innovative freelancers and startups with focus on digital freedom. This coworking space is not for everyone!"
 
 
 # Hlavni menu
@@ -61,7 +61,7 @@ slides:
         button:
             link: "#contact"
             cz: "Přidej se"
-            eng: "Join us"
+            eng: "Try it"
 
 
 
@@ -91,7 +91,7 @@ slides:
             eng: "Meeting facilities"
         description:
             cz: "Domluv si týmovou poradu, schůzku s klientem, nebo workshop pro veřejnost. U nás najdeš potřebné zázemí, to vše v zasedačce s nejlepším výhledem v Praze."
-            eng: "Arrange a team meeting, an appointment with a client or a workshop for members of the public. Here at Paper Hub you will find all the facilities you could need and to top it all off, a meeting room boasting one of the best views in Prague."
+            eng: "Arrange a team meeting, an appointment with a client or a public workshop. Here at Paper Hub you will find all the facilities you could need and to top it all off, a meeting room boasting one of the best views in Prague."
         button:
             link: "#contact"
             cz: "Rezervuj"
@@ -108,11 +108,11 @@ slides:
             eng: "Networking opportunity"
         description:
             cz: "Užij si ten pravý \"openspace\", vzdušnou a stinnou letní kancelář, nebo se seznam s dalšími členy Hubu na společných networkingových setkáních a akcích."
-            eng: "Enjoy a space that is truly \"open\", serving as either an airy and well-shaded office space in the summer or as a place to get to know other members of the hub during communal networking get-togethers and events."
+            eng: "Enjoy a space that is truly \"open\", serving as either an airy and well-shaded office space in the summer or as a place to get to know other members of the Hub during networking get-togethers and events."
         button:
             link: "#contact"
             cz: "Vyzkoušej"
-            eng: "Join"
+            eng: "Join us"
 
 
 
@@ -149,7 +149,7 @@ items_below_slides:
             eng: "Original and comfortable design"
         content:
             cz: "Pro interiéry Paper Hubu vybíráme takové vybavení, abychom co nejvíce podpořili tvou kreativitu. Nech se inspirovat modulárním papírovým nábytkem z voštiny nebo neotřelými doplňky vytištěnými na 3D tiskárně. Neobvyklé pracovní prostředí Paper Hubu bylo také několikrát oceněno, například v soutěži Zasedačka roku 2015 nebo za nejlepší coworking ve střední Evropě v roce 2016. Ještě důležitější než design je však pro nás tvé pohodlí a spokojenost."
-            eng: "We have furnished the interior of the Paper Hub to fuel your creativity as much as possible. Draw inspiration from the modular paper furniture made from honeycomb cardboard or from the fresh additions printed in our 3D printing lab. The Paper Hub and the unusual working space within it has also received multiple awards, being named meeting room of the year in the Zasedačka roku competition in 2015 and being awarded the prize for the best coworking space in Central Europe in 2016. However, something that is even more important than design to us is that you feel comfortable and satisfied."
+            eng: "We have furnished the interior of the Paper Hub to fuel your creativity as much as possible. Draw inspiration from the modular paper furniture made from honeycomb cardboard or from the elements printed in the 3D printing lab. The Paper Hub and the unusual working space within has also received multiple awards, being best working space of the year 2015 in the Zasedačka roku competition and being awarded the prize for the best coworking space in Central Europe in 2016. However, something that is even more important than design to us is that you feel comfortable and satisfied."
         icon: "icon-layers"
 
     -   title:
@@ -157,7 +157,7 @@ items_below_slides:
             eng: "Innovation and new technology"
         content:
             cz: "Jako “stálý obyvatel” Paralelní Polis budeš mít nejblíže k našim hlavním tématům, jako jsou decentralizace, svoboda na internetu a kryptotechnologie, a také zajímavým kontaktům, nejen díky mezinárodnímu Hackers Congressu. Začíná to seznámením s kryptoměnami, kterými platíš za členství, ochranou tvého soukromí v digitálním prostředí a končí… třeba vývojem vlastního projektu na blockchainu."
-            eng: "As a \"permanent resident\" of Paralelní Polis, you will be up close and personal with our main themes such as decentralisation, internet freedom and crypto-technology, as well as having interesting contacts at your fingertips thanks to the international Hackers Congress among other things. It all starts with familiarising yourself with cryptocurrency, which you will use to pay for your membership, and with protecting your privacy in the digital sphere, and who knows... maybe it will end in the development of your own blockchain-based project."
+            eng: "As a \"permanent resident\" of Paralelni Polis, you will be up close and personal with our main themes such as decentralisation, internet freedom and crypto-technology, as well as having interesting contacts at your fingertips thanks to the international Hackers Congress among other things. It all starts with familiarising yourself with cryptocurrency, which you will use to pay for your membership, and with protecting your privacy in the digital sphere, and who knows... maybe it will end in the development of your own blockchain-based project."
         icon: "icon-lightbulb"
 
 
