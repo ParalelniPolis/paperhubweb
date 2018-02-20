@@ -239,8 +239,8 @@ pricelist:
                 cz: "Cena : 350 Kč / hodina, včetně DPH"
                 eng: "Price : 350 CZK / hour, incl. VAT"
             description:
-                cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu.  <a href=\"https://www.paralelnipolis.cz/pronajem/\">Pronájem</a>"
-                eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace. <a href=\"https://www.paralelnipolis.cz/pronajem/\">Rental</a>"
+                cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu. Kompletní info o <a href=\"https://www.paralelnipolis.cz/pronajem/\">pronájmech</a>."
+                eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace. Find more info about <a href=\"https://www.paralelnipolis.cz/pronajem/\">rentals</a>."
 
 bonuslist:
     title:
@@ -251,15 +251,15 @@ bonuslist:
                 cz: "Promo"
                 eng: "Promo"
             description:
-                cz: "Rádi ti pomůžeme s osobní prezentací či propagací tvého projektu. Pro vytvoření portfolia fotografií můžeš využít služeb našeho profesionálního fotografa. Hledáš-li nového kolegu do svého týmu, přijde ti pro změnu vhod první inzerce zdarma na startupjobs.cz"
-                eng: "We will gladly help you with the presentation or promotion of your individual project. You can take advantage of the services of our in-house professional photographer, who will help you create a photographic portfolio. In addition, if you are looking for a new colleague to add to your team, you will get your first ad posting on startupjobs.cz for free."
+                cz: "Rádi ti pomůžeme s osobní prezentací či propagací tvého projektu. Pro vytvoření portfolia fotografií můžeš využít služeb našeho profesionálního fotografa. Hledáš-li nového kolegu do svého týmu, přijde ti pro změnu vhod první inzerce zdarma na Startupjobs.cz."
+                eng: "We will gladly help you with the presentation or promotion of your individual project. You can take advantage of the services of our in-house professional photographer, who will help you create a photographic portfolio. In addition, if you are looking for a new colleague to add to your team, you will get your first ad posting on Startupjobs.cz for free."
 
         -   time:
                 cz: "Vzdělávání"
                 eng: "Education"
             description:
-                cz: "Najdeš u nás nejen pracovní zázemí, ale také příležitost dále se vzdělávat. Pokud s freelance podnikáním začínáš, bude se ti hodit sleva na školení Navolnenoze.cz. Zajímají-li tě spíše technologie, určitě navštiv kurzy 3D technologií v MakersLab, kde máš jako člen Hubu slevu 30 %. Slevy nebo vstupy zdarma na další akce pořádané v Polis jsou samozřejmostí."
-                eng: "As well as providing facilities to work in, we also offer a lot of opportunities for further education. If you are just starting out work as a freelancer a discount on training courses at Navolnenoze.cz is just the thing for you. If you are more interested in technology, then attending some courses in 3D technology in the MakersLab, where you will receive a discount of 30% as a member of the Hub, could be right up your alley. Of course, you will also receive discounts or free entry into many of the other events that are held in Polis."
+                cz: "Najdeš u nás nejen pracovní zázemí, ale také příležitost dále se vzdělávat. Pokud s freelance podnikáním začínáš, bude se ti hodit sleva na školení Navolnenoze.cz. Zajímají-li tě spíše technologie, určitě navštiv kurzy 3D technologií v MakersLab, kde máš jako člen Hubu slevu 30 %. Snížené ceny nebo vstupy zdarma na další akce pořádané v Polis jsou samozřejmostí."
+                eng: "As well as providing facilities to work in, we also offer a lot of opportunities for further education. If you are just starting out work as a freelancer a discount on course at Navolnenoze.cz is just the thing for you. If you are more interested in technology, then attending some courses in 3D technology in the MakersLab, where you will receive a discount of 30% as a member of the Hub, could be right up your alley. Of course, you will also receive discounts or free entry into many of the other events that are held in Polis."
 
         -   time:
                 cz: "Seberozvoj"
@@ -279,8 +279,8 @@ bonuslist:
                 cz: "Další služby"
                 eng: "Other services"
             description:
-                cz: "Využij dalších výhod, které ti poskytuje členství v Paper Hubu. Aktivuj si platební kartu Revolut, kterou dostaneš zdarma, a můžeš s ní platit kdekoli v zahraničí. Nebo si naší kadeřnicí nech vykouzlit moderní účes - za příznivou cenu a samozřejmě v kryptoměnách."
-                eng: "Take advantage of many other benefits that you get from being a member of the Paper Hub. Activate your Revolut payment card, that you will receive free with your membership, and you will be able to use it to make payments wherever you go across the world. Or use it here and let our hairdressers conjure up a modern haircut for a good price, paid for in crypto of course."
+                cz: "Využij dalších výhod, které ti poskytuje členství v Paper Hubu. Aktivuj si platební kartu Revolut, kterou dostaneš zdarma, a můžeš s ní platit kdekoli v zahraničí s tím nejlepším kurzem. Nebo si naší kadeřnicí nech vykouzlit moderní účes - za příznivou cenu a samozřejmě v kryptoměnách."
+                eng: "Take advantage of many other benefits that you get from being a member of the Paper Hub. Activate your Revolut payment card, that you will receive free with your membership, and you will be able to use it to make payments at the best rate wherever you go across the world. Or ask our hairdresser to conjure up a modern haircut for a good price, paid for in crypto of course."
 
 
 next_to_pricelist:
