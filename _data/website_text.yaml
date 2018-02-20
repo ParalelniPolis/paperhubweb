@@ -474,7 +474,7 @@ contact_us:
         cz: "napište nám"
         eng: "Contact us"
     description:
-        cz: "Máte jakýkoliv další dotaz, není vám něco jasné? Chcete si Paper Hub vyzkoušet nebo rezervovat zasedací místnost? Určitě nás neváhejte kontaktovat (v pracovních dnech mezi 9 a 17h), rádi se s Vámi potkáme a provedeme Vás celou Paralelní Polis."
+        cz: "Máš jakýkoliv další dotaz, není ti něco jasné? Chceš si Paper Hub vyzkoušet nebo rezervovat zasedací místnost? Určitě nás neváhej kontaktovat (v pracovních dnech mezi 9 a 17h), rádi se s tebou potkáme a provedeme tě celou Paralelní Polis."
         eng: "Do you have any further questions or is there something unclear? Do you want to give Paper Hub a try or to book a meeting room? Do not hesitate to contact us (on workdays between 9AM and 5PM), we will be happy to meet you and give you a tour around the whole Paralelni Polis."
     message:
         cz: "Ahoj,\nrád(a) bych se u vás stavil(a) na jeden den na zkoušku.\n\nAhoj,\nrád(a) bych u vás rezervoval(a) zasedací místnost."
@@ -530,7 +530,7 @@ map:
         eng: "WHERE TO FIND US"
     header:
         cz: "Najdete nás kousek od tramvajové zastávky Dělnická v Praze 7."
-        eng: "You can find us a short way from the tram stop Delnicka in Praha 7."
+        eng: "You can find us a short way from the tram stop Delnicka in Prague 7."
 
 
 
