@@ -473,8 +473,8 @@ contact_us:
         cz: "napiš nám"
         eng: "Contact us"
     description:
-        cz: "Máš jakýkoliv další dotaz, není ti něco jasné? Chceš si Paper Hub vyzkoušet nebo rezervovat zasedací místnost? Určitě nás neváhej kontaktovat (v pracovních dnech mezi 9 a 17h), rádi se s tebou potkáme a provedeme tě celou Paralelní Polis."
-        eng: "Do you have any further questions or is there something unclear? Do you want to give Paper Hub a try or to book a meeting room? Do not hesitate to contact us (on workdays between 9AM and 5PM), we will be happy to meet you and give you a tour around the whole Paralelni Polis."
+        cz: "Máš jakýkoliv další dotaz, není ti něco jasné? Chceš si Paper Hub vyzkoušet nebo rezervovat zasedací místnost? Určitě nás neváhej kontaktovat (v pracovních dnech mezi 9 a 17h), rádi se s tebou potkáme a provedeme tě celou Paralelní Polis. Otevírací doba Hubu je 8h - 20h."
+        eng: "Do you have any further questions or is there something unclear? Do you want to give Paper Hub a try or to book a meeting room? Do not hesitate to contact us (on workdays between 9AM and 5PM), we will be happy to meet you and give you a tour around the whole Paralelni Polis. The opening hours of our Hub are 8am - 8pm."
     message:
         cz: "Ahoj,\nrád(a) bych se u vás stavil(a) na jeden den na zkoušku.\n\nAhoj,\nrád(a) bych u vás rezervoval(a) zasedací místnost."
         eng: "Hi,\nI'd like to stop by for a day and give it a try.\n\nHi,\nI'd like to book a meeting room."
