@@ -236,8 +236,8 @@ pricelist:
                 cz: "zasedací místnost"
                 eng: "meeting room"
             price:
-                cz: "Cena : 350 Kč / hodina, včetně DPH"
-                eng: "Price : 350 CZK / hour, incl. VAT"
+                cz: "Cena : 350 Kč / hodina, bez DPH"
+                eng: "Price : 350 CZK / hour, excl. VAT"
             description:
                 cz: "Máš k dispozici prostor, kde můžeš v soukromí telefonovat, sejít se s týmem až 12 lidí nebo si pozvat klienta. Kromě praktického vybavení v podobě whiteboardu, projektoru a plazmové obrazovky oceníš také přímý vstup na stinnou a prostornou terasu. Zjisti více o našich <a href=\"https://www.paralelnipolis.cz/pronajem/\">pronájmech</a>."
                 eng: "This is a space where you can make a private phone call, a presentation for a client or have a meeting with a team of up to 12 people. You will appreciate not only a whiteboard, projector and plasma TV, but also a direct access to our shady and spacious terrace. Find more info about our <a href=\"https://www.paralelnipolis.cz/pronajem/\">rentals</a>."
